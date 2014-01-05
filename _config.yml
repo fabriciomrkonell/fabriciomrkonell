@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: Fabrício Ronchi - Blog
 markdown: redcarpet
 pygments: true
+baseurl: /Blog
