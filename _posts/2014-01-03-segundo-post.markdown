@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World to Jekyll!"
-date:   2014-01-04 23:03:04
+date:   2014-01-03 23:03:04
 categories: Blog
 ---
 
