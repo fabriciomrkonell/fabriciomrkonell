@@ -12,15 +12,18 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style-title.css">
   </head>
   <body>
     <div class="site">
       <div class="header">
-        <h1 class="title"><a href="{{ site.baseurl }}">Fabrício Ronchi</a></h1>
+        <div class="title" id="title-neon">Fabrício Ronchi</div>
         <div class="menu">
-          <!--<a class="extra" href="{{ site.baseurl }}">Blog</a>-->
+          <a class="extra" href="{{ site.baseurl }}">Home</a>
         </div>
       </div>
+
+      {% assign tags_list = site.tags %}
 
       {{ content }}
 
@@ -38,5 +41,6 @@
         </div>
       </div>
     </div>
+    <script src="js/title.js"></script>
   </body>
 </html>

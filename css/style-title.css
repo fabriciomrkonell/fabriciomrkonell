@@ -1,0 +1,18 @@
+label {
+	font-size: 2em;
+	color: black;
+	moz-text-shadow: 0 0 20px #00FFF5, 
+	             0 0 10px rgba(230, 161, 173, 0.41), 
+				 0 0 100px #00D6D6, 
+				 0 0 500px black, 
+				 5px 9px 5px rgba(0, 0, 0, 0.5);
+	-webkit-text-shadow: 0 0 20px #00FFF5, 
+	             0 0 10px rgba(230, 161, 173, 0.41), 
+				 0 0 100px #00D6D6, 
+				 0 0 500px black, 
+				 5px 9px 5px rgba(0, 0, 0, 0.5);
+}
+
+label.off {
+	color: #a00;
+}
