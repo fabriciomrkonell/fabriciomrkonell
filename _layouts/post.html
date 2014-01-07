@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-
-<strong><label class="title-post">{{ page.title }}</label></strong>
-<label class="date meta">{{ page.date | date_to_string }}</label>
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
-	{{ content }}
+{{ content }}
 </div>

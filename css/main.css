@@ -4,6 +4,14 @@
 /*
 /*****************************************************************************/
 
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
 body {
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
@@ -60,9 +68,9 @@ a:visited { color: #a0a; }
   text-decoration: none;
 }
 
-
-.title, .menu {
-  text-align: center;
+.title {
+  display: inline-block;
+  margin-bottom: 2em;
 }
 
 .title a {
@@ -76,7 +84,6 @@ a:visited { color: #a0a; }
 .header a.extra {
   color: #aaa;
   margin-left: 1em;
-  margin-right: 1em;
 }
 
 .header a.extra:hover {
@@ -88,14 +95,30 @@ a:visited { color: #a0a; }
 }
 
 .footer {
-  text-align: center;
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
 }
 
-.icon-contact a{
-  color: black;
-  font-size: 1.1em;
-  margin-left: 5px;
-  margin-right: 5px;
+.footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+.footer .contact a {
+  color: #8085C1;
+}
+
+.footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+.footer .rss img {
+  border: 0;
 }
 
 /*****************************************************************************/
@@ -130,14 +153,6 @@ a:visited { color: #a0a; }
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
-}
-
-.date{
-  float: right;
-}
-
-.title-post{
-  font-size: 19px;
 }
 
 .post pre.terminal code {
