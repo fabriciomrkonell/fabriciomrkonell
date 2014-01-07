@@ -1,22 +1,10 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html, body { height: 100%; }
-
 body {
+  text-align: center;
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
+  font-size: 115%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,11 +17,6 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -43,91 +26,27 @@ a:visited { color: #a0a; }
   line-height: 1.75em;
 }
 
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
-}
-
-.header a {
-  font-weight: bold;
+.header a {  
   text-decoration: none;
+  font-family: 'Poiret One', cursive;
 }
 
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.title a {
-  color: #a00;
-}
-
-.title a:hover {
-  color: #000;
+.title {  
+  margin-bottom: 10px;
+  font-family: 'The Girl Next Door', cursive;
+  font-size: 2em;
 }
 
 .header a.extra {
   color: #aaa;
-  margin-left: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 .header a.extra:hover {
   color: #000;
 }
 
-.meta {
-  color: #aaa;
-}
-
-.footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.footer .contact a {
-  color: #8085C1;
-}
-
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.footer .rss img {
-  border: 0;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -148,7 +67,6 @@ a:visited { color: #a0a; }
   border: none;
 }
 
-/* terminal */
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
@@ -157,4 +75,14 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.main-footer{
+  position: fixed;
+  padding: 5px;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255,255,255,.9);
+  color: #999;
+  text-align: center;
 }
