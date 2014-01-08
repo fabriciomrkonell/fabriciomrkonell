@@ -26,15 +26,32 @@ a:visited { color: #a0a; }
   line-height: 1.75em;
 }
 
-.header a {  
+.header a {
   text-decoration: none;
   font-family: 'Poiret One', cursive;
 }
 
-.title {  
+.title-post {
+  float: left;
+}
+
+.date-post{
+  float: right;
+}
+
+.title {
   margin-bottom: 10px;
   font-family: 'The Girl Next Door', cursive;
   font-size: 2em;
+}
+
+#my-container{
+  margin-top: 25px;
+  max-width: 730px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header a.extra {
