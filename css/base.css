@@ -188,6 +188,26 @@ h1 {
     font-size: 16px;
     padding: 2px 3px;
   }
+
+  #menu-contato ul {
+    padding:0px;
+    margin:0px;
+    text-align: center;    
+    list-style:none;
+  }
+
+  .contato-icon{
+    font-size: 6em;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .contato-icon a{
+    color: black;    
+  }
+
+  #menu-contato ul li { display: inline; }
+
   .content .when + p:first-of-type {
     display: inline;
   }

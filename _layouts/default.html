@@ -7,7 +7,8 @@
     <div class="header">
       <div class="container">
         <ul class="menu">
-          <li><a href="{{ site.baseurl }}"><b>Home</b></a></li>
+          <li><a href="{{ site.baseurl }}"><b>HOME</b></a></li>
+          <li><a href="{{ site.baseurl }}/contato.html"><b>CONTATO</b></a></li>
         </ul>
         <section class="name">
           <a href="{{ site.baseurl }}">Fabrício<b>Ronchi</b></a>
@@ -24,5 +25,19 @@
         <a href="http://pages.github.com/" target="_blank">GitHub Pages</a>
       </small>
     </footer>
+    <script type="text/javascript">
+        $(function(){
+          $(".contato-icon").hover(function(){
+            var atual = $(this).attr("data-status");
+            if(atual == 1){
+              $("#label-contato").html("Siga-me no Twitter!");
+            }else if(atual ==2){
+              $("#label-contato").html("Adicione-me no Linkedin!");
+            }else{
+              $("#label-contato").html("Siga-me no GitHub!");
+            }
+          })
+        })
+    </script>
   </body>
 </html>
