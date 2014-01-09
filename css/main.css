@@ -96,7 +96,7 @@ a:visited { color: #a0a; }
 
 .main-footer{
   position: fixed;
-  padding: 5px;
+  padding-bottom: 5px;
   bottom: 0;
   width: 100%;
   background: rgba(255,255,255,.9);
