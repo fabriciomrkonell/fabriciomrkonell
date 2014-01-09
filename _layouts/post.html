@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
-{{ content }}
+	<section class="container content" data-twttr-id="twttr-sandbox-0">
+		<h1>{{ page.title }}</h1>
+		<div class="when">
+			{{ page.date | date_to_string }}
+		</div>
+		{{ content }}
+		</div>
+	</section>
+	<br />
 </div>

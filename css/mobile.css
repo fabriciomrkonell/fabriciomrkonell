@@ -1,0 +1,85 @@
+body {
+  padding: 0 20px;
+}
+
+.container {
+  width: 100%;
+  overflow-x: visible;
+}
+
+.header {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.name {
+}
+
+.name a {
+  font-size: 24px;
+}
+
+.menu {
+  display: none;
+}
+
+.social {
+  display: none;
+}
+
+.hero {
+  height: 100px;
+  margin: 0 -20px;
+}
+
+.content p {
+  font-size: 16px;
+  margin: 15px 0;
+}
+.content li {
+  font-size: inherit;
+}
+.content img {
+  max-width: 320px;
+  margin: 0 -20px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+h1 {
+  border: 0;
+  margin: 25px 0 20px 0;
+  padding: 10px 0;
+  font-size: 26px;
+}
+
+  h2, h3 {
+    border: 0;
+    margin: 25px 10px 0px -25px;
+    padding-bottom: 0;
+  }
+
+.listing a {
+  text-decoration: none;
+}
+.listing span {
+  display: none;
+}
+
+.when {
+  margin: -20px 0 20px 0;
+}
+
+.meta {
+  margin: 50px 0;
+  padding: 50px 0 25px 0;
+}
+  .meta .block {
+    padding: 0;
+    width: 50px;
+    margin: 0 10px;
+  }
+  .meta .block div {
+    display: none;
+  }

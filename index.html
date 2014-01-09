@@ -2,14 +2,16 @@
 layout: default
 title: Home - Fabricio
 ---
-
 <div id="my-container">
   <div class="posts">
-    {% for post in site.posts %}
-      <label class="title-post"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></label>
-      <label class="date-post"><span>{{ post.date | date_to_string }}</span></label>
-		<br />
-      	<hr />
-    {% endfor %}
+    <section class="container content">
+      <ul class="listing">
+        {% for post in site.posts %}
+          <li class="my-li">
+            <span>{{ post.date | date_to_string }}</span> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>

@@ -1,50 +1,3 @@
-body {
-  text-align: center;
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-  font-size: 115%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-.posts li {
-  line-height: 1.75em;
-}
-
-.header a {
-  text-decoration: none;
-  font-family: 'Poiret One', cursive;
-}
-
-.title-post {
-  float: left;
-}
-
-.date-post{
-  float: right;
-}
-
-.title {
-  margin-bottom: 10px;
-  font-family: 'The Girl Next Door', cursive;
-  font-size: 2em;
-}
-
 #my-container{
   margin-top: 25px;
   max-width: 730px;
@@ -102,4 +55,5 @@ a:visited { color: #a0a; }
   background: rgba(255,255,255,.9);
   color: #999;
   text-align: center;
+  font-size: 1.2em;
 }
