@@ -38,6 +38,10 @@ li {
   clear: both;
 }
 
+#label-contato{
+  font-size: 1.6px;
+}
+
 .header {
   margin: 45px;
 }
