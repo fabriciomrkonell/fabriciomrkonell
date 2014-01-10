@@ -33,6 +33,10 @@
   padding: 0 .2em;
 }
 
+pre{
+  text-align: center;
+}
+
 .post pre code {
   border: none;
 }
