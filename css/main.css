@@ -23,6 +23,10 @@
   padding: 0 .4em;
 }
 
+.imagem{
+  text-align: center;
+}
+
 .post ul, .post ol {
   margin-left: 1.35em;
 }

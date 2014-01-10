@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "AngularJS. Motivos pra usar!"
+date:   2014-01-10 21:30:0
+categories: Blog
+---
+
+Boenas,
+
+Usando diariamente AngularJs, me identifico muito com essas duas imagens.
+
+Imagem 1:
+<div class="imagem"><img src="http://nathanleclaire.com/images/smooth-angular-tips/js-learning-curves.jpg" /></div>
+
+Imagem 2:
+<div class="imagem"><img src="http://www.bennadel.com/resources/uploads/2013/feelings_about_angularjs_over_time.png" /></div>
+
+Em um Futuro Próximo, criarei um post sobre AngularJS e suas funções ESPETACULARES.
+
+Thanks <a href="https://plus.google.com/u/0/110290821588589095157/posts">Rubens</a> pelas Imagens.
+
+"Té" mais.
