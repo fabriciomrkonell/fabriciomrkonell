@@ -7,7 +7,8 @@ categories: Blog
 
 Boenas,
 
-Usando diariamente AngularJs, me identifico muito com essas duas imagens.
+Uso diariamente AngularJs, e me identifico muito com essas duas imagens. Achei muito bacana
+como elas descrevem o AngularJS.
 
 Imagem 1:
 <div class="imagem"><img src="http://nathanleclaire.com/images/smooth-angular-tips/js-learning-curves.jpg" /></div>
