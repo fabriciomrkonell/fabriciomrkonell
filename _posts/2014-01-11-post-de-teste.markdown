@@ -15,7 +15,7 @@ Esse post é só um teste do Blog. Vou testar algumas funcionalidades, como Vide
 
 <h3>Video</h3>
 
-<div class="video"><iframe style="width:70%; height:300px" src="//www.youtube.com/embed/ovASq1-TfF0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video"><iframe style="width:70%; height:350px" src="//www.youtube.com/embed/ovASq1-TfF0" frameborder="0" allowfullscreen></iframe></div>
 
 <h3>Referências</h3>
 
