@@ -247,8 +247,14 @@ h1 {
 
     .imagem{
       display: none;
-    }
+    }  
 
+  }
+
+  @media (max-width: 750px) {
+    pre{
+      overflow: scroll;      
+    }
   }
 
   .imagem-mobile{
