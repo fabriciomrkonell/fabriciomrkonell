@@ -11,7 +11,7 @@ Bom, esse é o primeiro post, não tenho muito o que falar por enquanto.
 
 A princípio é um post de teste, pois preciso implementar novas funções ao Blog.
 
-Testando:
+<h3>Código</h3>
 
 
 {% highlight ruby %}
