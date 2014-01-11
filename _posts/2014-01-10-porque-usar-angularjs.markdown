@@ -6,15 +6,18 @@ categories: Blog
 ---
 
 Boenas,
+<div class="aside">
+  You're reading part one of <strong><a href="/posts/how-github-works">How GitHub Works</a></strong>, a three-post journey into how we work at GitHub. They're all separate posts on different topics, but if you're interested you can also read the other two: <a href="/posts/how-github-works-asynchronous/">Be Asynchronous</a> and <a href="/posts/how-github-works-creativity/">Creativity is Important</a>.
+</div>
 
 Uso diariamente AngularJs, e me identifico muito com essas duas imagens. Achei muito bacana
 como elas descrevem o AngularJS.
 
-Imagem 1:
+<h3>Imagem:</h3>
 
 <div class="imagem"><img src="http://nathanleclaire.com/images/smooth-angular-tips/js-learning-curves.jpg" /></div>
 
-Imagem 2: 
+<h3>Imagem:</h3>
 
 <div class="imagem"><img src="http://www.bennadel.com/resources/uploads/2013/feelings_about_angularjs_over_time.png" /></div>
 
