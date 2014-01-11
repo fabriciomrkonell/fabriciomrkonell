@@ -9,7 +9,7 @@ Olá,
 
 Esse post é só um teste do Blog. Vou testar algumas funcionalidades, como Videos e Links.
 
-<h3>Imagem:</h3>
+<h3>Imagem</h3>
 
 <div class="imagem"><img src="http://4image.kgngames.com/img/141389448753.jpg" /></div>
 
