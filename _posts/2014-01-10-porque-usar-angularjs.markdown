@@ -10,10 +10,12 @@ Boenas,
 Uso diariamente AngularJs, e me identifico muito com essas duas imagens. Achei muito bacana
 como elas descrevem o AngularJS.
 
-Imagem 1: <div class="imagem imagem-mobile"><a class="imagem-mobile" href="http://nathanleclaire.com/images/smooth-angular-tips/js-learning-curves.jpg"  target="_blank" />Link da Imagem</a></div>
+Imagem 1:
+
 <div class="imagem"><img src="http://nathanleclaire.com/images/smooth-angular-tips/js-learning-curves.jpg" /></div>
 
-Imagem 2: <div class="imagem imagem-mobile"><a class="imagem-mobile" href="http://www.bennadel.com/resources/uploads/2013/feelings_about_angularjs_over_time.png" target="_blank" />Link da Imagem</a></div>
+Imagem 2: 
+
 <div class="imagem"><img src="http://www.bennadel.com/resources/uploads/2013/feelings_about_angularjs_over_time.png" /></div>
 
 Em um Futuro Próximo, criarei um post sobre AngularJS e suas funções ESPETACULARES.

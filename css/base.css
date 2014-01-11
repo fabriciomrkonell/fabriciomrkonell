@@ -178,11 +178,7 @@ h1 {
     line-height: 160%;
     margin: 25px 0;
   }
-  .content img, .content video {
-    margin: 10px -60px;
-    max-width: 770px;
-    border-radius: 4px;
-  }
+  
   .content pre {
     padding: 10px 20px;
     margin: 0 50px;
@@ -240,15 +236,6 @@ h1 {
     .my-footer{
       display: none;
     }
-
-    .imagem-mobile{
-      display: inline-block !important;
-    }
-
-    .imagem{
-      display: none;
-    }  
-
   }
 
   @media (max-width: 750px) {
@@ -265,10 +252,7 @@ h1 {
   }
 
 
-  .imagem-mobile{
-    display: none;
-  }
-
+  
   .when {
     font-size: 14px;
     text-transform: uppercase;
@@ -366,8 +350,13 @@ h1 {
   margin-left: auto;
 }
 
-.imagem{
-  text-align: center;
+img{
+    text-align: center;
+    display:block;
+    margin:auto;
+    border:0;
+    max-width:100%;
+    height:auto}
   }
 
 
