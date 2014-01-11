@@ -18,6 +18,6 @@ Imagem 2: <div class="imagem imagem-mobile"><a class="imagem-mobile" href="http:
 
 Em um Futuro Próximo, criarei um post sobre AngularJS e suas funções ESPETACULARES.
 
-Thanks <a href="https://plus.google.com/u/0/110290821588589095157/posts">Rubens</a> pelas Imagens.
+Thanks <a href="https://plus.google.com/u/0/110290821588589095157/posts" target="_blank" />Rubens</a> pelas Imagens.
 
 "Té" mais.
