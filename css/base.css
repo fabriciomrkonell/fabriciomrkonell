@@ -253,9 +253,17 @@ h1 {
 
   @media (max-width: 750px) {
     pre{
-      overflow: scroll;      
+      overflow: scroll;
+    }    
+  }
+
+
+  @media (max-width: 550px) {   
+    #label-contato{
+      display: none;
     }
   }
+
 
   .imagem-mobile{
     display: none;
