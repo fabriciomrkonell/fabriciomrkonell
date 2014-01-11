@@ -240,6 +240,19 @@ h1 {
     .my-footer{
       display: none;
     }
+
+    .imagem-mobile{
+      display: inline-block !important;
+    }
+
+    .imagem{
+      display: none;
+    }
+
+  }
+
+  .imagem-mobile{
+    display: none;
   }
 
   .when {
