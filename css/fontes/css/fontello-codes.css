@@ -1,4 +1,6 @@
 
+.icon-left-circled:before { content: '\e804'; } /* '' */
+.icon-right-circled:before { content: '\e802'; } /* '' */
 .icon-twitter-bird:before { content: '\e801'; } /* '' */
 .icon-github:before { content: '\e800'; } /* '' */
 .icon-linkedin-rect:before { content: '\e803'; } /* '' */

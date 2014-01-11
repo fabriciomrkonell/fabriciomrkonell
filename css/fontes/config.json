@@ -7,6 +7,18 @@
   "ascent": 850,
   "glyphs": [
     {
+      "uid": "6855131631509e8795730ce062045ea1",
+      "css": "left-circled",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "19b04848ae7332d2c0ea2a9e19064037",
+      "css": "right-circled",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
       "uid": "4c01f5d3ba5fbf029bca8630cce41e6a",
       "css": "twitter-bird",
       "code": 59393,
