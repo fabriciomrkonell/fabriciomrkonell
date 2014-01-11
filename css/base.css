@@ -42,6 +42,9 @@ li {
   font-size: 1.6em;
 }
 
+.highlight{
+  text-align: center;
+}
 
 .header {
   margin: 45px;
@@ -223,10 +226,19 @@ h1 {
     font-size: 16px;
   }
 
-  /* ugly hack to full-width tweets on non-mobile */
-  @media not screen and (max-device-width: 480px) {
-    .content .twitter-tweet {
+
+  @media (max-width: 500px) {
+    .menu{
+      text-align: center;
       width: 100%;
+    }
+
+    .name{
+      text-align: center;
+    }
+
+    .my-footer{
+      display: none;
     }
   }
 
@@ -317,14 +329,3 @@ h1 {
     font-size: 12px;
     color: #999;
   }
-
-.about-avatar {
-  float: left;
-  padding: 7px 0px 150px 0;
-}
-.about-avatar img {
-  margin-left: -150px;
-  width: 125px;
-  border: none;
-  padding: 0;
-}

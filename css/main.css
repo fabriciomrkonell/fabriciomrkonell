@@ -23,10 +23,6 @@
   padding: 0 .4em;
 }
 
-.imagem{
-  text-align: center;
-}
-
 .post ul, .post ol {
   margin-left: 1.35em;
 }
@@ -35,10 +31,6 @@
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
-}
-
-pre{
-  text-align: center;
 }
 
 .post pre code {
