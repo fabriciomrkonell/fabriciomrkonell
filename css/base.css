@@ -313,21 +313,18 @@ h1 {
 }
 
 img{
-    text-align: center;
-    display:block;
-    margin:auto;
-    border:0;
-    max-width:50%;
-    width: 50%;
+    display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
 
-    height: auto;
-    padding: 4px;
-    line-height: 1.428571429;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+padding: 4px;
+line-height: 1.428571429;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 4px;
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
 }
 
   }
