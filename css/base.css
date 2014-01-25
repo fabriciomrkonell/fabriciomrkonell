@@ -43,7 +43,7 @@ li {
 }
 
 .highlight{
-  text-align: center;
+  text-align: left;
 }
 
 .header {
@@ -209,7 +209,7 @@ h1 {
   }
 
 
-  @media (max-width: 500px) {
+  @media (max-width: 540px) {
     .menu{
       text-align: center;
       width: 100%;
