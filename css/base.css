@@ -166,8 +166,7 @@ h1 {
   }
   
   .content pre {
-    padding: 10px 20px;
-    margin: 0 50px;
+    padding: 10px 20px;    
     background-color: #fbfbfb;
     border-radius: 5px;
   }
@@ -228,12 +227,9 @@ h1 {
     }
   }
 
-  @media (max-width: 750px) {
-    pre{
-      overflow: scroll;
-    }    
+  pre{
+    white-space: pre-wrap;
   }
-
 
   @media (max-width: 550px) {   
     #label-contato{
@@ -360,8 +356,7 @@ iframe{
 
 .post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+  background-color: #eef;  
   padding: 20px;
 }
 
