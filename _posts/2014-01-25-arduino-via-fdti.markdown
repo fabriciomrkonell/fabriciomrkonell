@@ -21,7 +21,7 @@ Segue um passo-a-passo:
 <h3>1º - Arduino Ethernet + Placa FDTI 5V</h3>
 Bom, como o Arduino Ethernet não tem nenhuma saída USB, temos que usar um conversor FDTI 5V.
 
-<img src="http://www.flytron.com/122-409-large/5v-ftdi-programmer.jpg" />
+<img src="{{site.baseurl}}/img/posts/placaFDTI5V.jpg" />
 
 <h3>2º - Conexão dos Cabos</h3>
 A pinagem do Arduino Ethernet é a seguinte: o Pino 6 é o mais próximo da entrada do cartão SD, assim o Pino 1, é o mais longe.

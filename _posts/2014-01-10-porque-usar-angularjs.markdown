@@ -12,11 +12,11 @@ como elas descrevem o AngularJS.
 
 <h3>Imagem</h3>
 
-<img src="http://nathanleclaire.com/images/smooth-angular-tips/js-learning-curves.jpg" />
+<img src="{{site.baseurl}}/img/posts/curvaAngular1.jpg" />
 
 <h3>Imagem</h3>
 
-<img src="http://www.bennadel.com/resources/uploads/2013/feelings_about_angularjs_over_time.png" />
+<img src="{{site.baseurl}}/img/posts/curvaAngular2.jpg" />
 
 Em um Futuro Próximo, criarei um post sobre AngularJS e suas funções ESPETACULARES.
 

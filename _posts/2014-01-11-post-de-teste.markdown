@@ -11,7 +11,7 @@ Esse post é só um teste do Blog. Vou testar algumas funcionalidades, como Vide
 
 <h3>Imagem</h3>
 
-<img src="http://4image.kgngames.com/img/151389453554.jpg" />
+<img src="{{site.baseurls}}/img/posts/srBurns.jpg" />
 
 <h3>Video</h3>
 
