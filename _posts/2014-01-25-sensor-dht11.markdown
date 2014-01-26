@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "Sensor de Temperatura e Umidade - DHT11"
+date:   2014-01-26 10:00:00
+categories: Blog
+---
+
+Hoje vamos falar um pouco sobre o sensor DHT11.
+
+<img src="{{site.baseurl}}/img/posts/sensorDHT11.jpg" />
+
+Com esse componente conseguimos medir a temperatura e a umidade em tempo real, com o Arduino.
+
+A maneira de configurar ele é muito simples, segue um passo-a-passo:
+
+<h3>1º - Adicionando a Biblioteca</h3>
+Primeiro temos que fazer o download da <a href="https://www.dropbox.com/s/30tlk0azsi4ohgy/Biblioteca%20DHT11.zip">biblioteca DHT</a> para Arduino.
+
+Após, adicionamos ela na IDE do Arduino, em Sketch>Importar Biblioteca>Add Library.
+
+<h3>2º - Conectando o Sensor no Arduino</h3>
+Esquema de conexão.
+
+<img src="{{site.baseurl}}/img/posts/esquemaSensorDTH11.jpg" />
+
+<h3>3º - Configurando a IDE</h3>
+
+{% highlight ruby %}
+  #include <dht.h>	
+  
+  //Pino 2 Data do Sensor vai ligado a porta A1 do Arduino
+  #define dht_dpin A1 	
+
+  //Inicia o Sensor
+  dht DHT; 	
+  
+  void setup() {
+    Serial.begin(9600);
+  	
+    //Aguarda 1 segundo antes de acessar o DHT11
+    delay(1000);
+  }
+	
+  void loop() {
+    //Faz a leitura
+  	DHT.read11(dht_dpin); 
+    Serial.print('Umidade = ');
+    Serial.print(DHT.humidity);
+    Serial.print(' - ');
+    Serial.print('Temperatura = ');
+    Serial.print(DHT.temperature); 
+    Serial.println(' Celsius  ');
+  	//Faz a leitura a cada 2 segundos
+    delay(2000);  
+  }
+{% endhighlight %}
+
+<h3>4º - Execução</h3>
+Compile o código e abra a tela do serial monitor. 
+Pronto, seu sensor DHT11 está fazendo as medições.
+
+Lembre-se!
+
+* Se algum cabo for conectado de maneira errada, isso poderá danificar os componentes.
+
+Dúvidas? Entre em Contato.
