@@ -15,7 +15,7 @@ Warning!
 
 * A chavinha da plaquinha FDTI 5V deve sempre ficar em 5V.
 * Verifique a voltagem da sua placa Arduino Ethernet.
-* Se algum cabo for conectado de maneirada, isso podera queimar as placas.
+* Se algum cabo for conectado de maneira errada, isso poderá queimar as placas.
 
 Segue um passo-a-passo:
 <h3>1º - Arduino Ethernet + Placa FDTI 5V</h3>
