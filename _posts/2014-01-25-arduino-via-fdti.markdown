@@ -19,6 +19,7 @@ Warning!
 
 Segue um passo-a-passo:
 <h3>1º - Arduino Ethernet + Placa FDTI 5V</h3>
+
 Bom, como o Arduino Ethernet não tem nenhuma saída USB, temos que usar um conversor FDTI 5V.
 
 <img src="{{site.baseurl}}/img/posts/placaFDTI5V.jpg" />
