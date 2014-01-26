@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sensor de Temperatura e Umidade - DHT11"
+title:  "Sensor DHT11"
 date:   2014-01-26 10:00:00
 categories: Blog
 ---
@@ -9,7 +9,7 @@ Hoje vamos falar um pouco sobre o sensor DHT11.
 
 <img src="{{site.baseurl}}/img/posts/sensorDHT11.jpg" />
 
-Com esse componente conseguimos medir a temperatura e a umidade em tempo real, através o Arduino.
+Com esse componente conseguimos medir a temperatura e a umidade em tempo real, através do Arduino.
 
 A maneira de configurar ele é muito simples, segue um passo-a-passo:
 
