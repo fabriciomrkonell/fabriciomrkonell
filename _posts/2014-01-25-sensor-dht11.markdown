@@ -28,7 +28,7 @@ Esquema de conexão.
 {% highlight ruby %}
   #include <dht.h>	
   
-  //Pino 2 Data do Sensor vai ligado a porta A1 do Arduino
+  //Pino 2 do Sensor vai ligado na porta A1 do Arduino
   #define dht_dpin A1 	
 
   //Inicia o Sensor
