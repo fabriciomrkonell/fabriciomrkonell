@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AngularJS e Deployd - Ng-Conf 2014"
+title:  "AngularJS e Deployd"
 date:   2014-01-30 22:00:00
 categories: Blog
 ---
@@ -14,7 +14,7 @@ Vale a pena conferir.
 <h3>Video</h3>
 
 <div class="video-container">
-  <iframe src="//www.youtube.com/watch?v=0V8fQoqQLLA" frameborder="0" width="560" height="315"></iframe>
+  <iframe src="http://www.youtube.com/watch?v=0V8fQoqQLLA" frameborder="0" width="560" height="315"></iframe>
 </div> 
 
 <h3>Referências</h3>
