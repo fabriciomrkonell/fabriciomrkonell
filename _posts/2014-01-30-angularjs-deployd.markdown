@@ -11,7 +11,6 @@ Deployd é uma ferramenta que torna a construção APIs simples, fornecendo impo
 
 Vale a pena conferir.
 
-<h3>Video</h3>
 
 <div class="video-container">
   <iframe width="560" height="315" src="//www.youtube.com/embed/0V8fQoqQLLA" frameborder="0"></iframe>  
