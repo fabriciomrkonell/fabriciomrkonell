@@ -31,7 +31,7 @@ Esse recurso é chamado de 'two-ways binding' que é mais um dos recursos 'magni
   	</head>
   	<body>	 
     	<input type="text" ng-model="model-input">
-    	<input type="text" ng-model="model-input">  	      	
+    	<input type="text" ng-model="model-input">
     </div>
   </body>
 </html>
