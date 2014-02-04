@@ -25,14 +25,13 @@ Esse recurso é chamado de 'two-ways binding' que é mais um dos recursos 'magni
 
 {% highlight ruby %}
 <html ng-app>
-	<head>
-    	<script src="angularJs.js"></script>
-  	</head>
-  	<body>	 
-    	<input type="text" ng-model="model-input">
-    	<input type="text" ng-model="model-input">
-    </div>
-  </body>
+   <head>
+      <script src="angularJs.js"></script>
+   </head>
+   <body>	 
+      <input type="text" ng-model="model-input">
+      <input type="text" ng-model="model-input">
+   </body>
 </html>
 {% endhighlight %}
 
