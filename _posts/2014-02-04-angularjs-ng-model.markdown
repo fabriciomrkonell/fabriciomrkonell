@@ -19,7 +19,7 @@ Esse recurso é chamado de 'two-ways binding' que é mais um dos recursos 'magn�
 <h3>Função</h3>
 * Fornecer comportamento de Validação. 	
 * Definir classes css relacionados ao elemento. 
-* Funciona como um canal entre a nossa view e o form. 
+* Funciona como um canal entre a view e o form. 
 * Pode ser utilizada em inputs, selects, textareas, checkboxes e radio buttons.
 
 
