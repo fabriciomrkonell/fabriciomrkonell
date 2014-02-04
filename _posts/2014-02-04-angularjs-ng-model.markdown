@@ -10,7 +10,7 @@ categories: Blog
 
 O que é Ng-Model?
 
-ngModel é uma diretiva que é usado como atributo nos elementos.
+ngModel é uma diretiva que é usada como atributo nos elementos.
 O valor dessa variável é vinculado ao valor da entrada. 
 Todas as alterações no elemento, atualiza automaticamente o ngModel.
 Esse recurso é chamado de 'two-ways binding' que é mais um dos recursos 'magnificos' do angular. 
