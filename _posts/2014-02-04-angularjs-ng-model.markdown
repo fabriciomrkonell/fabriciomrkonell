@@ -20,7 +20,6 @@ Esse recurso é chamado de 'two-ways binding' que é mais um dos recursos 'magni
 * Faz a ligação da View com o Model.
 * Fornecer comportamento de Validação. 	
 * Definir classes css relacionados ao elemento. 
-* Registrar o controle com seu formulário pai. 
 
 <h3>Código</h3>
 
