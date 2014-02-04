@@ -30,8 +30,7 @@ Esse recurso é chamado de 'two-ways binding' que é mais um dos recursos 'magn�
    <head>
       <script src="angularJs.js"></script>
    </head>
-   <body>  
-   <body>	 
+   <body>     
       <input type="text" ng-model="model-input">
       <input type="text" ng-model="model-input">
    </body>
