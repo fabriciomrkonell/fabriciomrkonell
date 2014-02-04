@@ -45,6 +45,6 @@ Esse recurso é chamado de 'two-ways binding' que é mais um dos recursos 'magni
 	<br />
 	<input type="text" placeholder="Digite seu Nome" ng-model="imput">
 </div>
-
+<br />
 
 Dúvidas? Entre em contato!
