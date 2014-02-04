@@ -17,6 +17,7 @@ Esse recurso é chamado de 'two-ways binding' que é mais um dos recursos 'magni
 
 
 <h3>Função</h3>
+* Faz a ligação da View com o Model.
 * Fornecer comportamento de Validação. 	
 * Definir classes css relacionados ao elemento. 
 * Registrar o controle com seu formulário pai. 
@@ -29,8 +30,8 @@ Esse recurso é chamado de 'two-ways binding' que é mais um dos recursos 'magni
     	<script src="angularJs.js"></script>
   	</head>
   	<body>	 
-    	<input type="text" ng-model="imput">
-    	<input type="text" ng-model="imput">  	      	
+    	<input type="text" ng-model="model-input">
+    	<input type="text" ng-model="model-input">  	      	
     </div>
   </body>
 </html>
