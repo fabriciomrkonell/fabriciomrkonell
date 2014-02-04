@@ -373,8 +373,7 @@ iframe{
 }
 
 .post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;  
+  background-color: #f3f3f3;;  
   padding: 20px;
 }
 
@@ -383,8 +382,7 @@ iframe{
 }
 
 .post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #f3f3f3;;
   padding: 0 .2em;
 }
 
