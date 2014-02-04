@@ -17,7 +17,7 @@ Esse recurso é chamado de 'two-ways binding' que é mais um dos recursos 'magni
 
 
 <h3>Função</h3>
-* Faz a ligação da View com o Model.
+* Faz a ligação da View com o Controller.
 * Fornecer comportamento de Validação. 	
 * Definir classes css relacionados ao elemento. 
 
