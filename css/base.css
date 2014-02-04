@@ -161,9 +161,6 @@ h1 {
     color: #444;
   }
 
-.content {
-
-}
   .content i, .content em {
     font-family: 'News Cycle', sans-serif;
     font-style: normal;
@@ -184,7 +181,6 @@ h1 {
   }
   
   .content pre {
-    padding: 10px 20px;    
     background-color: #fbfbfb;
     border-radius: 5px;
   }
@@ -374,7 +370,6 @@ iframe{
 
 .post pre {
   background-color: #f3f3f3;;  
-  padding: 20px;
 }
 
 .post ul, .post ol {
