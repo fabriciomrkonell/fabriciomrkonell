@@ -20,4 +20,5 @@ Para entender como o AngularJS consegue manter o sincronismo de dados entre a Vi
 * O compilador percorre a árvore DOM em busca de diretivas do tipo ng-model. 
 * Ao encontrar, a função $apply é adicionada ao evento onkeydown. Dessa forma, ao pressionar qualquer tecla dentro de um campo de texto, o sistema de notificação de mudanças é notificado. 
 * Em seguida, o compilador busca as expressões, utilizando a função $watch para fazer o registro no sistema de notificação de mudanças no estado das propriedades.
+
 Dúvidas? Entre em contato!
