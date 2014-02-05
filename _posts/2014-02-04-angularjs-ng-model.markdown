@@ -5,7 +5,7 @@ date:   2014-02-04 13:00:00
 categories: Blog
 ---
 
-<img src="{{site.baseurl}}/img/posts/angularjs.jpg"  />
+<img src="/img/posts/angularjs.jpg"  />
 
 
 O que é Ng-Model?
