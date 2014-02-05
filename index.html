@@ -9,7 +9,7 @@ imagem: /img/fundoInicio.jpg
       <ul class="listing">
         {% for post in site.posts %}
           <li class="my-li">
-            <span>{{ post.date | date_to_string }}</span> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
           </li>
         {% endfor %}
       </ul>
