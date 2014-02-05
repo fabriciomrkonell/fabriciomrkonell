@@ -11,7 +11,7 @@ Esse post é só um teste do Blog. Vou testar algumas funcionalidades, como Vide
 
 <h3>Imagem</h3>
 
-<img src="{{site.baseurl}}/img/posts/srBurns.jpg" />
+<img src="/img/posts/srBurns.jpg" />
 
 <h3>Video</h3>
 
