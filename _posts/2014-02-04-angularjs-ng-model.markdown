@@ -32,7 +32,7 @@ Esse recurso é chamado de <a href="http://fabricioronchi.com/blog/2014/02/05/tw
    </head>
    <body ng-controller="myController">         
       <input type="text" ng-model="model-input">
-      <p>Bem Vindo, {{model-input}}</p>
+      <p>Bem Vindo, {(model-input)}</p>
    </body>
 </html>
 {% endhighlight %}
