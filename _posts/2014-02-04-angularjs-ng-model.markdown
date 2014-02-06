@@ -23,29 +23,36 @@ Esse recurso é chamado de <a href="http://fabricioronchi.com/blog/2014/02/05/tw
 * Pode ser utilizada em inputs, selects, textareas, checkboxes e radio buttons.
 
 
-<h3>Código</h3>
-
+<h3>index.html</h3>
 {% highlight ruby %}
 <html ng-app>
    <head>
       <script src="angularJs.js"></script>
+      <script src="app.js"></script>
    </head>
    <body>     
       <input type="text" ng-model="model-input">
-      <input type="text" ng-model="model-input">
+      <p>Bem Vindo, {{model-input}}</p>
    </body>
 </html>
 {% endhighlight %}
 
+<h3>app.js</h3>
+
+{% highlight ruby %}
+var app = angular.module("myapp", []);
+function MyController($scope) { };
+{% endhighlight %}
+
 <h3>Exemplo</h3> 
 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>      
-
-<div ng-app>
-  <input type="text" placeholder="Digite seu Nome" ng-model="imput">
-  <br />
-  <input type="text" placeholder="Digite seu Nome" ng-model="imput">
+<script src="/js/angular.min.js"></script>      
+<script src="/js/app-ng-model.js"></script>      
+<div ng-app="myapp"> 
+  <div ng-controller="MyController">    
+    <input type="text" ng-model="nome" placeholder="Digite seu nome...">
+    <p>Bem Vindo, {(nome)}</p>
+  </div>
 </div>
-
 
 Dúvidas? Entre em contato!
