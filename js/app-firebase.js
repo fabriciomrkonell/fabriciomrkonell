@@ -5,7 +5,7 @@ var app = angular.module("myapp", ["firebase"]).config([
 ]);
     
 function MyController($scope, $firebase) {
-    var ref = new Firebase("https://cqd14kyaz69.firebaseio-demo.com/");
+    var ref = new Firebase("https://blistering-fire-9737.firebaseio.com/");
     $scope.messages = $firebase(ref);
     $scope.addMessage = function(e) {
 	if (e.keyCode != 13) return;
