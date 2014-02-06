@@ -25,12 +25,12 @@ Esse recurso é chamado de <a href="http://fabricioronchi.com/blog/2014/02/05/tw
 
 <h3>index.html</h3>
 {% highlight ruby %}
-<html ng-app>
+<html ng-app="myApp">
    <head>
       <script src="angularJs.js"></script>
       <script src="app.js"></script>
    </head>
-   <body>     
+   <body ng-controller="myController">         
       <input type="text" ng-model="model-input">
       <p>Bem Vindo, {{model-input}}</p>
    </body>
