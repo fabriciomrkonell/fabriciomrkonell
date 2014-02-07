@@ -8,7 +8,7 @@ categories: Blog
 <h3>O que é Firebase?</h3>
 Firebase é um banco de dados backend em tempo real, ideal para aplicações web. Ele permite criar aplicativos sem o incômodo de gerenciamento de servidores ou escrever código do lado do servidor.
 
-<h3>Como isso funciona?</h3>
+<h3>Como funciona?</h3>
 Funciona apenas incluindo a biblioteca em suas aplicações. Esta biblioteca fornece estrutura de dados que são sincronizados automaticamente entre todos os seus clientes e com os servidores do Firebase. 
 Se um usuário muda alguma informação, todos os outros usuários, verão a alteração em alguns milisegundos.
 
