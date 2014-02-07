@@ -27,7 +27,7 @@ O exemplo mostra um chat usando a biblioteca Firebase.
   <script src="angularfire.js"></script>  
   <div ng-controller="MyController">    
     <div ng-repeat="msg in messages">
-       <em>{(msg.from)}</em>: {(msg.body)}
+       <em>{ {msg.from} }</em>: { {msg.body} }
     </div>    
     <input ng-model="nome" placeholder="Seu Nome">
     <input ng-model="mensagem" ng-keydown="addMessage($event)">
