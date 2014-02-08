@@ -66,7 +66,7 @@ function MyController($scope, $firebase) {
         <p style="margin-bottom: -26px;"><u>{(msg.from)}</u>: {(msg.body)}</p>
       </div>      
     </div>
-    <input type="text" style="margin-bottom: 10px; margin-top: 40px" ng-model="name" placeholder="Name">
+    <input type="text" style="margin-bottom: 10px; margin-top: 40px" ng-model="name" placeholder="Nome">
     <input type="text" ng-model="msg" ng-keydown="addMessage($event)" placeholder="Mensagem... Pressione Enter para enviar">
     <script>    
     </script>
