@@ -32,7 +32,7 @@ function MyController($scope) { };
 <h3>Exemplo</h3> 
 
 <script src="/js/angular.min.js"></script>      
-<script src="/js/app-ng-model.js"></script>      
+<script src="/js/app-ng-currency.js"></script>      
 <div ng-app="myapp"> 
   <div ng-controller="MyController">    
     <input type="number" ng-model="valor" placeholder="Digite um valor...">
