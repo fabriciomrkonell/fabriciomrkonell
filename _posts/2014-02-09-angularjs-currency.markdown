@@ -27,7 +27,9 @@ A aplicação é bem simples, basta colocar "{ {ngModel | currency:'R$'} }", pas
 <h3>app.js</h3>
 {% highlight ruby %}
 var app = angular.module("myapp", []);
-function MyController($scope) { };
+function MyController($scope) { 
+  $scope.valor = 10.00;
+};
 {% endhighlight %}
 <h3>Exemplo</h3> 
 
