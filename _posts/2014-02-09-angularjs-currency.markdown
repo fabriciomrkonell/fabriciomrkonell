@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AngulardasJS - Filter Currency"
+title:  "AngularJS - Filter Currency"
 date:   2014-02-09 13:00:00
 categories: Blog
 ---
