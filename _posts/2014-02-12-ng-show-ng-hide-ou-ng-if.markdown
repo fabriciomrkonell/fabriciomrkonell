@@ -12,9 +12,9 @@ Pra "esconder" alguns elementos na tela, usamos uma dessas diretivas: ngIf, ngSh
 Não renderiza o elemento na tela quando ela for false.
 
 <h3>ngShow</h3>
-Adiciona a classe "hide" no elemento quando ela for false.
+Adiciona ao elemente "display:none" quando a expressão for false.
 
 <h3>ngHide</h3>
-Adiciona a classe "hide" no elemento quando ela for true.
+Adiciona ao elemente "display:none" quando a expressão for true.
 
 Dúvidas? Entre em contato!
