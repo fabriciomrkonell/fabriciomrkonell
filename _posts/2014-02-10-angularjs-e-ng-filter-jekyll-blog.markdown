@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "AngularJs - Filtragem de Posts"
+title:  "AngularJS - Filtragem de Posts"
 date:   2014-02-10 13:00:00
 categories: Blog
 ---
 
-<h3>Filtragem com AngularJs</h3>
+<h3>Filtragem com AngularJ</h3>
 Brincando com AngularJS recentemente, tive a idéia de fazer uma filtragem das postagens do meu Blog.
 
 <h3>Como fazer?</h3>
 A dificuldade que tive, foi a de como fazer a comunicação entre o AngularJS e o Ruby do Jekyll.
-A solução foi criar um aquivo em formato de JSON, para que o AngularJs possa pegar as informações.
+A solução foi criar um aquivo em formato de JSON, para que o AngularJS possa pegar as informações.
 
 <h3>posts.html</h3>
 Vamos criar o arquivo posts.html(JSON), dentro da pasta "_includes".

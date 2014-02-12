@@ -30,9 +30,7 @@ O exemplo mostra um chat usando a biblioteca Firebase.
        <em>{ {msg.from} }</em>: { {msg.body} }
     </div>    
     <input ng-model="nome" placeholder="Seu Nome">
-    <input ng-model="mensagem" ng-keydown="addMessage($event)">
-    <script>    
-    </script>
+    <input ng-model="mensagem" ng-keydown="addMessage($event)">    
   </div>
 </div>
 {% endhighlight %}
@@ -46,6 +44,7 @@ function MyController($scope, $firebase) {
   $scope.messages = $firebase(ref);
   $scope.addMessage = function(e) {  
     $scope.messages.$add({
+      if e == 13 return false;
       from: $scope.nome, 
       body: $scope.mensagem
     });
@@ -76,5 +75,6 @@ function MyController($scope, $firebase) {
 <h3>Referências</h3>
 * <a href="https://www.firebase.com/" target="_blank">Firebase</a>
 * <a href="https://www.firebase.com/tutorial/#tutorial/basic/0" target="_blank">Tutorial Completo</a>
+* <a href="https://cdn.firebase.com/libs/angularfire/0.6.0/angularfire.min.js" target="_blank">AngularFire</a>
 
 Dúvidas? Entre em contato!

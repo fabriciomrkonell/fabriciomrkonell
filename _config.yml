@@ -1,4 +1,5 @@
 name: Your New Jekyll Site
+pygments: false
 markdown: redcarpet
 pygments: true
 name: Fabrício Ronchi
