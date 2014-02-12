@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ngIf, ngShow ou ngHide?
-date:   2014-02-09 13:00:00
+date:   2014-02-12 19:00:00
 categories: Blog
 ---
 
