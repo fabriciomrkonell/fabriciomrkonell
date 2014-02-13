@@ -8,7 +8,7 @@ categories: Blog
 <h3>O que é?</h3>
 Bom, como o nome já diz, a função filter currency é converter um numero para o formato de moeda.
 
-A aplicação é bem simples, basta colocar "{ {ngModel | currency:'R$'} }", passando o tipo de moeda que deseja ser mostrado.
+A aplicação é bem simples, basta colocar <code>"{{ngModel | currency:'R$'}}"</code>, passando o tipo de moeda que deseja ser mostrado.
 
 <h3>index.html</h3>
 {% highlight ruby %}
