@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Aplicações com AngularJS"
+date:   2014-02-09 13:00:00
+categories: Blog
+---
+
+<h3>Aplicações com AngularJS</h3>
+Hoje estou meio sem tempo, então segue alguns exemplos de aplicações que usam AngularJS.
+
+<a href="http://builtwith.angularjs.org/">Aplicações com AngularJS</a>
+
+Até a próxima.
+
+Dúvidas? Entre em contato!
