@@ -19,6 +19,6 @@ Quando usamos a diretiva ngCloak, estamos dizendo pro angular colocar <code>"dis
 </html>
 {% endhighlight %}
 
-
+<img src="/img/posts/belezacara.jpg" />
 
 Dúvidas? Entre em contato!
