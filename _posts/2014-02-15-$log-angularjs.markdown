@@ -15,23 +15,23 @@ Seu objetivo é simplificar a depuração e solução de problemas.
 {% highlight ruby %}
 <html ng-app="myApp">
 	<head>
-      <script src="angularJs.js"></script>
-      <script src="app-log.js"></script>
-   	</head>
-   	<body ng-controller="myController">         
-    	<a type="button" ng-click="$log.log(msg)">
-    		Log
-    	</a>
-	   	<a type="button" ng-click="$log.warn(msg)">
-	   		Warn
-	   	</a>
-    	<a type="button" ng-click="$log.info(msg)">
-    		Info
-    	</a>
-    	<a type="button" ng-click="$log.log(msg)">
-    		Error
-    	</a>
-   	</body>
+    <script src="angularJs.js"></script>
+    <script src="app-log.js"></script>
+  </head>
+  <body ng-controller="myController">         
+  	<a type="button" ng-click="$log.log(msg)">
+   		Log
+   	</a>
+	 	<a type="button" ng-click="$log.warn(msg)">
+			Warn
+	 	</a>
+  	<a type="button" ng-click="$log.info(msg)">
+   		Info
+   	</a>
+   	<a type="button" ng-click="$log.log(msg)">
+   		Error
+   	</a>
+  </body>
 </html>
 {% endhighlight %}
 
