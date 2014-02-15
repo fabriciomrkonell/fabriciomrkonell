@@ -38,7 +38,6 @@ Esse recurso é chamado de <a href="http://fabricioronchi.com/blog/2014/02/05/tw
 {% endhighlight %}
 
 <h3>app.js</h3>
-
 {% highlight ruby %}
 var app = angular.module("myapp", []);
 function MyController($scope) { };
