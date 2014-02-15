@@ -1,9 +1,17 @@
 ---
 layout: default
+imagem: /img/fundoBlog.jpg
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
+<div class="my-container">
+	<div class="post ">
+		<section class="my-container content" >
+			<h1>{{ page.title }}</h1>
+			<div class="when">
+				{{ page.date | date_to_long_string }}
+			</div>
+			{{ content }}		
+		</section>
+	</div>	
+	<br />
+	{% include disqus.html %}
 </div>

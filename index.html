@@ -1,13 +1,20 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Home - Fabricio
+imagem: /img/fundoInicio.jpg
 ---
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div id="my-container">
+  <div class="posts">
+    <section class="my-container content">
+      <ul class="listing">
+        {% for post in site.posts %}
+          <li class="my-li">
+            <span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
 </div>
+<br />
+<br />

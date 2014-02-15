@@ -1,3 +1,12 @@
 name: Your New Jekyll Site
+pygments: false
 markdown: redcarpet
 pygments: true
+name: Fabrício Ronchi
+url: http://fabricioronchi.com
+domain: fabricioronchi.com
+author :
+  name : Fabrício Ronchi
+  email : fabricioronchii@gmail.com
+  github : https://github.com/FabricioRonchi
+  twitter : https://twitter.com/FRonchii

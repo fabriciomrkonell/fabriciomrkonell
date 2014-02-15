@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "AngularJS - ngCloak"
+date:   2014-02-14 13:00:00
+categories: Blog
+---
+
+<h3>O que é?</h3>
+É uma diretiva, que é usada pra "esconder" os elementos na tela, enquando é carregado o script do AngularJS. Essa diretiva evita que as tags próprias do AngularJS, apareçam de forma não renderizada, por exemplo <code>"{ {nome} }"</code>.
+
+<h3>Funcionalidade</h3>
+Quando usamos a diretiva ngCloak, estamos dizendo pro angular colocar <code>"display: none"</code> no elemento, até que todo o processo sejá finalizado.
+
+<h3>Exemplo</h3>
+{% highlight ruby %}
+<html>
+	<head></head>
+	<body ng-clock></body>
+</html>
+{% endhighlight %}
+
+<img src="/img/posts/belezacara.jpg" />
+
+Dúvidas? Entre em contato!
