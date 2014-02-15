@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AngularJS - $q"
+title:  "AngularJS - $log"
 date:   2014-02-15 10:00:00
 categories: Blog
 ---
