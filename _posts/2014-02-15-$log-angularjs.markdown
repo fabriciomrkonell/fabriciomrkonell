@@ -35,8 +35,9 @@ Seu objetivo é simplificar a depuração e solução de problemas.
 </html>
 {% endhighlight %}
 
-<h3>app-q.js</h3>
+<h3>javascript.js</h3>
 No nosso javascript, temos que injetar a depência do <code>"$log"</code>.
+
 
 {% highlight ruby %}
 var app = angular.module("myapp", []);
@@ -47,7 +48,6 @@ function MyController($scope, $log) {
 
 
 <h3>Exemplo</h3> 
-
 <script src="/js/angular.min.js"></script>      
 <script src="/js/app-log.js"></script>      
 <div ng-app="myapp"> 
