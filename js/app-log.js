@@ -5,5 +5,6 @@ var app = angular.module("myapp", []).config([
 ]);
 
 function MyController($scope, $log) {	
+	alert("");
 	$scope.mensagem = "Acesse: fabricioronchi.com";
 }
