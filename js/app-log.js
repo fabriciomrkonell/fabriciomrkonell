@@ -16,7 +16,7 @@ function MyController($scope, $log) {
 		}else if (id == 3){
 			$log.info($scope.mensagem)
 		}else if (id ==4){
-			$log.log($scope.mensagem)
+			$log.error($scope.mensagem)
 		}
 	}		
 }
