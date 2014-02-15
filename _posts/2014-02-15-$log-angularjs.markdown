@@ -50,7 +50,7 @@ function MyController($scope, $log) {
 <div ng-app="myapp"> 
   <div ng-controller="MyController">        
     <button type="button" ng-show="false" ng-click="alert('$log.log(mensagem)'">Log</button>
-    <button type="button" ng-click="$log.warn(mensagem)">Warn</button>
+    <button type="button" ng-click="teste()">Warn</button>
     <button type="button" ng-click="$log.info(mensagem)">Info</button>
     <button type="button" ng-click="$log.log(mensagem)">Error</button>
   </div>
