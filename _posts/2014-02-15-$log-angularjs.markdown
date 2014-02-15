@@ -49,10 +49,10 @@ function MyController($scope, $log) {
 <script src="/js/app-log.js"></script>      
 <div ng-app="myapp"> 
   <div ng-controller="MyController">        
-    <button type="button" class="btn" ng-click="log(1)">Log</button>
-    <button type="button" class="btn" ng-click="log(2)">Warn</button>
-    <button type="button" class="btn" ng-click="log(3)">Info</button>
-    <button type="button" class="btn" ng-click="log(4)">Error</button>
+    <button type="button" class="btn btn-success" ng-click="log(1)">Log</button>
+    <button type="button" class="btn btn-warning" ng-click="log(2)">Warn</button>
+    <button type="button" class="btn btn-info" ng-click="log(3)">Info</button>
+    <button type="button" class="btn btn-error" ng-click="log(4)">Error</button>
   </div>
 </div>
 
