@@ -6,9 +6,17 @@ var app = angular.module("myapp", []).config([
 
 function MyController($scope, $log) {	
 	
-	$scope.teste = function(){
-		alert("");
-	}	
-
 	$scope.mensagem = "Acesse: fabricioronchi.com";
+
+	$scope.log = function(id){
+		if (id == 1){
+			$log.log.log($scope.mensagem)
+		}else if (id == 2){
+			$log.log.warn($scope.mensagem)
+		}else if (id == 3){
+			$log.info($scope.mensagem)
+		}else if (id ==4){
+			$log.log($scope.mensagem)
+		}
+	}		
 }
