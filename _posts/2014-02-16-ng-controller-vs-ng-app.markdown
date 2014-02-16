@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ngController vs ngApp"
-date:   2014-01-26 10:00:00
+date:   2014-02-16 10:00:00
 categories: Blog
 ---
 
@@ -12,7 +12,7 @@ Essa diretiva é como se fosse um <code>".ready()"</code> do jQuery. Quando colo
 O ngController é usado pra determinar as funionalidades de determinado inicio e fim, por isso é geralmente usado no Body.
 
 <h3>Posso ter 2 Controllers?</h3>
-Sim, e ambos podem se comunicar através do <code>"$scope.$broadcast"</code> e <code>"$scope.$emit"</cide>, pai/filho e filho/pai respectivamente.
+Sim, e ambos podem se comunicar através do <code>"$scope.$broadcast"</code> e <code>"$scope.$emit"</code>, pai/filho e filho/pai respectivamente.
 
 <h3>Exemplo</h3>
 
