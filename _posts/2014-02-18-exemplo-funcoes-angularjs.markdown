@@ -8,6 +8,8 @@ categories: Blog
 <h3>Exemplo</h3>
 Essa aplicação é um cadastro de usuário, onde temos que cadastrar o Nome, Idade e Email. Tem a opção de importar alguns usuários, que estão em um arguivo JSON. Usei diretivas bem interessantes, como ngRepeat, ngModel e ngClick. Também tem a opção de filtro e ordenação. Vale a pena conferir.
 
+<br />
+
 <div style="text-align: center">
 	<a type="button" href="http://fabricioronchi.github.io/AngularJS/" class="btn btn-success" target="_blank">Ver Exemplo</a>
 </div>
