@@ -9,7 +9,7 @@ categories: Blog
 Essa diretiva é como se fosse um <code>".ready()"</code> do jQuery. Quando colocamos o ng-app, você está dizendo pro AngularJS, que ele precisa monitorar DOM a partir daquele ponto.
 
 <h3>ngController</h3>
-O ngController é usado pra determinar as funionalidades de determinado inicio e fim, por isso é geralmente usado no Body.
+O ngController é usado pra determinar as funcionalidades de determinado inicio e fim, por isso é geralmente usado no Body.
 
 <h3>Posso ter 2 Controllers?</h3>
 Sim, e ambos podem se comunicar através do <code>"$scope.$broadcast"</code> e <code>"$scope.$emit"</code>, pai/filho e filho/pai respectivamente.
