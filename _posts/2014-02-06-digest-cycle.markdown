@@ -20,7 +20,7 @@ $scope.$apply(function () {
 {% endhighlight %}
 
 <h3>Função $watch</h3> 
-A função $watch é reponsável por observar o uma determinada propriedade existente, aplicando uma regra.
+A função $watch é reponsável por observar uma determinada propriedade existente, aplicando uma regra.
 
 <h3>Aplicando a função $watch</h3>
 {% highlight ruby %}
