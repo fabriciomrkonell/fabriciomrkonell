@@ -13,7 +13,6 @@ Angular Batarang é um aplicativo do Google Chrome que facilita a depuração do
 
 <img src="/img/posts/angularBatarang.png" />
 
-<h3>Referências</h3>
-* <a href="https://github.com/angular/angularjs-batarang" target="_blank">GitHub</a>	
+Mais informações <a href="https://github.com/angular/angularjs-batarang" target="_blank">aqui</a>.
 
 Dúvidas? Entre em contato!
