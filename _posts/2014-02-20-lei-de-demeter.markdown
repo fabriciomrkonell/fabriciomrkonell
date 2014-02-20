@@ -13,36 +13,36 @@ A lei de Demeter foi desenvolvida em 1988 por <a href="http://en.wikipedia.org/w
 <h3>Dependência entre Classes</h3>
 Existe uma dependência entre classes quando uma classe faz referência a outra, através de execução de algum método seu. Esta dependência pode causar alguns “prejuízos” ao projeto.
 
-	* Rigidez: uma mudança em uma classe afeta muitas outras partes do sistema;
-    * Fragilidade: quando você realiza uma alteração, partes inesperadas no sistema falham;
-    * Imobilidade: não é possível reutilizar partes de uma aplicação em outra, por não ser possível desacoplar este código.
+  * Rigidez: uma mudança em uma classe afeta muitas outras partes do sistema;
+  * Fragilidade: quando você realiza uma alteração, partes inesperadas no sistema falham;
+  * Imobilidade: não é possível reutilizar partes de uma aplicação em outra, por não ser possível desacoplar este código.
 
 <h3>Lei</h3>
 Esta lei tem dois propósitos primários:
 
-	* Simplificar modificações;
-    * Simplificar a complexidade da programação.
+  * Simplificar modificações;
+  * Simplificar a complexidade da programação.
 
 <h3>Não Seguindo a Lei de Demeter</h3>
  {% highlight ruby %}
-	$scope.desconto = function() {
-		var totalDesconto = 0;
-  		for (var i = 0; i < this.Items.Count; i++) {
-   			totalDesconto += this.LineItems[i].Desconto.Total;
-   		}
-   		return totalDesconto;
-  	}
+$scope.desconto = function() {
+  var totalDesconto = 0;
+	for (var i = 0; i < this.Items.Count; i++) {
+		totalDesconto += this.LineItems[i].Desconto.Total;
+	}
+	return totalDesconto;
+}
 {% endhighlight %}
 
 <h3>Seguindo a Lei de Demeter</h3>
 {% highlight ruby %}
-	function obterDesconto() {
-		var totalDesconto = 0;
-  		for (var i = 0; i < this.Items.Count; i++) {
-   			totalDesconto += this.LineItems[i].obterDesconto();
-   		}
-   		return totalDesconto;
-  	}
+function obterDesconto() {
+	var totalDesconto = 0;
+	for (var i = 0; i < this.Items.Count; i++) {
+		totalDesconto += this.LineItems[i].obterDesconto();
+	}
+	return totalDesconto;
+}
 {% endhighlight %}
 
 Dúvidas? Entre em contato!
