@@ -25,7 +25,7 @@ Esta lei tem dois propósitos primários:
 
 <h3>Não Seguindo a Lei de Demeter</h3>
  {% highlight ruby %}
-$scope.desconto = function() {
+function obterDesconto() {
   var totalDesconto = 0;
 	for (var i = 0; i < this.Items.Count; i++) {
 		totalDesconto += this.LineItems[i].Desconto.Total;
