@@ -35,7 +35,7 @@ Nesse exemplo vou fiz um contador, que acrescetará "+1" toda vez que o evento f
   <div ng-controller="MyController">
     <a rel="button" class="btn btn-info" ng-click="cont = cont + 1">Click</a>    
     <a rel="button" class="btn btn-info" ng-dblclick="cont = cont + 1">Duplo Click</a>    
-    <p>{ { cont } }</p>                
+    <p>{(cont)}</p>                
   </div>
 </div>
 
