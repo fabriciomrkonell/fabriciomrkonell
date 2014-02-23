@@ -8,6 +8,8 @@ categories: Blog
 <h3>Introdução</h3>
 Prolog é uma linguagem de programação que se enquadra no paradigma de Programação em Lógica Matemática. É uma linguagem de uso geral que é especialmente associada com a inteligência artificial e linguística computacional. Consiste numa linguagem puramente lógica.
 
+<img src="/img/posts/prolog.png" />
+
 Muito do desenvolvimento moderno do Prolog veio dos projetos de computadores da quinta geração, que desenvolveu uma variante do Prolog chamada Kernel Language para seu primeiro sistema operacional.
 
 Apesar do longo tempo de desenvolvimento, Prolog ainda não é uma linguagem portável, já que cada implementação usa rotinas completamente diferentes e incompatíveis entre si.
