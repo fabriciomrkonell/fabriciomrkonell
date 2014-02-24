@@ -19,4 +19,7 @@ Apesar do longo tempo de desenvolvimento, Prolog ainda não é uma linguagem por
 * Foi criado em 1973, na Universidade de Marseille, França.
 * Geralmente é interpretado, mas pode ser compilado.
 
+<h3>Referências</h3>
+* <a href="http://pt.wikipedia.org/wiki/Prolog" target="_blank">Wikipédia</a>
+
 Dúvidas? Entre em contato!
