@@ -9,6 +9,6 @@ categories: Blog
 
 Navegando por ai, me deparei com um tutorial sobre AngularJS. Vale a pena conferir. Tão bão que resolvi compartilhar aqui no meu blog.
 
-<a href="" target="_blank">Ver tutorial</a>
+<a href="http://github.com/cerebribr/traduz-ai/master/angularjs" target="_blank">Ver tutorial</a>
 
 Dúvidas? Entre em contato!
