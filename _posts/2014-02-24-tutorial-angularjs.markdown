@@ -7,8 +7,8 @@ categories: Blog
 
 <img src="/img/posts/inconAngularJS.png" />
 
-Navegando por ai, me deparei com um tutorial sobre AngularJS. Vale a pena conferir. Tão bão que resolvi compartilhar aqui no meu blog.
+Andando pelas trilhas de <a href="http://pt.wikipedia.org/wiki/Schroeder" target="_blank">Schroeder</a>, me deparei com um tutorial sobre AngularJS, e resolvi compartilhar aqui no meu blog. Vale a pena conferir.
 
-<a href="http://github.com/cerebribr/traduz-ai/master/angularjs" target="_blank">Ver tutorial</a>
+<a href="https://github.com/cerebrobr/traduz-ai/tree/master/angularjs" target="_blank">Ver tutorial</a>
 
 Dúvidas? Entre em contato!
