@@ -17,10 +17,10 @@ não precisa ser acessado. Além disso, se o objeto é lido através de qualquer
 {% endhighlight %}
 
 <h3>Desvantagens</h3>
-* Se o banco de dados é alterado diretamente através de JDBC e os objetos no cache serão obsoletos.
+* Se o banco de dados é alterado diretamente através de JDBC, os objetos no cache serão obsoletos.
 * Para objetos de somente leitura, isto não é um problema, mas para objetos que são atualizados com frequência será um problema.
 
 <h3>Informações</h3>
-O cache também pode ser apagado. Se você sabe que nenhum dos objetos em cache é o uso, então você pode apenas limpar o cache.
+O cache também pode ser apagado. Se você sabe que nenhum dos objetos em cache está em uso, você pode apenas limpar o cache.
 
 Dúvidas? Entre em contato!
