@@ -13,7 +13,7 @@ Se baseia na idéia de que as tarefas mais intensivas a nível computacional, po
 <img src="/img/posts/pyGame.png" />
 
 <h3>Open Source</h3>
-PyGame é gratuito. Lançado sob a <a href="http://www.pygame.org/LGPL" target="_blank">GPL License</a>, você pode criar o código aberto, livre, freeware, shareware, e jogos comerciais com ele.
+PyGame é gratuito. Lançado sob a <a href="http://www.pygame.org/LGPL" target="_blank">GPL License</a>.
 
 <h3>Referências</h3>
 * <a herf="http://www.pygame.org/news.html" target="_blank">PyGame - Site Oficial</a>
