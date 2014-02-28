@@ -16,8 +16,8 @@ Se baseia na idéia de que as tarefas mais intensivas a nível computacional, po
 PyGame é gratuito. Lançado sob a <a href="http://www.pygame.org/LGPL" target="_blank">GPL License</a>.
 
 <h3>Referências</h3>
-* <a herf="http://www.pygame.org/news.html" target="_blank">PyGame - Site Oficial</a>
-* <a herf="http://www.python.org.br/wiki/PyGame" target="_blank">Python Brasil</a>
-* <a herf="wikipedia http://pt.wikipedia.org/wiki/Pygame" target="_blank">Wikipédia</a>
+* <a href="http://www.pygame.org/news.html" target="_blank">PyGame - Site Oficial</a>
+* <a href="http://www.python.org.br/wiki/PyGame" target="_blank">Python Brasil</a>
+* <a href="wikipedia http://pt.wikipedia.org/wiki/Pygame" target="_blank">Wikipédia</a>
 
 Dúvidas? Entre em contato!
