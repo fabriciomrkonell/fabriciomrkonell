@@ -9,4 +9,4 @@ Bom hoje estou meio sem tempo. Estou cursando Bacharel em Sistemas de Informaç�
 
 Então, fui nessa.
 
-<img src="/img/posts/bicibleta.png" />
+<img src="/img/posts/bicicleta.png" />
