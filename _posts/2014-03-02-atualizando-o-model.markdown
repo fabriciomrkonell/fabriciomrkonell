@@ -5,7 +5,6 @@ date:   2014-03-02 22:00:00
 categories: Blog
 ---
 
-<h3>Model não Atualiza?</h3>
 Não recomendo mas...
 
 <img src="/img/posts/apply.png" />
