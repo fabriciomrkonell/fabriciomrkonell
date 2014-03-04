@@ -5,7 +5,7 @@ date:   2014-02-10 13:00:00
 categories: Blog
 ---
 
-<h3>Filtragem com AngularJ</h3>
+<h3>Filtragem com AngularJS</h3>
 Brincando com AngularJS recentemente, tive a idéia de fazer uma filtragem das postagens do meu Blog.
 
 <h3>Como fazer?</h3>
@@ -23,7 +23,7 @@ Definimos que a nossa variável do AngularJS($scope.posts), receba o JSON que es
 <img src="/img/posts/filterindex.png" />
 
 <h3>Exemplo</h3>
-Nesse exemplo faço a filtragem nos meus últimos 10 posts.
+Nesse exemplo faço a filtragem dos meus posts.
 
 <script src="/js/angular.min.js"></script>      
 <div ng-app="myapp"> 
