@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AngularJS: $scope.$apply()"
+title:  "AngularJS - $scope.$apply()"
 date:   2014-02-26 10:00:00
 categories: Blog
 ---
