@@ -20,7 +20,9 @@ Filtro que transforma os objetos do AngualarJS para formato JSON.
 
 <h3>Resultado</h3>
 {
-  "name": "value"
+<br />
+$nbsp;$nbsp;$nbsp;"name": "value"
+<br />
 }
 
 Dúvidas? Entre em contato!
