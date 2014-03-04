@@ -12,9 +12,7 @@ Filtro que transforma os objetos do AngualarJS para formato JSON.
 {% highlight ruby %}
 <div ng-app>
   <script src="angular.min.js"></script>    
-  <div>    
-  	<pre>{ { {'name':'value'} | json } }</pre>        
-  </div>
+  <pre>{ { {'name':'value'} | json } }</pre>        
 </div>
 {% endhighlight %}
 
