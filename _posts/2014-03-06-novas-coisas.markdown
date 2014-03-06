@@ -11,7 +11,7 @@ Devido a isso, vou pegar o tempo que tenho de sobra, e aplicar nas minhas pendê
 
 <img src="/img/posts/lampada.jpg" />
 
-Assim, vou redusir o número de posts do meu blog. Postar duas ou três vezes por semana, acredito que estaria legal.
+Assim, vou reduzir o número de posts do meu blog. Postar duas ou três vezes por semana, acredito que estaria legal.
 
 Qualquer dúvida, chama aí no Twitter!
 
