@@ -10,11 +10,11 @@ Mal comecei o quinto semestre em Bacharel em Sistemas de Informações, e já es
 <img src="/img/posts/github.png" />
 
 <h3>Apresentações</h3>
-As apresentações estão no meu <a href="https://github.com/FabricioRonchi" target="blank">Github pessoal</a> ou no <a href="https://github.com/bsi" target="blank">Github</a> da turma de BSI. Também está disponível as apresentações dos meus amigos.
+As apresentações estão no meu <a href="https://github.com/FabricioRonchi" target="blank">Github</a> pessoal ou no <a href="https://github.com/bsi" target="blank">Github</a> da turma de BSI. Também está disponível as apresentações dos meus amigos.
 
 <h3>Exemplos</h3>
 * <a href="https://github.com/bsi/Symbian" target="blank">Symbian</a>
 * <a href="https://github.com/bsi/EclipseLink" target="blank">EclipseLink</a>
 * <a href="https://github.com/bsi/nhibernate" target="blank">NHibernate</a>
 
-Qualquer dúvida, chama aí no <a href="https://github.com/bsi/nhibernate" target="blank">Twitter</a>!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
