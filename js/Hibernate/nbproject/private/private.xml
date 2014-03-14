@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/persistence/entities/IUser.java</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/TestarPersistence.java</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/persistence/entities/RoleDAO.java</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/persistence/entities/User.java</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/persistence/entities/IDAO.java</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/persistence/entities/GenericDAO.java</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/persistence/entities/Relacionamento.java</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/persistence/entities/IRole.java</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/persistence/entities/RelacionamentoDAO.java</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/persistence/entities/HibernateUtil.java</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/persistence/entities/UserDAO.java</file>
+            <file>file:/C:/Users/fabricio.konell/Desktop/Hibernate/src/persistence/entities/Role.java</file>
+        </group>
+    </open-files>
+</project-private>
