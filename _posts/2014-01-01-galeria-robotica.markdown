@@ -15,7 +15,11 @@ categories: Blog
 
 <div class="video-container"><iframe src="//www.youtube.com/embed/2zEe5hWABVg" frameborder="0" width="560" height="315"></iframe></div> 
 
+<br />
+
 <div class="video-container"><iframe src="//www.youtube.com/embed/1Fz-82AHiOA" frameborder="0" width="560" height="315"></iframe></div> 
+
+<br />
 
 <div class="video-container"><iframe src="//www.youtube.com/embed/BWxRT098DLM" frameborder="0" width="560" height="315"></iframe></div> 
 
