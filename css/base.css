@@ -4,6 +4,12 @@ body {
   font-family: 'News Cycle', sans-serif;
 }
 
+.galeria{
+  margin-top: 2px; 
+  margin-right: -5px; 
+  margin-left: 3px;   
+}
+
 a {
   color: #307EA9;
   text-decoration: none;
