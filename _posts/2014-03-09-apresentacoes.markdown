@@ -18,6 +18,6 @@ As apresentações estão no meu <a href="https://github.com/FabricioRonchi" tar
 * <a href="https://github.com/bsi/nhibernate" target="blank">NHibernate</a>
 * <a href="http://bsi.github.io/ios" target="blank">IOS</a>
 
-Obrigado <a href="https://github.com/AgtLucas" target="blank">Lucas</a>, <a href="https://github.com/grazigrossklags" target="blank">Grazi</a>, <a href="https://github.com/alessandrostein" target="blank">Alessandro</a>, Carla e Kather, por ter autorizado a publicação do Projeto NHibernate.
+Obrigado <a href="https://github.com/AgtLucas" target="blank">Lucas</a>, <a href="https://github.com/grazigrossklags" target="blank">Grazi</a>, <a href="https://github.com/alessandrostein" target="blank">Alessandro</a>, Carla e Kather, por ter autorizado a publicação do Projeto NHibernate e IOS.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
