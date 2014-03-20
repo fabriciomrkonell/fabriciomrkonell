@@ -6,7 +6,7 @@ categories: Blog
 ---
 
 <h3>Robótica</h3>
-Participo da equipe de robótica da <a href="http://www.catolicasc.org.br/" target="blank">Faculdade</a> onde estou cursando Bacharel em Sistemas de Informação.
+Participo da equipe de robótica da Faculdade onde estou cursando Bacharel em Sistemas de Informação.
 
 Estamos com 3 projetos em desenvolvimento, sendo eles:
 
