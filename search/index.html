@@ -3,11 +3,27 @@ layout: default
 title: Search - Fabricio
 imagem: /img/fundoSearch.jpg
 ---
-<div class="my-container" style="text-align: center">
-  <nav id="menu-contato">
-    <input type="text" placeholder="Expression... Ex: AngularJS" />
-  </nav>
-  <br />  
+<div ng-app="myapp">
+	<div class="my-container" style="text-align: center" ng-controller="MyController">
+  		<nav id="menu-contato">
+    		<input type="text" placeholder="Expression... Ex: AngularJS" ng-model="expressao" />      	  		  			
+    		<hr />
+  			<div class="post" ng-repeat="post in posts | filter:expressao">      		
+      			<a href="{(post.url)}">{(post.title)}</a>
+    		</div>  
+    	</nav>
+    </div>		
 </div>
+<script type="text/javascript">
+var myApp = angular.module('myapp', []).config([
+	'$interpolateProvider', function($interpolateProvider) {
+    	return $interpolateProvider.startSymbol('{(').endSymbol(')}');
+  	}
+]);
+
+myApp.controller('MyController', function($scope) {
+	$scope.posts = {% include posts.html %};     
+});
+</script>
 <br />
 <br />
