@@ -1,21 +1,12 @@
 Font license info
 
 
-## Font Awesome
+## Entypo
 
-   Copyright (C) 2012 by Dave Gandy
+   Copyright (C) 2012 by Daniel Bruce
 
-   Author:    Dave Gandy
-   License:   SIL ()
-   Homepage:  http://fortawesome.github.com/Font-Awesome/
-
-
-## Brandico
-
-   (C) 2012 by Vitaly Puzrin
-
-   Author:    Crowdsourced, for Fontello project
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  
+   Author:    Daniel Bruce
+   License:   CC BY-SA (http://creativecommons.org/licenses/by-sa/2.0/)
+   Homepage:  http://www.entypo.com
 
 

@@ -7,34 +7,22 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "6855131631509e8795730ce062045ea1",
-      "css": "left-circled",
-      "code": 59396,
-      "src": "fontawesome"
+      "uid": "91daf8fde1042a363514ca7e42d89570",
+      "css": "github-circled-1",
+      "code": 59405,
+      "src": "entypo"
     },
     {
-      "uid": "19b04848ae7332d2c0ea2a9e19064037",
-      "css": "right-circled",
-      "code": 59394,
-      "src": "fontawesome"
+      "uid": "0419da6446cb4f31093e2022793571ca",
+      "css": "twitter-circled",
+      "code": 59403,
+      "src": "entypo"
     },
     {
-      "uid": "4c01f5d3ba5fbf029bca8630cce41e6a",
-      "css": "twitter-bird",
-      "code": 59393,
-      "src": "brandico"
-    },
-    {
-      "uid": "4a0bb1ac004980bb3837560d4c9e8cee",
-      "css": "github",
-      "code": 59392,
-      "src": "brandico"
-    },
-    {
-      "uid": "e9e96618b0f44170930f9b179237c76e",
-      "css": "linkedin-rect",
-      "code": 59395,
-      "src": "brandico"
+      "uid": "21adad41ffebf469b2370d26bcb8a3c4",
+      "css": "linkedin-circled",
+      "code": 59404,
+      "src": "entypo"
     }
   ]
 }
