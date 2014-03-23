@@ -485,5 +485,11 @@ iframe{
   font-size: 18px;
   width: 50%;
   display: inline-block;
-  text-align: center;
+  text-align: center;  
+}
+
+.input-search{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
