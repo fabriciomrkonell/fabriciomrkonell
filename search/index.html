@@ -9,7 +9,7 @@ imagem: /img/fundoSearch.jpg
   		<nav id="menu-contato">
     		<input type="text" placeholder="Ex: AngularJS" ng-model="expressao" />      	  		  			    		    	
     		<br />
-  			<div style="font-size: 18px" class="post" ng-repeat="post in posts | filter:expressao">      		
+  			<div class="post list-search" ng-repeat="post in posts | filter:expressao">      		
       			<a href="{(post.url)}">{(post.title)}</a>      			
     		</div>  
     	</nav>

@@ -480,3 +480,10 @@ iframe{
   background-color: #f0ad4e;
   border-color: #eea236;
 }
+
+.list-search{
+  font-size: 18px;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
