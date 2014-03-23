@@ -11,9 +11,11 @@ imagem: /img/fundoSearch.jpg
     		<br />
     		<hr />
     		<br />
-  			<div class="post" ng-repeat="post in posts | filter:expressao">      		
-      			<a href="{(post.url)}">{(post.title)}</a>
-    		</div>  
+  			<ul class="post listing" ng-repeat="post in posts | filter:expressao">
+  				<li class="my-li">      		
+      				<a href="{(post.url)}">{(post.title)}</a>
+      			</li>
+    		</ul>  
     	</nav>
     </div>		
 </div>
