@@ -4,7 +4,7 @@ $(function(){
       if(atual == 1){
         $("#label-contato").html("Follow me on Twitter!");
       }else if(atual ==2){
-        $("#label-contato").html("Add me on Linkedin");
+        $("#label-contato").html("Add me on Linkedin!");
       }else{
         $("#label-contato").html("Follow me on GitHub!");
       }
