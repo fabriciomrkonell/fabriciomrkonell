@@ -7,7 +7,7 @@ imagem: /img/fundoSearch.jpg
 <div ng-app="myapp">
 	<div class="my-container" ng-controller="MyController">
   		<nav id="menu-contato">
-    		<input type="text" placeholder="Expression... Ex: AngularJS" ng-model="expressao" />      	  		  			    		    	
+    		<input type="text" placeholder="Ex: AngularJS" ng-model="expressao" />      	  		  			    		    	
     		<br />
   			<div style="font-size: 18px" class="post" ng-repeat="post in posts | filter:expressao">      		
       			<a href="{(post.url)}">{(post.title)}</a>      			
