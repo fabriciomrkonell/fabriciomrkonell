@@ -10,6 +10,5 @@ $(function(){
       }
     }, function(){
         $("#label-contato").html("")
-        event.preventDefault();
     })
 })
