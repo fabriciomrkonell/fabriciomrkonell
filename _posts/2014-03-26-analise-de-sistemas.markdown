@@ -15,7 +15,7 @@ Single Responsibility - A classe dever ter uma única responsábilidade;
 Programas devem ser abertos pra extenção e fechados pra modificação - Nunca mais arrumar;
 
 <h3>L</h3>
-Barbara Liskov - Princípio da substituição - Classes derivadas devem poder ser substituídas por suas classes base - compartamento do pai deve ser honrado pelo filos, e os filhos podem ser chamados pelo pais, posso chamar um fiho respondendo pelo pai
+<a href="http://pt.wikipedia.org/wiki/Barbara_Liskov" target="blank">Barbara Liskov</a> - Princípio da substituição - Classes derivadas devem poder ser substituídas por suas classes base - compartamento do pai deve ser honrado pelo filos, e os filhos podem ser chamados pelo pais, posso chamar um fiho respondendo pelo pai
 
 <h3>I</h3>
 Interface Segregation - Objeto deve implementar apenas os métodos dos pais - Não fale com estranho, somente com objetos da mesma classe
@@ -25,6 +25,3 @@ Dependency Inversion - Inverção de dependência - Se depender de alguem, depen
 
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
-
-
-
