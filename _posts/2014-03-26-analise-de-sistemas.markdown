@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Análise de Sistemas"
+title:  "Análise de Sistemas - SOLID"
 date:   2014-03-26 13:00:00
 categories: Blog
 ---
