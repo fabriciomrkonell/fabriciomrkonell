@@ -12,8 +12,7 @@ Robocode é um jogo de programação, onde o objetivo é desenvolver um tanque d
 <h3>Objetivo</h3>
 Além de ser um jogo de programação, Robocode é usado para aprender a programar orientado a objeto.
 
-<img src="/img/posts/inconAngularJS.png" />
-
+<img src="/img/posts/robocode.png" />
 
 Confira o meu Robô <a href="https://github.com/FabricioRonchi/Robocode" target="blank">John Dillinger</a>.
 
