@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TDC - 2014 - Inscrição"
+title:  "TDC - 2014 - Novidades"
 date:   2014-04-01 13:00:00
 categories: Blog
 ---
@@ -10,7 +10,7 @@ Pois bem, a inscrição promocional da <a href="http://www.thedevelopersconferen
 
 Não deixe pra última hora, faça já a sua Inscrição.
 
-<img src="/img/posts/robocode.png" />
+<img src="/img/posts/tdc2014Inscricao.png" />
 
 Confira meu posto sobre a <a href="http://www.thedevelopersconference.com.br" target="blank">TDC2014</a>.
 
