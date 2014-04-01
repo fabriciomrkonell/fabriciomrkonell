@@ -8,9 +8,9 @@ categories: Blog
 <h3>Inscrição Promocional</h3>
 Pois bem, a inscrição promocional do <a href="http://www.thedevelopersconference.com.br" target="blank">TDC2014</a> foi prorrogada até o dia 10 de Abril.
 
-Não deixe pra última hora, faça já a sua Inscrição.
+Não deixe pra última hora, faça a sua Inscrição.
 
-<img src="/img/posts/tdc2014Inscricao.png" />
+<img src="/img/posts/tdc2014Inscricao.jpg" />
 
 Confira meu posto sobre o <a href="http://fabricioronchi.com/blog/2014/03/17/the-developers-conference.html" target="blank">TDC2014</a>.
 
