@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Robocode -teste	"
-date:   2014-03-30 13:00:00
+title:  "TDC - 2014 - Novidades"
+date:   2014-04-01 13:00:00
 categories: Blog
 ---
 
@@ -15,6 +15,3 @@ Não deixe pra última hora, faça a sua Inscrição.
 Confira meu posto sobre o <a href="http://fabricioronchi.com/blog/2014/03/17/the-developers-conference.html" target="blank">TDC2014</a>.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
-
-
-
