@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TDC - 2014 - Novidades"
+title:  "TDC2014 - Novidades"
 date:   2014-04-01 13:00:00
 categories: Blog
 ---
