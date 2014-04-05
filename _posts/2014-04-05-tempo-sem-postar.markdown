@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Iniciativa"
+date:   2014-04-01 13:00:00
+categories: Blog
+---
+
+Pois bem, estou algum tempo sem postar algo aqui no Blog, lamentável.
+
+Estou com muitas ideias, mas o tempo não ajuda.
+
+Talvez, se eu definir importâncias no meu dia-a-dia, isso irá me ajudar.
+
+<img src="/img/posts/alkaw.png" />
+
+Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
