@@ -6,11 +6,11 @@ categories: Blog
 ---
 
 <h3>Tilhas e Palestrantes</h3>
-Saíu os palestrates das trilhas para o <a href="http://www.thedevelopersconference.com.br" target="blank">TDC2014</a>.
+Foi divulgado os palestrates das trilhas para o <a href="http://www.thedevelopersconference.com.br" target="blank">TDC2014</a>.
 
 <img src="/img/posts/tdctrilhas2014.png" />
 
-Confira, ainda da tempo de comprar o ingresso.
+Confira, ainda da tempo de comprar o seu ingresso.
 
 <h3>Posts relacionados</h3>
 * <a href="http://fabricioronchi.com/blog/2014/04/01/promocao-tdc-2014.html" target="blank">Novidades</a>.
