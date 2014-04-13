@@ -6,7 +6,7 @@ categories: Blog
 ---
 
 <h3>Tilhas e Palestrantes</h3>
-Foi divulgado os palestrates das trilhas para o <a href="http://www.thedevelopersconference.com.br" target="blank">TDC2014</a>.
+Foi divulgado os palestrates para as trilhas do <a href="http://www.thedevelopersconference.com.br" target="blank">TDC2014</a>.
 
 <img src="/img/posts/tdctrilhas2014.png" />
 
