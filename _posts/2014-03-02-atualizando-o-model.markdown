@@ -9,6 +9,6 @@ Não recomendo mas...
 
 <img src="/img/posts/apply.png" />
 
-Mais informações sobre o <code>"$scope.$apply()"</code> <a href="../../../../blog/2014/02/26/utilizando-o-o%24scope.html" target="_blank">aqui</a>.
+Mais informações sobre o <code>"$scope.$apply()"</code> <a href="../../../2014/02/26/utilizando-o-o%24scope.html" target="_blank">aqui</a>.
 
 Dúvidas? Entre em contato!
