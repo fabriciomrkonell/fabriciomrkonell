@@ -13,7 +13,7 @@ Foi divulgado os palestrates para as trilhas do <a href="http://www.thedeveloper
 Confira, ainda da tempo de comprar o seu ingresso.
 
 <h3>Posts relacionados</h3>
-* <a href="http://fabricioronchi.com/blog/2014/04/01/promocao-tdc-2014.html" target="blank">Novidades</a>.
-* <a href="http://fabricioronchi.com/blog/2014/03/17/the-developers-conference.html" target="blank">Evento</a>.
+* <a href="../../../../blog/2014/04/01/promocao-tdc-2014.html" target="blank">Novidades</a>.
+* <a href="../../../../blog/2014/03/17/the-developers-conference.html" target="blank">Evento</a>.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
