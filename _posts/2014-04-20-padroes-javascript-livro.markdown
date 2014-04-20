@@ -8,7 +8,7 @@ categories: Blog
 <h3>JavaScript</h3>
 Comprei um livro essa semana, com o titulo Padrões JavaScript.
 
-Estou no começo do livro ainda, mas ja aprendi bastante coisa.
+Estou no começo do livro ainda, mas já aprendi bastante coisa.
 
 <img src="/img/posts/livroJavaScript.jpg" />
 
