@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Padrões JavaScript"
+date:   2014-04-20 13:00:00
+categories: Blog
+---
+
+<h3>JavaScript</h3>
+Comprei um livro essa semana, com o titulo Padrões JavaScript.
+
+Estou no começo do livro ainda, mas ja aprendi bastante coisa.
+
+<img src="/img/posts/tdctrilhas2014.png" />
+
+Recomendo.
+
+Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
