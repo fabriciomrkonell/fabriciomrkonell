@@ -10,7 +10,7 @@ Comprei um livro essa semana, com o titulo Padrões JavaScript.
 
 Estou no começo do livro ainda, mas ja aprendi bastante coisa.
 
-<img src="/img/posts/tdctrilhas2014.png" />
+<img src="/img/posts/livroJavaScript.jpg" />
 
 Recomendo.
 
