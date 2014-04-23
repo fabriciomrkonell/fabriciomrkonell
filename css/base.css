@@ -239,6 +239,11 @@ pre{
   white-space: pre-wrap;
 }
 
+.social{
+  float: right;
+}
+
+
 @media (max-width: 540px) {
   .menu{
     text-align: center;
