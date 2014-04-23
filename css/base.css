@@ -255,6 +255,13 @@ pre{
   }
 }
 
+@media (max-width: 600px) {   
+  .social{
+    display: none;
+  }
+}
+
+
 @media (max-width: 550px) {   
   #label-contato{
     display: none;
