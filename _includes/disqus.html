@@ -1,9 +1,22 @@
+ <script src="/js/shared-twitter.js"></script>
+<script src="/js/shared-linkedin.js"></script>
+
+<!-- Place this tag after the last share tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
  <div style="
     margin-bottom: 10px;
     margin-top: -20px;
 "><label style="
     margin-bottom: 87px;
-">Compartilhar: </label></div>
+">Compartilhar: <div class="g-plus" data-action="share" data-annotation="bubble"></div>
+					<script type="IN/Share" data-counter="right"></script>
+					<a href="https://twitter.com/share" class="twitter-share-button" data-via="FRonchii">Tweet</a>	</label></div>
  
  <div id="disqus_thread"></div>
 <script type="text/javascript"> 	
