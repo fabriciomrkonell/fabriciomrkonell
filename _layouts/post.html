@@ -2,30 +2,14 @@
 layout: default
 imagem: /img/fundoBlog.jpg
 ---
-<script src="/js/shared-twitter.js"></script>
-<script src="/js/shared-linkedin.js"></script>
-<!-- Place this tag where you want the share button to render. -->
 
-
-<!-- Place this tag after the last share tag. -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
 <div class="my-container">
 	<div class="post ">
 		<section class="my-container content" >
 			<h1>{{ page.title }}</h1>
 			<div class="when">
 				{{ page.date | date_to_long_string }}
-				<div class="social">
-					<div class="g-plus" data-action="share" data-annotation="bubble"></div>
-					<script type="IN/Share" data-counter="right"></script>
-					<a href="https://twitter.com/share" class="twitter-share-button" data-via="FRonchii">Tweet</a>	
-				</div>
+				
 			</div>
 			{{ content }}		
 		</section>
