@@ -241,6 +241,7 @@ pre{
 
 .social{
   float: right;
+  display: -webkit-box;
 }
 
 
