@@ -240,8 +240,8 @@ pre{
 }
 
 .social{
-  float: right;
-  display: -webkit-box;
+  margin-bottom: 10px; 
+  margin-top: -20px;
 }
 
 #twitter-widget-0{
@@ -264,13 +264,6 @@ pre{
     height: 200px !important;
   }
 }
-
-@media (max-width: 600px) {   
-  .social{
-    display: none;
-  }
-}
-
 
 @media (max-width: 550px) {   
   #label-contato{
