@@ -244,6 +244,10 @@ pre{
   display: -webkit-box;
 }
 
+.IN-widget{
+  margin-right: -20px;
+}
+
 
 @media (max-width: 540px) {
   .menu{
