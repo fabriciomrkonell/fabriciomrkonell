@@ -434,24 +434,6 @@ iframe{
   font-size: 1.1em;
 }
 
-/*Progress*/
-.pace .pace-progress {
-  background: black;
-  position: fixed;
-  z-index: 2000;
-  top: 0;
-  left: 0;
-  height: 3px;
-  -webkit-transition: width 1s;
-  -moz-transition: width 1s;
-  -o-transition: width 1s;
-  transition: width 1s;
-}
-
-.pace-inactive {
-  display: none;
-}
-
 .btn {
   display: inline-block;
   padding: 6px 12px;
