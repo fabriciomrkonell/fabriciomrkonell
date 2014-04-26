@@ -13,6 +13,6 @@ Outra novidade é a inserção dos botões das redes sociais no final de cada po
 
 São eles: Google+, Twitter e Linkedin.
 
-<img src="/img/posts/livroJavaScript.jpg" />
+<img src="/img/posts/social.png" />
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
