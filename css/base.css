@@ -28,7 +28,7 @@ input{
   width: 100%;
   height: 22px;
   padding: 6px 0px 6px 6px;
-  font-size: 14px;
+  font-size: 14px;s
   line-height: 1.428571429;
   color: #555;
   background-color: #fff;
@@ -238,6 +238,16 @@ h3 {
 pre{
   white-space: pre-wrap;
 }
+
+.social{
+  margin-bottom: 10px; 
+  margin-top: -20px;
+}
+
+#twitter-widget-0{
+  display: inline-block;
+}
+
 
 @media (max-width: 540px) {
   .menu{
