@@ -9,7 +9,7 @@ No mês que vem acontece em Porto Alegre a terceira edição do Rio Grande do Su
 
 Estou pensando em ir no evento.
 
-<img src="/img/posts/social.png" />
+<img src="/img/posts/riograndejs.png" />
 
 <h3>Informações</h3>
 * Data: 17/05/2014
