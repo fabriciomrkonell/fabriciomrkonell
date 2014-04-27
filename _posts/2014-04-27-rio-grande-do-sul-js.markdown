@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RS-JS - 2014"
+title:  "RSJS - 2014"
 date:   2014-04-27 13:00:00
 categories: Blog
 ---
@@ -11,7 +11,7 @@ Estou pensando em ir no evento.
 
 <img src="/img/posts/riograndejs.png" />
 
-<h3>Informações</h3>
+<h3>Resumo</h3>
 * Data: 17/05/2014
 * Local: Porto Alegre - RS
 
