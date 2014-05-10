@@ -8,7 +8,7 @@ categories: Blog
 <h3>Introdução</h3>
 Com iniciativa dos meus colegas <a href="http://agtlucas.com/" target="blank">Lucas</a> e <a href="http://alessandrostein.com/" target="blank">Alessandro</a>, criamos em aqui Jaraguá do Sul-SC, um grupo para compartilhar conhecimentos sobre as tecnologias da Google, chamado de "Google Developer Group".
 
-<img src="/img/posts/riograndejs.png" />
+<img src="/img/posts/gdg.jpeg" />
 
 <h3>O que é?</h3>
 O GDG Jaraguá do Sul, é uma comunidade independente que tem como objetivo compartilhar e construir conhecimento através das principais tecnologias Google atualmente existentes, tais como Angular, Polymer, Go, Android, etc.
