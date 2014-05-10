@@ -14,8 +14,8 @@ Com iniciativa dos meus colegas <a href="http://agtlucas.com/" target="blank">Lu
 O GDG Jaraguá do Sul, é uma comunidade independente que tem como objetivo compartilhar e construir conhecimento através das principais tecnologias Google atualmente existentes, tais como Angular, Polymer, Go, Android, etc.
 
 <h3>Participe</h3>
-* Grupo
-* Google+
-* Google Developers
+* <a href="https://developers.google.com/groups/chapter/114767068998939804773/" target="blank">Grupo</a>
+* <a href="https://plus.google.com/114767068998939804773/about" target="blank">Google+</a>
+* <a href="https://developers.google.com/groups/" target="blank">Google Developers</a>
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
