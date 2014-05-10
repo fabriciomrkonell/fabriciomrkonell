@@ -6,7 +6,7 @@ categories: Blog
 ---
 
 <h3>Introdução</h3>
-Com iniciativa dos meu colega Lucas, e também do Alessandro, criamos em Jara,guá do Sul-SC, um grupo para compartilhar conhecimentos sobre as tecnologias da Google, chamado de "Google Developer Group".
+Com iniciativa dos meus colegas <a href="http://agtlucas.com/" target="blank">Lucas</a> e <a href="http://alessandrostein.com/" target="blank">Alessandro</a>, criamos em aqui Jaraguá do Sul-SC, um grupo para compartilhar conhecimentos sobre as tecnologias da Google, chamado de "Google Developer Group".
 
 <img src="/img/posts/riograndejs.png" />
 
