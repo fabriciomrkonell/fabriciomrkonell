@@ -1,12 +1,12 @@
 Font license info
 
 
-## Entypo
+## MFG Labs
 
    Copyright (C) 2012 by Daniel Bruce
 
-   Author:    Daniel Bruce
-   License:   CC BY-SA (http://creativecommons.org/licenses/by-sa/2.0/)
-   Homepage:  http://www.entypo.com
+   Author:    MFG Labs
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://www.mfglabs.com/
 
 
