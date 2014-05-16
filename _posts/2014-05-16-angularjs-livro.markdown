@@ -5,7 +5,7 @@ date:   2014-05-16 13:00:00
 categories: Blog
 ---
 
-<h3>JavaScript</h3>
+<h3>Novo livro</h3>
 Essa semana chegou meu livro que comprei a quase dois meses, AngularJS.
 
 Ele está em Inglês e com isso vou ter que me esforçar bastante pra entender ele.
