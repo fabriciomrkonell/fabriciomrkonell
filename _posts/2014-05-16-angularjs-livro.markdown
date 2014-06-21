@@ -14,4 +14,4 @@ Ele está em Inglês e com isso vou ter que me esforçar bastante pra entender e
 
 Recomendo.
 
-Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

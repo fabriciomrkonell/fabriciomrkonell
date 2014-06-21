@@ -26,41 +26,41 @@ Esquema de conexão.
 <h3>3º - Configurando a IDE</h3>
 
 {% highlight ruby %}
-  #include <dht.h>	
-  
+  #include <dht.h>
+
   //Pino 2 do Sensor vai ligado na porta A1 do Arduino
-  #define dht_dpin A1 	
+  #define dht_dpin A1
 
   //Inicia o Sensor
-  dht DHT; 	
-  
+  dht DHT;
+
   void setup() {
     Serial.begin(9600);
-  	
+
     //Aguarda 1 segundo antes de acessar o DHT11
     delay(1000);
   }
-	
+
   void loop() {
     //Faz a leitura
-  	DHT.read11(dht_dpin); 
+  	DHT.read11(dht_dpin);
     Serial.print('Umidade = ');
     Serial.print(DHT.humidity);
     Serial.print(' - ');
     Serial.print('Temperatura = ');
-    Serial.print(DHT.temperature); 
+    Serial.print(DHT.temperature);
     Serial.println(' Celsius  ');
   	//Faz a leitura a cada 2 segundos
-    delay(2000);  
+    delay(2000);
   }
 {% endhighlight %}
 
 <h3>4º - Execução</h3>
-Compile o código e abra a tela do serial monitor. 
+Compile o código e abra a tela do serial monitor.
 Pronto, seu sensor DHT11 está fazendo as medições.
 
 Lembre-se!
 
 * Se algum cabo for conectado de maneira errada, isso poderá danificar os componentes.
 
-Dúvidas? Entre em Contato.
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

@@ -16,7 +16,4 @@ Confira o projeto semente no meu <a href="https://github.com/FabricioRonchi/Seed
 
 <img src="/img/posts/require.png" />
 
-Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
-
-
-
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

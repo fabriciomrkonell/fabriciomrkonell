@@ -8,7 +8,7 @@ categories: Blog
 <h3>O que é?</h3>
 Pygame é uma biblioteca de jogos multiplataforma feita para ser utilizada em conjunto com a linguagem de programação Python. O seu nome tem origem da junção de Py, proveniente de Python e Game, ou seja, Jogos em Python.
 
-Se baseia na idéia de que as tarefas mais intensivas a nível computacional, podem ser abstraídas separadamente da lógica principal, ou seja, o uso de memória e CPU são tratados pelo próprio código do Pygame e não pelo código do seu jogo. 
+Se baseia na idéia de que as tarefas mais intensivas a nível computacional, podem ser abstraídas separadamente da lógica principal, ou seja, o uso de memória e CPU são tratados pelo próprio código do Pygame e não pelo código do seu jogo.
 
 <img src="/img/posts/pyGame.png" />
 
@@ -20,4 +20,4 @@ PyGame é gratuito. Lançado sob a <a href="http://www.pygame.org/LGPL" target="
 * <a href="http://www.python.org.br/wiki/PyGame" target="_blank">Python Brasil</a>
 * <a href="wikipedia http://pt.wikipedia.org/wiki/Pygame" target="_blank">Wikipédia</a>
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

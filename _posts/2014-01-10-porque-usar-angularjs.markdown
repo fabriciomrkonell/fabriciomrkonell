@@ -22,4 +22,4 @@ Em um Futuro Próximo, criarei um post sobre AngularJS e suas funções ESPETACU
 
 Thanks <a href="https://plus.google.com/u/0/110290821588589095157/posts" target="_blank" />Rubens</a> pelas Imagens.
 
-"Té" mais.
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

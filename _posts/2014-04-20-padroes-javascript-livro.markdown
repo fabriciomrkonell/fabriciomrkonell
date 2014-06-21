@@ -14,4 +14,4 @@ Estou no começo do livro ainda, mas já aprendi bastante coisa.
 
 Recomendo.
 
-Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

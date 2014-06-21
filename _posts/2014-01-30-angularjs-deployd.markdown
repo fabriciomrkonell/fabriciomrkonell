@@ -13,9 +13,11 @@ Vale a pena conferir.
 
 
 <div class="video-container">
-  <iframe width="560" height="315" src="//www.youtube.com/embed/0V8fQoqQLLA" frameborder="0"></iframe>  
-</div> 
+  <iframe width="560" height="315" src="//www.youtube.com/embed/0V8fQoqQLLA" frameborder="0"></iframe>
+</div>
 
 <h3>Referências</h3>
 
 * <a href="http://deployd.com/">Deployd</a>
+
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

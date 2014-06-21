@@ -15,7 +15,7 @@ Esse post é só um teste do Blog. Vou testar algumas funcionalidades, como Vide
 
 <h3>Video</h3>
 
-<div class="video-container"> <iframe src="//www.youtube.com/embed/ovASq1-TfF0" frameborder="0" width="560" height="315"></iframe> </div> 
+<div class="video-container"> <iframe src="//www.youtube.com/embed/ovASq1-TfF0" frameborder="0" width="560" height="315"></iframe> </div>
 
 <h3>Referências</h3>
 
@@ -24,3 +24,5 @@ Esse post é só um teste do Blog. Vou testar algumas funcionalidades, como Vide
 * <a href="#">YouTube</a>
 
 Chega de Teste.
+
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

@@ -12,4 +12,4 @@ Hoje estou meio sem tempo, então segue alguns exemplos de aplicações que usam
 
 Até a próxima.
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

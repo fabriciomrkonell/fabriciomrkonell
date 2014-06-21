@@ -11,4 +11,4 @@ Andando pelas trilhas de <a href="http://pt.wikipedia.org/wiki/Schroeder" target
 
 <a href="https://github.com/cerebrobr/traduz-ai/tree/master/angularjs" target="_blank">Ver tutorial</a>
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

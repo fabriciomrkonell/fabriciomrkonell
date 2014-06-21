@@ -10,7 +10,7 @@ Essa semana resolvi brincar com algumas ferramentas novas, como: <a href="http:/
 
 Quando estiver mais amadurecido sobre esses assuntos irei postar detalhadamente sobre eles.
 
-RequireJS foi o que me chamou a atenção. 
+RequireJS foi o que me chamou a atenção.
 
 <img src="/img/posts/require.png" />
 
@@ -20,7 +20,4 @@ Acesse a aplicação <a href="http://fabricioronchi.github.io/RequireJS/" target
 
 Assim que tiver novidades, estarei postanto.
 
-Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
-
-
-
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

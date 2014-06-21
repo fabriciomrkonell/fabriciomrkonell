@@ -18,4 +18,4 @@ A princípio é um post de teste, pois preciso implementar novas funções ao Bl
 	var funcoes = { "Loading" , "Contato" , "Index" }
 {% endhighlight %}
 
-Por Hoje é só.
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

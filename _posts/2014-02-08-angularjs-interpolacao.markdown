@@ -6,7 +6,7 @@ categories: Blog
 ---
 
 <h3>Interpolação</h3>
-Quando comecei escrever meu blog, tive dificuldades para mostrar o código nas postagens com AngularJS. Como esse blog é criado com Jekyll, a aplicação angular é compilada como um site estático, assim nenhuma das minhas expressões estavam aparecendo. 
+Quando comecei escrever meu blog, tive dificuldades para mostrar o código nas postagens com AngularJS. Como esse blog é criado com Jekyll, a aplicação angular é compilada como um site estático, assim nenhuma das minhas expressões estavam aparecendo.
 
 Isso porque o Jekyll usa as mesmas expressões do AngularJS, exemplo: "{ { } }".
 
@@ -16,4 +16,4 @@ A solução que encontrei foi personalizar a Interpolação do Angular. Substitu
 <h3>Javascript</h3>
 <img src="/img/posts/interpolacao.png" />
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

@@ -26,7 +26,7 @@ Sim, e ambos podem se comunicar através do <code>"$scope.$broadcast"</code> e <
 </html>
 {% endhighlight %}
 
-Dúvidas? Entre em Contato.
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
 
 
 

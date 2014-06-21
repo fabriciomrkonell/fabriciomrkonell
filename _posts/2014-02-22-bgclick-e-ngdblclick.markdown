@@ -14,30 +14,30 @@ Nesse exemplo vou fiz um contador, que acrescetará "+1" toda vez que o evento f
 <h3>index.html</h3>
 {% highlight ruby %}
 <div ng-app="myapp">
-  <script src="angular.min.js"></script>  
-  <script src="app.js"></script>      
-  <div ng-controller="MyController">    
+  <script src="angular.min.js"></script>
+  <script src="app.js"></script>
+  <div ng-controller="MyController">
     <a rel="button" ng-click="cont = cont + 1">
     	Click
-    </a>    
+    </a>
     <a rel="button" ng-dblclick="cont = cont + 1">
     	Duplo Click
-    </a>    
-    <p>{ { cont } }</p>    
+    </a>
+    <p>{ { cont } }</p>
   </div>
 </div>
 {% endhighlight %}
 
 <h3>Exemplo</h3>
 <div ng-app="myapp">
-  <script src="/js/angular.min.js"></script>  
-  <script src="/js/app-click.js"></script>       
+  <script src="/js/angular.min.js"></script>
+  <script src="/js/app-click.js"></script>
   <div ng-controller="MyController" style="text-align: center">
-    <a rel="button" class="btn btn-info" ng-click="cont = cont + 1">Click</a>    
-    <a rel="button" class="btn btn-info" ng-dblclick="cont = cont + 1">Duplo Click</a>    
-    <p>{(cont)}</p>                
+    <a rel="button" class="btn btn-info" ng-click="cont = cont + 1">Click</a>
+    <a rel="button" class="btn btn-info" ng-dblclick="cont = cont + 1">Duplo Click</a>
+    <p>{(cont)}</p>
   </div>
 </div>
 
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

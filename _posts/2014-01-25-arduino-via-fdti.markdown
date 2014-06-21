@@ -43,3 +43,5 @@ As Configurações são padrão, apenas lembre-se de deixar seu gravador em "AVR
 Dúvidas? Entre em Contato.
 
 Até a próxima.
+
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

@@ -18,4 +18,4 @@ O GDG Jaraguá do Sul, é uma comunidade independente que tem como objetivo comp
 * <a href="https://plus.google.com/114767068998939804773/about" target="blank">Google+</a>
 * <a href="https://developers.google.com/groups/" target="blank">Google Developers</a>
 
-Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

@@ -22,4 +22,4 @@ Apesar do longo tempo de desenvolvimento, Prolog ainda não é uma linguagem por
 <h3>Referências</h3>
 * <a href="http://pt.wikipedia.org/wiki/Prolog" target="_blank">Wikipédia</a>
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

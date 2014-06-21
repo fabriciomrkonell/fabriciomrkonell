@@ -45,4 +45,4 @@ function obterDesconto() {
 }
 {% endhighlight %}
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

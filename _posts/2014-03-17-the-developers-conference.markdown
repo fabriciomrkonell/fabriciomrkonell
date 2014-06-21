@@ -12,7 +12,4 @@ O The Developer’s Conference é um evento que promove um mix variado de assunt
 
 Confira a programação no site da <a href="http://www.thedevelopersconference.com.br/" target="blank">TDC2014</a>.
 
-Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
-
-
-
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

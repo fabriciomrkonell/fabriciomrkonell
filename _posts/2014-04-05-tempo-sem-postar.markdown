@@ -13,4 +13,4 @@ Talvez, se eu definir importâncias no meu dia-a-dia, isso poderá ser fundament
 
 <img src="/img/posts/alkaw.png" />
 
-Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

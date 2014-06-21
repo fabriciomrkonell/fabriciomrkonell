@@ -13,4 +13,4 @@ Achei muito legal, mas não tive tempo ainda de ver o código.
 
 Mais informações <a href="https://github.com/justinmeister/Mario-Level-1" target="_blank">aqui</a>.
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

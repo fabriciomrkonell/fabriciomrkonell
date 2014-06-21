@@ -24,4 +24,4 @@ Interface Segregation - Objeto deve implementar apenas os métodos dos pais - N�
 Dependency Inversion - Inverção de dependência - Se depender de alguem, dependa de alguem abstrato, pois ao contrario podem sofrer alterações; classes de alto nivel não podem depender de classes de baixo nivel, a não ser de abstração
 
 
-Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

@@ -26,4 +26,4 @@ if (!$scope.$$phase) {
 
 <code>"$scope.$$phase()"</code> é um evento que vai me dizer se já tem algum <code>"$scope.$apply()"</code> em execução. Ele retornar uma expressão "True" ou "False".
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

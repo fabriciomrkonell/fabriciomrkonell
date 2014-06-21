@@ -17,4 +17,4 @@ Estou pensando em ir no evento.
 
 Confira todas as informações <a target="_blank" href="http://rsjs.org/2014/">aqui</a>.
 
-Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

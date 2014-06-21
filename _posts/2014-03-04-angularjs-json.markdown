@@ -11,8 +11,8 @@ Filtro que transforma os objetos do AngualarJS para formato JSON.
 <h3>Exemplo</h3>
 {% highlight ruby %}
 <div ng-app>
-  <script src="angular.min.js"></script>    
-  <pre>{ { {'name':'value'} | json } }</pre>        
+  <script src="angular.min.js"></script>
+  <pre>{ { {'name':'value'} | json } }</pre>
 </div>
 {% endhighlight %}
 
@@ -23,4 +23,4 @@ Filtro que transforma os objetos do AngualarJS para formato JSON.
 <br />
 }
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

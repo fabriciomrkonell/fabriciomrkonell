@@ -13,4 +13,4 @@ categories: Blog
 	<a type="button" href="http://fabricioronchi.github.io/AngularJS/" class="btn btn-success" target="_blank">Ver Exemplo</a>
 </div>
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

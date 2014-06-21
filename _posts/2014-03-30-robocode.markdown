@@ -7,7 +7,7 @@ categories: Blog
 
 <h3>O que é?</h3>
 Robocode é um jogo de programação, onde o objetivo é desenvolver um tanque de guerra de robôs para a batalha contra outros tanques.
-É desenvolvido em Java ou .NET. 
+É desenvolvido em Java ou .NET.
 
 <h3>Objetivo</h3>
 Além de ser um jogo de programação, Robocode é usado para aprender a programar orientado a objeto.
@@ -21,7 +21,4 @@ Confira o meu Robô <a href="https://github.com/FabricioRonchi/Robocode" target=
 * <a href="http://robocode.sourceforge.net/" target="blank">Robocode</a>
 * <a href="http://pt.wikipedia.org/wiki/Robocode" target="blank">Wikipédia</a>
 
-Qualquer dúvida, chama aí no <a href="https://twitter.com/FRonchii" target="blank">Twitter</a>!
-
-
-
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

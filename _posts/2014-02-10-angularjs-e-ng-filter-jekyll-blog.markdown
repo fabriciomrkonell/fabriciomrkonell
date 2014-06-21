@@ -25,12 +25,12 @@ Definimos que a nossa variável do AngularJS($scope.posts), receba o JSON que es
 <h3>Exemplo</h3>
 Nesse exemplo faço a filtragem dos meus posts.
 
-<script src="/js/angular.min.js"></script>      
-<div ng-app="myapp"> 
-  	<div ng-controller="MyController">  
+<script src="/js/angular.min.js"></script>
+<div ng-app="myapp">
+  	<div ng-controller="MyController">
   		<input type="text" ng-model="expressao" placeholder="Expressao de Consulta"/>
-  		<p style="margin-bottom: 5px">Minhas Postagens: </p>  		
-  		<div class="post" ng-repeat="post in posts | filter:expressao">      		
+  		<p style="margin-bottom: 5px">Minhas Postagens: </p>
+  		<div class="post" ng-repeat="post in posts | filter:expressao">
       		<a ng-show="top10($index)" href="{(post.url)}">{(post.title)}</a>
     	</div>
   	</div>
@@ -43,16 +43,16 @@ var myApp = angular.module('myapp', []).config([
 ]);
 
 myApp.controller('MyController', function($scope) {
-	$scope.posts = {% include posts.html %};    
+	$scope.posts = {% include posts.html %};
 
   $scope.top10 = function(id){
     if(id < 10){
       return true;
     }else{
       return false;
-    }    
+    }
   };
 });
 </script>
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

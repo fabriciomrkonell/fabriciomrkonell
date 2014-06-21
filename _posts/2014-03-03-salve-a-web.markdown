@@ -13,4 +13,6 @@ Basta colocar um arquivo javascript em sua página html. Esse arquivo identifica
 <h3>Referências</h3>
  * <a href="http://salveaweb.com/" target="_blank">Site Oficial</a>
 
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
+
 

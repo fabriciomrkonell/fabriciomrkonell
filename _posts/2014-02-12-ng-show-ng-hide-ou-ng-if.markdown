@@ -17,4 +17,4 @@ Adiciona ao elemente <code>"display:none"</code> quando a expressão for false.
 <h3>ngHide</h3>
 Adiciona ao elemente <code>"display:none"</code> quando a expressão for true.
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

@@ -6,10 +6,10 @@ categories: Blog
 ---
 
 <h3>O que é?</h3>
-É um serviço para registro de logs. Sua implementação padrão escreve com segurança a mensagem para o console do navegador. 
+É um serviço para registro de logs. Sua implementação padrão escreve com segurança a mensagem para o console do navegador.
 
 <h3>Objetivo</h3>
-Seu objetivo é simplificar a depuração e solução de problemas. 
+Seu objetivo é simplificar a depuração e solução de problemas.
 
 <h3>index.html</h3>
 {% highlight ruby %}
@@ -18,7 +18,7 @@ Seu objetivo é simplificar a depuração e solução de problemas.
     <script src="angularJs.js"></script>
     <script src="app-log.js"></script>
   </head>
-  <body ng-controller="myController">         
+  <body ng-controller="myController">
   	<a type="button" ng-click="$log.log(msg)">
    		Log
    	</a>
@@ -44,11 +44,11 @@ function MyController($scope, $log) {
 {% endhighlight %}
 
 
-<h3>Exemplo</h3> 
-<script src="/js/angular.min.js"></script>      
-<script src="/js/app-log.js"></script>      
-<div ng-app="myapp"> 
-  <div ng-controller="MyController">        
+<h3>Exemplo</h3>
+<script src="/js/angular.min.js"></script>
+<script src="/js/app-log.js"></script>
+<div ng-app="myapp">
+  <div ng-controller="MyController">
     <button type="button" class="btn btn-success" ng-click="log(1)">Log</button>
     <button type="button" class="btn btn-warning" ng-click="log(2)">Warn</button>
     <button type="button" class="btn btn-info" ng-click="log(3)">Info</button>
@@ -56,7 +56,7 @@ function MyController($scope, $log) {
   </div>
 </div>
 
-<h3>Referência</h3> 
+<h3>Referência</h3>
 * <a href="http://docs.angularjs.org/api/ng.$log" target="_blank">$log</a>
 
-Dúvidas? Entre em Contato.
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

@@ -15,4 +15,4 @@ Angular Batarang é um aplicativo do Google Chrome que facilita a depuração do
 
 Mais informações <a href="https://github.com/angular/angularjs-batarang" target="_blank">aqui</a>.
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

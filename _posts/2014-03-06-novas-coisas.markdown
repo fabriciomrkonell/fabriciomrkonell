@@ -13,7 +13,7 @@ Devido a isso, vou pegar o tempo que tenho de sobra, e aplicar nas minhas pendê
 
 Assim, vou reduzir o número de posts do meu blog. Postar duas ou três vezes por semana, acredito que estaria legal.
 
-Qualquer dúvida, chama aí no Twitter!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
 
 
 

@@ -15,7 +15,7 @@ O exemplo mostra como deixar todo seu texto em letra maiúscula(Uppercase) ou em
       <script src="angularJs.js"></script>
       <script src="app.js"></script>
    </head>
-   <body ng-controller="myController">         
+   <body ng-controller="myController">
       <input type="number" ng-model="valor">
       <p>Lowercase: { {valor | lowercase} }</p>
       <p>Uppercase: { {valor | uppercase} }</p>
@@ -28,16 +28,16 @@ O exemplo mostra como deixar todo seu texto em letra maiúscula(Uppercase) ou em
 var app = angular.module("myapp", []);
 function MyController($scope) { };
 {% endhighlight %}
-<h3>Exemplo</h3> 
+<h3>Exemplo</h3>
 
-<script src="/js/angular.min.js"></script>      
-<script src="/js/app-ng-model.js"></script>      
-<div ng-app="myapp"> 
-  <div ng-controller="MyController">    
+<script src="/js/angular.min.js"></script>
+<script src="/js/app-ng-model.js"></script>
+<div ng-app="myapp">
+  <div ng-controller="MyController">
     <input type="text" ng-model="valor" placeholder="Digite uma frase">
     <p style="margin-bottom: -20px">Lowercase: {(valor | lowercase)}</p>
     <p>Uppercase: {(valor | uppercase)}</p>
   </div>
 </div>
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

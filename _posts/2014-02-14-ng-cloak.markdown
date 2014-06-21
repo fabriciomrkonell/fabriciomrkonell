@@ -21,4 +21,4 @@ Quando usamos a diretiva ngCloak, estamos dizendo pro angular colocar <code>"dis
 
 <img src="/img/posts/belezacara.jpg" />
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

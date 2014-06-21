@@ -10,3 +10,5 @@ Hoje estou meio sem tempo pra bolar alguma coisa pro Blog. Estou cursando Bachar
 Então, fui nessa.
 
 <img src="/img/posts/bicicleta.png" />
+
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

@@ -17,7 +17,7 @@ A aplicação é bem simples, basta colocar <code>"{ {ngModel | currency:'R$'} }
       <script src="angularJs.js"></script>
       <script src="app.js"></script>
    </head>
-   <body ng-controller="myController">         
+   <body ng-controller="myController">
       <input type="number" ng-model="valor">
       <p>Valor Total: { {valor | currency:'R$'} }</p>
    </body>
@@ -27,19 +27,19 @@ A aplicação é bem simples, basta colocar <code>"{ {ngModel | currency:'R$'} }
 <h3>app.js</h3>
 {% highlight ruby %}
 var app = angular.module("myapp", []);
-function MyController($scope) { 
+function MyController($scope) {
   $scope.valor = 10.00;
 };
 {% endhighlight %}
-<h3>Exemplo</h3> 
+<h3>Exemplo</h3>
 
-<script src="/js/angular.min.js"></script>      
-<script src="/js/app-ng-currency.js"></script>      
-<div ng-app="myapp"> 
-  <div ng-controller="MyController">    
+<script src="/js/angular.min.js"></script>
+<script src="/js/app-ng-currency.js"></script>
+<div ng-app="myapp">
+  <div ng-controller="MyController">
     <input type="number" ng-model="valor" placeholder="Digite um valor...">
     <p>Valor Total: {(valor | currency:'R$')}</p>
   </div>
 </div>
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!

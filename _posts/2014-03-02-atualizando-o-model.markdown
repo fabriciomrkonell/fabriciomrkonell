@@ -11,4 +11,4 @@ Não recomendo mas...
 
 Mais informações sobre o <code>"$scope.$apply()"</code> <a href="../../../2014/02/26/utilizando-o-o%24scope.html" target="_blank">aqui</a>.
 
-Dúvidas? Entre em contato!
+Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
