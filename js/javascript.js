@@ -7,10 +7,8 @@ $(function(){
         $("#label-contato").html("Add me on Linkedin!");
       }else if (atual == 3){
         $("#label-contato").html("Follow me on Instagram!");
-      }else if (atual == 4){
+      }else {
         $("#label-contato").html("Follow me on GitHub!");
-      }else{
-        $("#label-contato").html("Follow me on Google+!");
       }
     }, function(){
         $("#label-contato").html("")
