@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "$index - ngRepeat filho"
+title:  "$index - ngRepeat Filho"
 date:   2014-07-06 13:00:00
 categories: Blog
 ---
@@ -21,7 +21,7 @@ Nele, temos acesso a várias informações, como:
 Mas, se eu tiver um ngRepeat dentro de um ngRepeat, como tenho acesso ao <code>$index</code>?
 Simples.
 
-<h3>Exemplos</h3>
+<h3>Exemplo</h3>
 {% highlight ruby %}
 <div ng-repeat="(indexPai, usuario) in usuarios">
   <div>
