@@ -9,7 +9,7 @@ categories: Blog
 DevFest é um evento mundial, realizado pela comunidade de desenvolvedores Google. Focado nas necessidades de cada comunidade local, ele tem por objetivo proporcionar a troca de conhecimento, networking e o fortalecimento dessas comunidades.
 
 <h3>Onde? Quando?</h3>
-Vai ser em Porto Alegre, no dia 23 de Agosto. Vão duas salas, cada uma delas com palestras, apresentadas por membros da comunidade e dos GDGs do sul do país.
+Vai ser em Porto Alegre, no dia 23 de Agosto. Vão ser duas salas, cada uma delas com palestras, apresentadas por membros da comunidade e dos GDGs do sul do país.
 
 <img src="/img/posts/devfest.jpg"  />
 
