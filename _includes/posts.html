@@ -1,8 +1,8 @@
 [
   {% for post in site.posts %}
     {
-      "title" : "{{ post.title }}", 
-      "url" : "{{ post.url }}",       
+      "title" : "{{ post.title }}",
+      "url" : "{{ post.url }}",
     }{% if forloop.rindex0 != 0 %},{% endif %}
   {% endfor %}
 ];
