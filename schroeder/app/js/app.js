@@ -1,6 +1,6 @@
 var app = angular.module('schroederApp', []);
 
-app.controller("schroederCtrl", function($scope, $http, $animate){
+app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 	
 	$scope.page = 1;
 	$scope.model = {		
@@ -65,4 +65,4 @@ app.controller("schroederCtrl", function($scope, $http, $animate){
 		alert("Erro!");
   });
 	
-});
+}]);
