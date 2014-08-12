@@ -56,7 +56,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr ng-repeat="obj in model.temperaturas">
+							<tr ng-repeat="obj in model.temperaturas | orderBy:'$index':true">
 								<td class="sensor-table hidden-xs">{{getData(obj)}}</th>
 								<td class="sensor-table visible-xs">{{getDataMaxima(obj)}}</th>
 								<td class="sensor-table">{{obj.gsx$temperatura.$t}} ºC</td>
@@ -106,7 +106,7 @@
 					</div>				
 				</div>
 			</div>
-			<div class="comment-disqus" ng-show="page != 2">
+			<div class="comment-disqus hidden-xs" ng-show="page != 2">
 				<div id="disqus_thread"></div>
 				<script type="text/javascript">
 					var disqus_shortname = 'fabricioronchi';
