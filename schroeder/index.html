@@ -57,7 +57,8 @@
 						</thead>
 						<tbody>
 							<tr ng-repeat="obj in model.temperaturas">
-								<td class="sensor-table">{{getData(obj)}}</th>
+								<td class="sensor-table hidden-xs">{{getData(obj)}}</th>
+								<td class="sensor-table visible-xs">{{getDataMaxima(obj)}}</th>
 								<td class="sensor-table">{{obj.gsx$temperatura.$t}} ºC</td>
 								<td class="sensor-table">{{obj.gsx$humidade.$t}} %</td>
 							</tr>
