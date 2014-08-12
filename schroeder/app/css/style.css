@@ -54,3 +54,7 @@ body {
 .ng-cloak{
 	display: none;
 }
+
+.comment-disqus{
+	margin-top: 20px;
+}
