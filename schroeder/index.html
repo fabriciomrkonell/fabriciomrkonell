@@ -116,7 +116,7 @@
 			</div>
 			<div class="row pages" ng-show="page == 4">
 				<div class="col-sm-12 text-center">
-					<div class="col-sm-6 text-center">						
+					<div class="col-sm-4 text-center">						
 						<span class="labels-max">
 							<h1>{{model.media.temperatura}}<span class="type">ºC</span></h1>
 						</span>
@@ -125,18 +125,18 @@
 					<div class="visible-xs">
 						<br/>
 					</div>
-					<div class="col-sm-6 text-center">
+					<div class="col-sm-4 text-center">
 						<span class="labels-max">
-							<h1>{{model.media.humidade}}<span class="type">º#</span></h1>
+							<h1>{{model.medidas}}</h1>
+						</span>
+						<h3>Medições</h3>
+					</div>
+					<div class="col-sm-4 text-center">
+						<span class="labels-max">
+							<h1>{{model.media.humidade}}<span class="type">%</span></h1>
 						</span>
 						<h3>Humidade</h3>
 					</div>
-				</div>							
-				<div class="col-sm-12 text-center">
-					<span class="labels-max">
-						<h1>{{model.medidas}}<span class="type">%</span></h1>
-					</span>
-					<h3>Medições</h3>
 				</div>
 			</div>
 			<!--<div class="comment-disqus hidden-xs" ng-show="page != 2"></div>-->
