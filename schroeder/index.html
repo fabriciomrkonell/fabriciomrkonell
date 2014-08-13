@@ -118,7 +118,7 @@
 				<div class="col-sm-12 text-center">
 					<div class="col-sm-4 text-center">						
 						<span class="labels-max">
-							<h1>{{parseInt(model.media.temperatura / model.medidas)}}<span class="type">ºC</span></h1>
+							<h1>{{(model.media.temperatura / model.medidas).toFixed()}}<span class="type">ºC</span></h1>
 						</span>
 						<h3>Temperatura</h3>
 					</div>
@@ -136,7 +136,7 @@
 					</div>
 					<div class="col-sm-4 text-center">
 						<span class="labels-max">
-							<h1>{{parseInt(model.media.humidade / model.medidas)}}<span class="type">%</span></h1>
+							<h1>{{(model.media.humidade / model.medidas).toFixed()}}<span class="type">%</span></h1>
 						</span>
 						<h3>Humidade</h3>
 					</div>
