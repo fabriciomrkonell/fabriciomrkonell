@@ -5,6 +5,11 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 	$scope.page = 1;
 	$scope.model = {		
 		temperaturas: [],
+		medidas: 0,
+		media:  {
+			temperatura: 0,
+			humidade: 0
+		},
 		sensor: {
 			temperatura: "0",
 			humidade: "0"
@@ -45,7 +50,10 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 			$scope.model.maxima.temperatura = data.feed.entry[0];
 			$scope.model.minima.humidade = data.feed.entry[0];
 			$scope.model.maxima.humidade = data.feed.entry[0];
-      for(var i = 0; i < data.feed.entry.length; i++){				
+			$scope.model.medidas = data.feed.entry.length;
+      for(var i = 0; i < data.feed.entry.length; i++){
+      				$scope.model.media.temperatura = $scope.model.media.temperatura + parseInt(data.feed.entry[i].gsx$temperatura.$t);
+      				$scope.model.media.humidade = $scope.model.media.humidade + parseInt(data.feed.entry[i].gsx$humidade.$t);
 				if(parseInt(data.feed.entry[i].gsx$temperatura.$t) > parseInt($scope.model.maxima.temperatura.gsx$temperatura.$t)){
 					$scope.model.maxima.temperatura = data.feed.entry[i];
 				};	
