@@ -70,7 +70,7 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 
 			
 	}).error(function(data, status, headers, config) {
-		alert("Erro!");
+		window.location.reload();
   });
 	
 }]);
