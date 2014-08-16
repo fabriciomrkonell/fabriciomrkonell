@@ -31,17 +31,19 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 	$scope.getData = function(data){
 		if(!!data){
 			var data = data.split("T");
-    	return (data[0]).split("-")[2] + "/" + (data[0]).split("-")[1] + "/" + (data[0]).split("-")[2];
+    	return (data[0]).split("-")[2] + "/" + (data[0]).split("-")[1] + "/" + (data[0]).split("-")[0] + " - " + (data[1]).split(":")[0] + ":" + (data[1]).split(":")[1];
    	}else{
-    	return "";
+    	return "0";
    	}
 	};
 
 	$scope.getDataMaxima = function(data){
-		/*if(angular.isObject(data) == true){
-			return data.gsx$indicaçãodedataehora.$t.split(" ")[0];
-		}*/
-		return 0;
+		if(!!data){
+			var data = data.split("T");
+    	return (data[0]).split("-")[2] + "/" + (data[0]).split("-")[1] + "/" + (data[0]).split("-")[0];
+   	}else{
+    	return "0";
+   	}
 	};
 
 	$http.get("http://pesagem.ranchobom.com/Danger/schroeder").success(function(data, status, headers, config) {

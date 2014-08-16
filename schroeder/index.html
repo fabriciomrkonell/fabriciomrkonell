@@ -60,7 +60,7 @@
 						<tbody>
 							<tr ng-repeat="obj in model.temperaturas.slice().reverse()">
 								<td class="sensor-table hidden-xs">{{getData(obj.createdAt)}}</th>
-								<td class="sensor-table visible-xs">{{getDataMaxima(obj)}}</th>
+								<td class="sensor-table visible-xs">{{getDataMaxima(obj.createdAt)}}</th>
 								<td class="sensor-table">{{obj.temperatura}} ºC</td>
 								<td class="sensor-table">{{obj.humidade}} %</td>
 							</tr>
@@ -75,7 +75,7 @@
 						<div class="panel-body">
 							<div class="col-sm-6 text-center">
 								<span class="labels-max">
-									<h1>{{model.minima.temperatura.temperatura}}<span class="type">ºC</span><span class="type hidden-xs"> em {{getDataMaxima(model.minima.temperatura)}}</span></h1>
+									<h1>{{model.minima.temperatura.temperatura}}<span class="type">ºC</span><span class="type hidden-xs"> em {{getDataMaxima(model.minima.temperatura.createdAt)}}</span></h1>
 								</span>
 								<h3>Mínima</h3>
 							</div>
@@ -84,7 +84,7 @@
 							</div>
 							<div class="col-sm-6 text-center">
 								<span class="labels-max">
-									<h1>{{model.maxima.temperatura.temperatura}}<span class="type">ºC</span><span class="type hidden-xs"> em {{getDataMaxima(model.maxima.temperatura)}}</span></h1>
+									<h1>{{model.maxima.temperatura.temperatura}}<span class="type">ºC</span><span class="type hidden-xs"> em {{getDataMaxima(model.maxima.temperatura.createdAt)}}</span></h1>
 								</span>
 								<h3>Máxima</h3>
 							</div>
@@ -97,7 +97,7 @@
 						<div class="panel-body">
 							<div class="col-sm-6 text-center">
 								<span class="labels-max">
-									<h1>{{model.minima.humidade.humidade}}<span class="type">%</span><span class="type hidden-xs"> em {{getDataMaxima(model.minima.humidade)}}</span></h1>
+									<h1>{{model.minima.humidade.humidade}}<span class="type">%</span><span class="type hidden-xs"> em {{getDataMaxima(model.minima.humidade.createdAt)}}</span></h1>
 								</span>
 								<h3>Mínima</h3>
 							</div>
@@ -106,7 +106,7 @@
 							</div>
 							<div class="col-sm-6 text-center">
 								<span class="labels-max">
-									<h1>{{model.maxima.humidade.humidade}}<span class="type">%</span><span class="type hidden-xs"> em {{getDataMaxima(model.maxima.humidade)}}</span></h1>
+									<h1>{{model.maxima.humidade.humidade}}<span class="type">%</span><span class="type hidden-xs"> em {{getDataMaxima(model.maxima.humidade.createdAt)}}</span></h1>
 								</span>
 								<h3>Máxima</h3>
 							</div>
