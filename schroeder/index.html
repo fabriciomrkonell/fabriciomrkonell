@@ -59,7 +59,7 @@
 						</thead>
 						<tbody>
 							<tr ng-repeat="obj in model.temperaturas.slice().reverse()">
-								<td class="sensor-table hidden-xs">{{getData(obj)}}</th>
+								<td class="sensor-table hidden-xs">{{getData(obj.createdAt)}}</th>
 								<td class="sensor-table visible-xs">{{getDataMaxima(obj)}}</th>
 								<td class="sensor-table">{{obj.temperatura}} ºC</td>
 								<td class="sensor-table">{{obj.humidade}} %</td>
