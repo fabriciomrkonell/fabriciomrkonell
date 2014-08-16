@@ -481,6 +481,11 @@ body {
   }
 }
 
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
 .labels h1 {
   font-size: 60px;
 }
