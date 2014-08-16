@@ -8,10 +8,10 @@
 		<link rel="author" href="fabricioronchi.com">
 		<meta name="description" content="Temperatura e Humidade em Schroeder">
 		<link href="app/css/bootstrap.css" rel="stylesheet">
-		<title>Schroeder</title>    
+		<title>Schroeder</title>
 	</head>
 	<body ng-controller="schroederCtrl">
-		<div class="container ng-cloak">		
+		<div class="container ng-cloak">
 			<div class="header">
 				<ul class="nav nav-pills nav-center">
 					<li ng-class="{active: page == 1}">
@@ -26,13 +26,13 @@
 					<li ng-class="{active: page == 4}">
 						<a href="javascript:void(0)" ng-click="goPage(4)">Médias</a>
 					</li>
-				</ul>							
-			</div>	
+				</ul>
+			</div>
 			<div class="row pages" ng-show="page == 1">
 				<div class="col-sm-12">
 					<div class="col-sm-6 text-center">
 						<span class="labels">
-							<h1>{{model.sensor.temperatura}}<span class="type">ºC</span></h1>							
+							<h1>{{model.sensor.temperatura}}<span class="type">ºC</span></h1>
 						</span>
 						<h2>Temperatura</h2>
 					</div>
@@ -41,7 +41,7 @@
 					</div>
 					<div class="col-sm-6 text-center">
 						<span class="labels">
-							<h1>{{model.sensor.humidade}}<span class="type">%</span></h1>							
+							<h1>{{model.sensor.humidade}}<span class="type">%</span></h1>
 						</span>
 						<h2>Humidade</h2>
 					</div>
@@ -73,7 +73,7 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">Temperatura</div>
 						<div class="panel-body">
-							<div class="col-sm-6 text-center">						
+							<div class="col-sm-6 text-center">
 								<span class="labels-max">
 									<h1>{{model.minima.temperatura.gsx$temperatura.$t}}<span class="type">ºC</span><span class="type hidden-xs"> em {{getDataMaxima(model.minima.temperatura)}}</span></h1>
 								</span>
@@ -90,12 +90,12 @@
 							</div>
 						</div>
 					</div>
-				</div>							
+				</div>
 				<div class="col-sm-12 text-center">
 					<div class="panel panel-default table-hist">
 						<div class="panel-heading">Humidade</div>
 						<div class="panel-body">
-							<div class="col-sm-6 text-center">						
+							<div class="col-sm-6 text-center">
 								<span class="labels-max">
 									<h1>{{model.minima.humidade.gsx$humidade.$t}}<span class="type">%</span><span class="type hidden-xs"> em {{getDataMaxima(model.minima.humidade)}}</span></h1>
 								</span>
@@ -111,12 +111,12 @@
 								<h3>Máxima</h3>
 							</div>
 						</div>
-					</div>				
+					</div>
 				</div>
 			</div>
 			<div class="row pages" ng-show="page == 4">
 				<div class="col-sm-12 text-center">
-					<div class="col-sm-4 text-center">						
+					<div class="col-sm-4 text-center">
 						<span class="labels-max">
 							<h1>{{(model.media.temperatura / model.medidas).toFixed()}}<span class="type">ºC</span></h1>
 						</span>
@@ -147,6 +147,6 @@
 			</div>
 		</div>
 		<script src="app/lib/angular.min.js"></script>
-		<script src="app/js/app.min.js"></script>
+		<script src="app/js/app.js"></script>
 	</body>
 </html>
