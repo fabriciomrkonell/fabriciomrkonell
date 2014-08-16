@@ -40,9 +40,7 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 		return 0;
 	};
 
-	$http({
-		method: 'GET',
-		url: "http://pesagem.ranchobom.com/Danger/schroeder"
+	$http.get({url: "http://pesagem.ranchobom.com/Danger/schroeder"
 	}).success(function(data, status, headers, config) {
 			$scope.model.temperaturas = data;
 			$scope.model.sensor.temperatura = data[data.length - 1].temperatura;
