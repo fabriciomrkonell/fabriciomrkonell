@@ -46,7 +46,7 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 	}).success(function(data, status, headers, config) {
 			$scope.model.temperaturas = data;
 			$scope.model.sensor.temperatura = data[data.length - 1].temperatura;
-			$scope.model.sensor.humidade = data.[data.length - 1].humidade;
+			$scope.model.sensor.humidade = data[data.length - 1].humidade;
 			$scope.model.minima.temperatura = data[0];
 			$scope.model.maxima.temperatura = data[0];
 			$scope.model.minima.humidade = data[0];
