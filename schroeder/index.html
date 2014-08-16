@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="schroederApp">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="app/img/icon.png">
+		<link rel="author" href="fabricioronchi.com">
+		<meta name="description" content="Temperatura e Humidade em Schroeder">
+		<link href="app/css/bootstrap.css" rel="stylesheet">
+		<title>Schroeder</title>    
+	</head>
+	<body ng-controller="schroederCtrl">
+		<div class="container ng-cloak">		
+			<div class="header">
+				<ul class="nav nav-pills nav-center">
+					<li ng-class="{active: page == 1}">
+						<a href="javascript:void(0)" ng-click="goPage(1)">Tempo Real</a>
+					</li>
+					<li ng-class="{active: page == 2}">
+						<a href="javascript:void(0)" ng-click="goPage(2)">Histórico</a>
+					</li>
+					<li ng-class="{active: page == 3}">
+						<a href="javascript:void(0)" ng-click="goPage(3)">Máximas</a>
+					</li>
+					<li ng-class="{active: page == 4}">
+						<a href="javascript:void(0)" ng-click="goPage(4)">Médias</a>
+					</li>
+				</ul>							
+			</div>	
+			<div class="row pages" ng-show="page == 1">
+				<div class="col-sm-12">
+					<div class="col-sm-6 text-center">
+						<span class="labels">
+							<h1>{{model.sensor.temperatura}}<span class="type">ºC</span></h1>							
+						</span>
+						<h2>Temperatura</h2>
+					</div>
+					<div class="visible-xs">
+						<br/>
+					</div>
+					<div class="col-sm-6 text-center">
+						<span class="labels">
+							<h1>{{model.sensor.humidade}}<span class="type">%</span></h1>							
+						</span>
+						<h2>Humidade</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row pages" ng-show="page == 2">
+				<div class="col-sm-12">
+					<table class="table table-bordered table-condensed table-hist">
+						<thead>
+							<tr>
+								<th class="sensor-table">Data</th>
+								<th class="sensor-table">Temperatura</th>
+								<th class="sensor-table">Humidade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr ng-repeat="obj in model.temperaturas.slice().reverse()">
+								<td class="sensor-table hidden-xs">{{getData(obj)}}</th>
+								<td class="sensor-table visible-xs">{{getDataMaxima(obj)}}</th>
+								<td class="sensor-table">{{obj.gsx$temperatura.$t}} ºC</td>
+								<td class="sensor-table">{{obj.gsx$humidade.$t}} %</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="row pages" ng-show="page == 3">
+				<div class="col-sm-12 text-center">
+					<div class="panel panel-default">
+						<div class="panel-heading">Temperatura</div>
+						<div class="panel-body">
+							<div class="col-sm-6 text-center">						
+								<span class="labels-max">
+									<h1>{{model.minima.temperatura.gsx$temperatura.$t}}<span class="type">ºC</span><span class="type hidden-xs"> em {{getDataMaxima(model.minima.temperatura)}}</span></h1>
+								</span>
+								<h3>Mínima</h3>
+							</div>
+							<div class="visible-xs">
+								<br/>
+							</div>
+							<div class="col-sm-6 text-center">
+								<span class="labels-max">
+									<h1>{{model.maxima.temperatura.gsx$temperatura.$t}}<span class="type">ºC</span><span class="type hidden-xs"> em {{getDataMaxima(model.maxima.temperatura)}}</span></h1>
+								</span>
+								<h3>Máxima</h3>
+							</div>
+						</div>
+					</div>
+				</div>							
+				<div class="col-sm-12 text-center">
+					<div class="panel panel-default table-hist">
+						<div class="panel-heading">Humidade</div>
+						<div class="panel-body">
+							<div class="col-sm-6 text-center">						
+								<span class="labels-max">
+									<h1>{{model.minima.humidade.gsx$humidade.$t}}<span class="type">%</span><span class="type hidden-xs"> em {{getDataMaxima(model.minima.humidade)}}</span></h1>
+								</span>
+								<h3>Mínima</h3>
+							</div>
+							<div class="visible-xs">
+								<br/>
+							</div>
+							<div class="col-sm-6 text-center">
+								<span class="labels-max">
+									<h1>{{model.maxima.humidade.gsx$humidade.$t}}<span class="type">%</span><span class="type hidden-xs"> em {{getDataMaxima(model.maxima.humidade)}}</span></h1>
+								</span>
+								<h3>Máxima</h3>
+							</div>
+						</div>
+					</div>				
+				</div>
+			</div>
+			<div class="row pages" ng-show="page == 4">
+				<div class="col-sm-12 text-center">
+					<div class="col-sm-4 text-center">						
+						<span class="labels-max">
+							<h1>{{(model.media.temperatura / model.medidas).toFixed()}}<span class="type">ºC</span></h1>
+						</span>
+						<h3>Temperatura</h3>
+					</div>
+					<div class="visible-xs">
+						<br/>
+					</div>
+					<div class="col-sm-4 text-center">
+						<span class="labels-max">
+							<h1>{{model.medidas}}</h1>
+						</span>
+						<h3>Medições</h3>
+					</div>
+					<div class="visible-xs">
+						<br/>
+					</div>
+					<div class="col-sm-4 text-center">
+						<span class="labels-max">
+							<h1>{{(model.media.humidade / model.medidas).toFixed()}}<span class="type">%</span></h1>
+						</span>
+						<h3>Humidade</h3>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<p>© 2014 Fabrício Ronchi</p>
+			</div>
+		</div>
+		<script src="app/lib/angular.min.js"></script>
+		<script src="app/js/app.min.js"></script>
+	</body>
+</html>
