@@ -29,6 +29,7 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 	};
 
 	$scope.getData = function(data){
+		console.log(data);
 		return "0";
 		//return data.gsx$indicaçãodedataehora.$t.split(" ")[1] + " - " + data.gsx$indicaçãodedataehora.$t.split(" ")[0];
 	};
