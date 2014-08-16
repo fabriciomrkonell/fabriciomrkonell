@@ -64,7 +64,7 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 				if(parseInt(data[i].temperatura) < parseInt($scope.model.minima.temperatura.temperatura)){
 					$scope.model.minima.temperatura = data[i];
 				};
-				if(parseInt(data.[i].humidade) < parseInt($scope.model.minima.humidade.humidade)){
+				if(parseInt(data[i].humidade) < parseInt($scope.model.minima.humidade.humidade)){
 					$scope.model.minima.humidade = data[i];
 				};
 			};
