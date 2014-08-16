@@ -71,10 +71,5 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 					$scope.model.minima.humidade = data[i];
 				};
 			};
-
-
-	}).error(function(data, status, headers, config) {
-
-  });
-
+	});
 }]);
