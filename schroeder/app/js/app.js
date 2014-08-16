@@ -30,7 +30,8 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 
 	$scope.getData = function(data){
 		if(!!data){
-    	return (data.split("T")[0]).split("-")[2] + "/" + (data.split("T")[0]).split("-")[1];
+			var data = data.split("T");
+    	return (data[0]).split("-")[2] + "/" + (data[0]).split("-")[1] + "/" + (data[0]).split("-")[2];
    	}else{
     	return "";
    	}
