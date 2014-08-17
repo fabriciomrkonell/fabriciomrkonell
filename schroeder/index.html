@@ -32,7 +32,7 @@
 				<div class="col-sm-12">
 					<div class="col-sm-6 text-center">
 						<span class="labels">
-							<h1>{{model.sensor.temperatura}}<span class="type">ºC</span></h1>
+							<h1>{{model.sensor.temperature}}<span class="type">ºC</span></h1>
 						</span>
 						<h2>Temperatura</h2>
 					</div>
@@ -61,7 +61,7 @@
 							<tr ng-repeat="obj in model.temperaturas.slice().reverse()">
 								<td class="sensor-table hidden-xs">{{getData(obj.createdAt)}}</th>
 								<td class="sensor-table visible-xs">{{getDataMaxima(obj.createdAt)}}</th>
-								<td class="sensor-table">{{obj.temperatura}} ºC</td>
+								<td class="sensor-table">{{obj.temperature}} ºC</td>
 								<td class="sensor-table">{{obj.humidity}} %</td>
 							</tr>
 						</tbody>
@@ -75,7 +75,7 @@
 						<div class="panel-body">
 							<div class="col-sm-6 text-center">
 								<span class="labels-max">
-									<h1>{{model.minima.temperatura.temperatura}}<span class="type">ºC</span><span class="type hidden-xs"> em {{getDataMaxima(model.minima.temperatura.createdAt)}}</span></h1>
+									<h1>{{model.minima.temperature.temperature}}<span class="type">ºC</span><span class="type hidden-xs"> em {{getDataMaxima(model.minima.temperature.createdAt)}}</span></h1>
 								</span>
 								<h3>Mínima</h3>
 							</div>
@@ -84,7 +84,7 @@
 							</div>
 							<div class="col-sm-6 text-center">
 								<span class="labels-max">
-									<h1>{{model.maxima.temperatura.temperatura}}<span class="type">ºC</span><span class="type hidden-xs"> em {{getDataMaxima(model.maxima.temperatura.createdAt)}}</span></h1>
+									<h1>{{model.maxima.temperature.temperature}}<span class="type">ºC</span><span class="type hidden-xs"> em {{getDataMaxima(model.maxima.temperature.createdAt)}}</span></h1>
 								</span>
 								<h3>Máxima</h3>
 							</div>
@@ -118,7 +118,7 @@
 				<div class="col-sm-12 text-center">
 					<div class="col-sm-4 text-center">
 						<span class="labels-max">
-							<h1>{{(model.media.temperatura / model.medidas).toFixed()}}<span class="type">ºC</span></h1>
+							<h1>{{(model.media.temperature / model.medidas).toFixed()}}<span class="type">ºC</span></h1>
 						</span>
 						<h3>Temperatura</h3>
 					</div>
