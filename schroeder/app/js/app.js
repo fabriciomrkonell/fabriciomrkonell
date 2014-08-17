@@ -46,7 +46,7 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
    	}
 	};
 
-	$http.get("http://pesagem.ranchobom.com/Danger/schroeder").success(function(data, status, headers, config) {
+	$http.get("http://schroeder-arduino.herokuapp.com/schroeder/balduinos").success(function(data, status, headers, config) {
 			$scope.model.temperaturas = data;
 			$scope.model.sensor.temperatura = data[data.length - 1].temperatura;
 			$scope.model.sensor.humidade = data[data.length - 1].humidade;
