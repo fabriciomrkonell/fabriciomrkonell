@@ -239,7 +239,7 @@ pre{
   white-space: pre-wrap;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 681px) {
   .menu{
     text-align: center;
     width: 100%;
