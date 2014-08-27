@@ -15,9 +15,9 @@ Utilizei um Arduino Ethernet e um sensor de Temperatura e Humidade DHT11. Os mes
 <img src="/img/posts/esquemaSensorDTH11.jpg"/>
 
 <h3>Código</h3>
-O código do projeto está disponível no meu <a href="https://github.com/FabricioRonchi/arduino" target="blank">Github</a>. A lógica dele, é de a cada 30 minutos, ler o sensor DHT11, e mandar uma requisição pro servidor <a href="http://nodejs.org/" target="blank">NodeJS</a> com <a href="http://www.postgresql.org/" target="blank">PostGreeSQL</a>, nesse caso usei um servidor da <a href="https://www.heroku.com/" target="blank">Heroku</a>.
+O código do projeto está disponível no meu <a href="https://github.com/FabricioRonchi/arduino" target="blank">Github</a>. A lógica dele, é de a cada 30 minutos, ler o sensor DHT11, e mandar uma requisição pro servidor <a href="http://nodejs.org/" target="blank">NodeJS</a> com <a href="http://www.postgresql.org/" target="blank">PostGreeSQL</a>. Nesse caso usei um servidor da <a href="https://www.heroku.com/" target="blank">Heroku</a>.
 
 <h3>Resultado</h3>
-Todas as medições e as médias e máximas de Temperatura e Humidade estão disponíveis <a href="http://fabricioronchi.com/arduino/" target="blank">aqui</a>. 
+Todas as medições, médias e máximas de Temperatura e Humidade estão disponíveis <a href="http://fabricioronchi.com/arduino/" target="blank">aqui</a>. 
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
