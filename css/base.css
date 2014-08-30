@@ -247,9 +247,6 @@ pre{
   .name{
      text-align: center;
   }
-  .my-footer{
-    display: none;
-  }
   .video{  
     height: 200px !important;
   }
@@ -411,17 +408,6 @@ iframe{
 
 .post pre.terminal code {
   background-color: #333;
-}
-
-.main-footer{
-  position: fixed;
-  padding-bottom: 5px;
-  bottom: 0;
-  width: 100%;
-  background: rgba(255,255,255,.9);
-  color: #999;
-  text-align: center;
-  font-size: 1.1em;
 }
 
 .btn {
