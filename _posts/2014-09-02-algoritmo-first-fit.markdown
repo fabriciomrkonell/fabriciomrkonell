@@ -60,13 +60,13 @@ int main(){
 }
 {% endhighlight %}
 
-Trabalho de Sistemas Operacionais - Alunos: <a href="https://github.com/schmittjoaopedro">João</a> e <a href="https://github.com/FabricioRonchi">Fabrício</a>.
+Trabalho de Sistemas Operacionais - Alunos: <a target="blank" href="https://github.com/schmittjoaopedro">João</a> e <a target="blank" href="https://github.com/FabricioRonchi">Fabrício</a>.
 
 <h3>Referências</h3>
-* <a href="http://www.memorymanagement.org/mmref/alloc.html">Memory Management</a>
-* <a href="http://thumbsup2life.blogspot.com.br/2011/02/best-fit-first-fit-and-worst-fit-memory.html">thumbsup2life.blogspot.com.br</a>
-* <a href="http://www.cwithabhas.com/2012/04/first-fit-program-in-c-language-memory.html">www.cwithabhas.com</a>
-* <a href="http://www.cs.rit.edu/~ark/lectures/gc/03_03_02.html">www.cs.rit.edu</a>
-* <a href="http://research.cs.vt.edu/AVresearch/MMtutorial/FirstFit.php">research.cs.vt.edu</a>
+* <a target="blank" href="http://www.memorymanagement.org/mmref/alloc.html">Memory Management</a>
+* <a target="blank" href="http://thumbsup2life.blogspot.com.br/2011/02/best-fit-first-fit-and-worst-fit-memory.html">thumbsup2life.blogspot.com.br</a>
+* <a target="blank" href="http://www.cwithabhas.com/2012/04/first-fit-program-in-c-language-memory.html">www.cwithabhas.com</a>
+* <a target="blank" href="http://www.cs.rit.edu/~ark/lectures/gc/03_03_02.html">www.cs.rit.edu</a>
+* <a target="blank" href="http://research.cs.vt.edu/AVresearch/MMtutorial/FirstFit.php">research.cs.vt.edu</a>
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
