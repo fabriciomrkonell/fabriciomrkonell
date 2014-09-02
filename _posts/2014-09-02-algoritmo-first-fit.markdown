@@ -60,7 +60,7 @@ int main(){
 }
 {% endhighlight %}
 
-Trabalho de Sistemas Operacionais - Alunos: <a href="https://github.com/schmittjoaopedro">João</a> e <a href="https://github.com/FabricioRonchi">Fabrício</a> 
+Trabalho de Sistemas Operacionais - Alunos: <a href="https://github.com/schmittjoaopedro">João</a> e <a href="https://github.com/FabricioRonchi">Fabrício</a>.
 
 <h3>Referências</h3>
 * <a href="http://www.memorymanagement.org/mmref/alloc.html">Memory Management</a>
