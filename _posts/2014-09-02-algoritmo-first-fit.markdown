@@ -20,7 +20,7 @@ O primeiro bloco será maior mas a velocidade de alocação é muito mais rápid
 <h3>Tempo incremental desde o último uso</h3>
 Este é muito mais rápido para adicionar novos blocos livres que são adicionados ao inicio da lista, e encoraja a pegar a melhor localização onde os blocos sempre usados não ficam espalhados, mas podem gerar uma fragmentação ruim.
 
-<h3>Examplo</h3>
+<h3>Exemplo</h3>
 {% highlight ruby %}
 int main(){
 
