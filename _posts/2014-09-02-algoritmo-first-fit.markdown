@@ -60,6 +60,8 @@ int main(){
 }
 {% endhighlight %}
 
+Trabalho de Sistemas Operacionais - Alunos: <a href="https://github.com/schmittjoaopedro">João</a> e <a href="https://github.com/FabricioRonchi">Fabrício</a> 
+
 <h3>Referências</h3>
 * <a href="http://www.memorymanagement.org/mmref/alloc.html">Memory Management</a>
 * <a href="http://thumbsup2life.blogspot.com.br/2011/02/best-fit-first-fit-and-worst-fit-memory.html">thumbsup2life.blogspot.com.br</a>
