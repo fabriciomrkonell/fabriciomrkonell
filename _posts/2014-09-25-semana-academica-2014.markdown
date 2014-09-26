@@ -11,8 +11,6 @@ Pois bem, mais uma vez o GDG Jaraguá do Sul está atuando, e em parceria com ac
 <h3>Onde? Quando?</h3>
 Vai ser na Católica de Santa Catarina, nos dias 14 a 17 de outubro.
 
-<img src="/img/posts/devfest.jpg"  />
-
 Confira a programação, localização, coffee break e as palestras no <a href="http://semanaacademica.gdgjs.org/" target="_blank">site</a> do evento.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
