@@ -2,7 +2,7 @@ var app = angular.module('schroederApp', []);
 
 app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 
-	var socket = io.connect("http://schroeder-arduino.herokuapp.com:80");
+	//var socket = io.connect("http://schroeder-arduino.herokuapp.com:80");
 
 	$scope.page = 1;
 	$scope.model = {
@@ -26,10 +26,10 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 		}
 	};
 
-	socket.on('new-medicao', function(obj){
+	/*socket.on('new-medicao', function(obj){
     console.log(obj);
     //$scope.$apply();
-  });
+  });*/
 
 	$scope.goPage = function(page){
 		$scope.page = page;
