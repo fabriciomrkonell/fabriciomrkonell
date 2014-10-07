@@ -4,6 +4,11 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 
 	//var socket = io.connect("http://schroeder-arduino.herokuapp.com:80");
 
+	/*socket.on('new-medicao', function(obj){
+    console.log(obj);
+    //$scope.$apply();
+  });*/
+
 	$scope.page = 1;
 	$scope.model = {
 		temperaturas: [],
@@ -25,11 +30,6 @@ app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 			humidity: "0"
 		}
 	};
-
-	/*socket.on('new-medicao', function(obj){
-    console.log(obj);
-    //$scope.$apply();
-  });*/
 
 	$scope.goPage = function(page){
 		$scope.page = page;
