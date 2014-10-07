@@ -2,7 +2,7 @@ var app = angular.module('schroederApp', []);
 
 app.controller("schroederCtrl", ["$scope", "$http", function($scope, $http){
 
-	var socket = io("http://schroeder-arduino.herokuapp.com");
+	var socket = io.connect("http://schroeder-arduino.herokuapp.com");
 
 	$scope.page = 1;
 	$scope.model = {
