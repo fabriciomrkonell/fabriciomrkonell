@@ -81,10 +81,6 @@ li {
   -webkit-transition: color 0.25s ease-in;
 }
 
-.header a:hover, .header a:hover b {
-  color: #307EA9;
-}
-
 .name a {
   font-size: 30px;
   font-family: 'News Cycle', sans-serif;
