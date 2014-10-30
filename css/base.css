@@ -5,9 +5,9 @@ body {
 }
 
 .galeria{
-  margin-top: 2px; 
-  margin-right: -5px; 
-  margin-left: 3px;   
+  margin-top: 2px;
+  margin-right: -5px;
+  margin-left: 3px;
 }
 
 a {
@@ -193,7 +193,7 @@ h3 {
   line-height: 160%;
   margin: 25px 0;
 }
-  
+
 .content pre {
   background-color: #fbfbfb;
   border-radius: 5px;
@@ -210,7 +210,7 @@ h3 {
 #menu-contato ul {
   padding:0px;
   margin:0px;
-  text-align: center;    
+  text-align: center;
   list-style:none;
 }
 
@@ -219,9 +219,9 @@ h3 {
   margin-right: -10px;
   margin-left: -10px;
 }
-  
+
 .contato-icon a{
-  color: black;    
+  color: black;
 }
 
 #menu-contato ul li { display: inline; }
@@ -247,12 +247,12 @@ pre{
   .name{
      text-align: center;
   }
-  .video{  
+  .video{
     height: 200px !important;
   }
 }
 
-@media (max-width: 550px) {   
+@media (max-width: 550px) {
   #label-contato{
     display: none;
   }
@@ -297,7 +297,7 @@ pre{
   border-bottom: 1px solid #eee;
   color: #ccc;
 }
- 
+
 .clear {
   height: 50px;
 }
@@ -337,7 +337,7 @@ img{
   height: auto;
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #fff;  
+  background-color: #fff;
   border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
@@ -357,19 +357,19 @@ iframe{
   height: 280px;
 }
 
-.video-container { 
-  position: relative; 
-  padding-bottom: 56.25%; 
-  padding-top: 30px; 
-  height: 0; 
-  overflow: hidden; 
-} 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
 
-.video-container iframe, .video-container object, .video-container embed { 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
 }
 
@@ -384,7 +384,7 @@ iframe{
 }
 
 .post pre {
-  background-color: #f3f3f3;;  
+  background-color: #f3f3f3;;
 }
 
 .post ul, .post ol {
@@ -414,7 +414,7 @@ iframe{
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
-  font-size: 14px;  
+  font-size: 14px;
   line-height: 1.428571429;
   text-align: center;
   white-space: nowrap;
@@ -453,11 +453,15 @@ iframe{
   font-size: 18px;
   width: 50%;
   display: inline-block;
-  text-align: center;  
+  text-align: center;
 }
 
 .input-search{
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.links{
+  color: black;
 }
