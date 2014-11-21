@@ -21,5 +21,8 @@ Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa
 * Martin Fowler é o nome da fera;
 * Proxy: Buscar dados fora dos domínio;
 * Dependências são colocadas apenas uma vez na memória;
+* While("injeção de dependência");
+* Não use login com REST;
+* Abre no Word! #zuerasemlimites;
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
