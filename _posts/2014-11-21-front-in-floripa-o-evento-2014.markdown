@@ -18,6 +18,8 @@ Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa
 * Teste seu site pelo 3G;
 
 <h3>Arquitetura para aplicações Web com AngularJS - João Marcelo</h3>
-
+* Martin Fowler é o nome da fera;
+* Proxy: Buscar dados fora dos domínio;
+* Dependências são colocadas apenas uma vez na memória;
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
