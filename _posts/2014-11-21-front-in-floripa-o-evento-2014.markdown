@@ -26,6 +26,9 @@ Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa
 * Abre no Word! #zuerasemlimites;
 
 <h3>Integração contínua e deploy contínuo com JS - Renato Vasconcellos e Sebastian Ferrari</h3>
-*
+* Instalar, testar e implementar uma aplicação;
+* Continuous integration - Integração do código, com o time;
+* Continuous delivery - Disponibilizar seu código constatemente para o time;
+* Continuous deployment - Entregar constantemente direto para o cliente;
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
