@@ -32,5 +32,7 @@ Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa
 * Continuous deployment - Entregar constantemente direto para o cliente;
 * Quem não usa o Git? Tá na hora de pensar porque não está usando!;
 * Testes automatizados dão maior segurança e garantia de evolução contínua;
+* StriderCD - Simple e fácil
+* Concorrentes são complexos e feitos em java. Quem gosta de java?
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
