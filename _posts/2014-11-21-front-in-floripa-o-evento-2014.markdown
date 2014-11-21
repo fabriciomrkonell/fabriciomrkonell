@@ -6,7 +6,7 @@ categories: Blog
 ---
 
 <h3>Front In Floripa 2014</h3>
-Bom, apesar de chegar atrasado devido a um caminho derrubar cimento na entrada de Florinanópolis, segue um <i>feedback</i> com os principais tópicos citados nas apresentações.
+Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa-catarina/noticia/2014/11/caminhao-derruba-carga-na-saida-da-ponte-pedro-ivo-e-gera-filas-na-capital.html" target="blank">caminho derrubar cimento</a> na entrada de Florianópolis, segue um <i>feedback</i> com os principais tópicos citados nas apresentações.
 
 <img src="/img/posts/frontfloripa.jpg"  />
 
