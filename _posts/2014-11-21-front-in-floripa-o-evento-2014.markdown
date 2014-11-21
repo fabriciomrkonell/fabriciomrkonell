@@ -51,7 +51,7 @@ Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa
 * WebKit - Engine de reenderização;
 * Chrome usa Blink desde de 2013;
 * Tokenizer - Ler caractere por caractere;
-* Ignora tag de fechamento da tag <br>;
+* Ignora tag de fechamento da tag <code><br></code>;
 * 21 tags do mesmo tipo o browser ignora;
 * CSS muito extenso consome muita memória;
 
