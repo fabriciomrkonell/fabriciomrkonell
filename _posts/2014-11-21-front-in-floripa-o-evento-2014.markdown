@@ -5,16 +5,19 @@ date:   2014-11-21 21:00:00
 categories: Blog
 ---
 
-<h3>Front In Floripa 2014</h3>
-Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa-catarina/noticia/2014/11/caminhao-derruba-carga-na-saida-da-ponte-pedro-ivo-e-gera-filas-na-capital.html" target="blank">caminho derrubar cimento</a> na entrada de Florianópolis, segue um <i>feedback</i> com os principais tópicos citados nas apresentações.
+<h3>Front in Floripa 2014</h3>
+Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa-catarina/noticia/2014/11/caminhao-derruba-carga-na-saida-da-ponte-pedro-ivo-e-gera-filas-na-capital.html" target="blank">pequeno acidente</a> na entrada de Florianópolis, segue alguns tópicos citados nas apresentações.
 
 <img src="/img/posts/frontfloripa.jpg"  />
 
 <h3>Otimizando a performance do front-end em uma aplicação real - André Júnior</h3>
-* Quantos CSS's e Javascript's são necessários;
+* Quantos CSS's e Javascript's são necessários?;
 * Callbacks são necessários pra navegadores antigos;
 * UNCSS;
 * Use Google Page Speed;
 * Teste seu site pelo 3G;
+
+<h3>Arquitetura para aplicações Web com AngularJS - João Marcelo</h3>
+
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
