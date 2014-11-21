@@ -34,5 +34,6 @@ Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa
 * Testes automatizados dão maior segurança e garantia de evolução contínua;
 * StriderCD - Simple e fácil
 * Concorrentes são complexos e feitos em java. Quem gosta de java?
+* Deploy on green
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
