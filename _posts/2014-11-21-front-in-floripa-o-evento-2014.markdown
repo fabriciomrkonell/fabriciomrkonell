@@ -30,5 +30,7 @@ Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa
 * Continuous integration - Integração do código, com o time;
 * Continuous delivery - Disponibilizar seu código constatemente para o time;
 * Continuous deployment - Entregar constantemente direto para o cliente;
+* Quem não usa o Git? Tá na hora de pensar porque não está usando!;
+* Testes automatizados dão maior segurança e garantia de evolução contínua;
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
