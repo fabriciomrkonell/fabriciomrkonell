@@ -45,5 +45,15 @@ Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa
 * EmailManager;
 * Futuro: Baixar fontes do Github - Baixar fontes e setar no sistema operacional;
 
+<h3>Como os browsers funcionam - Filipi Zimermann</h3>
+* Piloto! #rubinho;
+* Precisamos entender BEM o funcionamento dos browsers;
+* WebKit - Engine de reenderização;
+* Chrome usa Blink desde de 2013;
+* Tokenizer - Ler caractere por caractere;
+* Ignora tag de fechamento da tag <br>;
+* 21 tags do mesmo tipo o browser ignora;
+* CSS muito extenso consome muita memória;
+
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
