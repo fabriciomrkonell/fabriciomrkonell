@@ -32,8 +32,18 @@ Bom, apesar de chegar atrasado devido a um <a href="http://g1.globo.com/sc/santa
 * Continuous deployment - Entregar constantemente direto para o cliente;
 * Quem não usa o Git? Tá na hora de pensar porque não está usando!;
 * Testes automatizados dão maior segurança e garantia de evolução contínua;
-* StriderCD - Simple e fácil
-* Concorrentes são complexos e feitos em java. Quem gosta de java?
-* Deploy on green
+* StriderCD - Simple e fácil;
+* Concorrentes são complexos e feitos em java. Quem gosta de java?;
+* Deploy on green;
+
+<h3>Introduzindo o Typers - Guilherme Oderdenge</h3>
+* Tipografia digital;
+* Tipografia tem a capacidade de deixar qualquer coisa bonita;
+* NPM - Bower - NodeJS;
+* npm install -g typers;
+* typers install montserrat;
+* EmailManager;
+* Futuro: Baixar fontes do Github - Baixar fontes e setar no sistema operacional;
+
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
