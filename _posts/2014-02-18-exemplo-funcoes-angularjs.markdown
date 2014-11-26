@@ -10,7 +10,7 @@ categories: Blog
 <br />
 
 <div style="text-align: center">
-	<a type="button" href="http://fabricioronchi.github.io/AngularJS/" class="btn btn-success" target="_blank">Ver Exemplo</a>
+	<a type="button" href="http://realronchi.github.io/AngularJS/" class="btn btn-success" target="_blank">Ver Exemplo</a>
 </div>
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
