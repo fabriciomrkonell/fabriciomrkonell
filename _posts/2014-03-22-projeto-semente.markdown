@@ -12,7 +12,7 @@ Ele é feito com <a href="http://angularjs.org/" target="blank">AngularJS</a> + 
 
 <img src="/img/posts/inconAngularJS.png" />
 
-Confira o projeto semente no meu <a href="https://github.com/FabricioRonchi/SeedProject" target="blank">Github</a>.
+Confira o projeto semente no meu <a href="https://github.com/realronchi/SeedProject" target="blank">Github</a>.
 
 <img src="/img/posts/require.png" />
 

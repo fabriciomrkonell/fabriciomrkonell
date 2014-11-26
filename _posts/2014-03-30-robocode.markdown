@@ -14,7 +14,7 @@ Além de ser um jogo de programação, Robocode é usado para aprender a program
 
 <img src="/img/posts/robocode.png" />
 
-Confira o meu Robô <a href="https://github.com/FabricioRonchi/Robocode" target="blank">John Dillinger</a>.
+Confira o meu Robô <a href="https://github.com/realronchi/Robocode" target="blank">John Dillinger</a>.
 
 <h3>Referências</h3>
 * <a href="http://www.ft.unicamp.br/liag/wp/robocode/robocode/informacao-e-historia/" target="blank">Unicamp</a>

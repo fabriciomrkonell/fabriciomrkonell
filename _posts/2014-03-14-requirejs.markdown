@@ -14,9 +14,9 @@ RequireJS foi o que me chamou a atenção.
 
 <img src="/img/posts/require.png" />
 
-Fiz uma apliação com RequireJS + <a href="http://angularjs.org/" target="blank">AngularJS</a>, que está no meu <a href="https://github.com/FabricioRonchi" target="blank">Github</a>.
+Fiz uma apliação com RequireJS + <a href="http://angularjs.org/" target="blank">AngularJS</a>, que está no meu <a href="https://github.com/realronchi" target="blank">Github</a>.
 
-Acesse a aplicação <a href="http://fabricioronchi.github.io/RequireJS/" target="blank">aqui</a>.
+Acesse a aplicação <a href="http://realronchi.github.io/RequireJS/" target="blank">aqui</a>.
 
 Assim que tiver novidades, estarei postanto.
 

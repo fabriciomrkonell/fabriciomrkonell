@@ -13,6 +13,6 @@ Daqui a pouco, mas precisamente as 13:30, acontece o evento inaugural do GDG Jar
 <h3>Programação</h3>
 <img src="/img/posts/programacaoGDG.jpg" />
 
-Acompanhe <a href="https://github.com/FabricioRonchi/GDGEvento1" target="_blank">aqui</a> em tempo real.
+Acompanhe <a href="https://github.com/realronchi/GDGEvento1" target="_blank">aqui</a> em tempo real.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
