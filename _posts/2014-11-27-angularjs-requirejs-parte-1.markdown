@@ -11,9 +11,7 @@ Boenas! Querendo contribuir com o <a href="http://blogmv.github.io" target="blan
 <h3>Aplicação</h3>
 Tudo começa no repositório de referência para a criação da aplicação. Então, vá ao terminal e clone esse <a href="https://github.com/blogmv/baby-steps" target="blank">repositório</a>. Assim:
 
-{% highlight ruby %}
-	git clone git@github.com:blogmv/baby-steps.git
-{% endhighlight %}
+<script src="https://gist.github.com/realronchi/95a4792bdb6979b5c730.js"></script>
 
 Feito isso, acesse o diretório baby-steps, e instale as dependências do projeto. 
 
