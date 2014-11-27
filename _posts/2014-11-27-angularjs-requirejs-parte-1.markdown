@@ -17,9 +17,7 @@ Feito isso, acesse o diretório baby-steps, e instale as dependências do projet
 
 Para isso ser feito, vamos usar o <a href="http://bower.io/" target="blank">bower</a>, que #digassedepassage tem dependências também, como: <a href="http://nodejs.org/" target="blank">Node</a>, <a href="https://www.npmjs.org/" target="blank">NPM</a> e <a href="http://git-scm.com/" target="blank">git</a>. Vamos a instalação:
 
-{% highlight ruby %}
-	bower install
-{% endhighlight %}
+<script src="https://gist.github.com/realronchi/6224308801da075e8b04.js"></script>
 
 Ok, agora se você abrir seu arquivo index.html, você terá algo parecido com isso.
 
@@ -28,28 +26,28 @@ Ok, agora se você abrir seu arquivo index.html, você terá algo parecido com i
 <h3>Configurando AngularJS + RequireJS</h3>
 Show. Agora edite seu arquivo <code>bower.json</code>, que está na pasta raiz do projeto, com as seguintes linhas.
 
-{% highlight ruby %}
-	"requirejs": "2.x",
-	"requirejs-domready": "2.0.1",
-	"angular":  "1.2.27",
-	"angular-route":  "1.2.27",
-{% endhighlight %}
+<script src="https://gist.github.com/realronchi/c24af15fbbe62707fb17.js"></script>
 
 Feito isso, vamos executar novamente o processo de instalação de dependências. Lá vai:
 
-{% highlight ruby %}
-	bower install
-{% endhighlight %}
+<script src="https://gist.github.com/realronchi/6224308801da075e8b04.js"></script>
 
 <h3>RequireJS</h3>
 Bom, agora vamos adicionar o RequireJS na nossa aplicação. Adicione no arquivo <code>index.html</code>, que está na pasta raiz do projeto, antes do fechamento da tag <code>body</code> a seguinte linha.
 
-{% highlight ruby %}
-	<script data-main="assets/js/main" src="assets/vendor/requirejs/require.js"></script>
-{% endhighlight %}
+<script src="https://gist.github.com/realronchi/5e806ccb09322411838a.js"></script>
 
-Simples, essa é a nossa refência pro arquivo de configuração do RequireJS.
+Simples, essa é a nossa refência pro arquivo de configuração do RequireJS, que está logo aqui em baixo.
 
-Continua no próximo episódio....
+<h3>Código, Código, Código...</h3>
+
+Ok, agora vamos colocar a mão na massa.
+Primeiro vamos criar o arquivo de configuração do RequireJS, que foi citado anteriormente. Lá vai:
+
+<script src="https://gist.github.com/realronchi/81f4fcfc6ec093656f38.js"></script>
+
+Sem mistério, na primeira parte da configuração, apenas referênciamos nossas libs, e suas dependências. 
+
+Na segunda parte, configuramos quais arquivos vamos utilizar na aplicação como: controllers, diretivas e constants. Na sua função de callback, configuramos as rotas que vão ser utilizadas pelo AngularJS(nota-se que já dizemos pro qual a página e qual controller que será utilizado em cada rota). Após isso iniciamos o AngularJS na aplicação, através da função <code>domReady</code>, que é um plugin do RequireJS, que avisa quando o DOM está pronto.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
