@@ -23,8 +23,8 @@ Feito isso, acesso o diretório baby-steps, e instale as dependências do projet
 
 Ok, agora se você ir abrir seu arquivo index.html, você terá algo parecido com isso.
 
-<img src="/img/posts/blogmvindex.png.jpg"  />
+<img src="/img/posts/blogmvindex.png"  />
 
-<h3>Configurando o AngularJS e o RequireJS</h3>
+Continua no próximo episódio....
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
