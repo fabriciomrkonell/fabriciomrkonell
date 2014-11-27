@@ -33,8 +33,8 @@ Show. Agora edite seu arquivo <code>bower.json</code>, que está na pasta raiz d
 {% highlight ruby %}
 	"requirejs": "2.x",
 	"requirejs-domready": "2.0.1",
-    	"angular":  "1.2.27",
-    	"angular-route":  "1.2.27",
+	"angular":  "1.2.27",
+	"angular-route":  "1.2.27",
 {% endhighlight %}
 
 Feito isso, vamos executar novamente o processo de instalação de dependências. Lá vai:
