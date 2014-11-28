@@ -54,6 +54,6 @@ Beleza, agora vamos ao próximo.
 
 <script src="https://gist.github.com/realronchi/120faa4c2cead7da1e89.js"></script>
 
-Como estamos trabalhando com módulos separados, ou seja, controllers, services e constants estão em módulos distintos, simplesmente estamos adicionando eles a nossa aplicação AngularJS.
+Como estamos trabalhando com módulos separados, ou seja, controllers, diretivas e constants estão em módulos distintos, simplesmente estamos adicionando eles a nossa aplicação AngularJS.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
