@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AngularJS + RequireJS - Parte 1"
+title:  "AngularJS + RequireJS"
 date:   2014-11-27 21:00:00
 categories: Blog
 ---
@@ -94,7 +94,7 @@ Ok, está quase. Falta apenas o <code>index.html</code>. Lá vai ele:
 Bom, em comparação com o <code>index.html</code> que já tinha no nosso projeto referência, foram feitas pequenas alterações. Primeiro, nota-se que tem um <code>input</code>, e olha o atributo que está nele: <code>my-focus</code>, Show né? Essa é diretiva que criamos anteriormente, que servirá pra dar <code>focus</code> ao input quando a nossa aplicação for iniciada. E não para por aí, ela tem outra diretiva atribuida, <code>ng-model="name"</code>, que é a forma de mostrar no nosso DOM, as variávies(<code>$scope</code>) que foram declaradas nos controllers.
 
 MAS PERAE! Isso não é mesma coisa que interpolação? 
-Resposta: Não! Através do <code>ng-model</code> podemos alterar os valores das variáveis(<code>$scope</code>) do controller. MAGIC 3x. Olhe logo em baixo, agora sim, temos em forma de interpolação, a mesma váriavel(<code>$scope</code>), <code>{ {name} }</code>. Agora digite algo no <code>input</code> para ver o que acontece: Feittoooo! Ele, AngularJS, faz a sincronização automática do model com o controller. +1 pro AngularJS. Isso se chama Data Binding.
+Resposta: Não! Através do <code>ng-model</code> podemos alterar os valores das variáveis(<code>$scope</code>) do controller. MAGIC 3x. Olhe logo em baixo, agora sim, temos em forma de interpolação, a mesma váriavel(<code>$scope</code>),  <code>{ {name} }</code>. Agora digite algo no <code>input</code> para ver o que acontece: Feittoooo! Ele, AngularJS, faz a sincronização automática do model com o controller. Isso se chama Data Binding.
 
 E por fim temos a diretiva <code>ng-view</code>. Nela que vai ser exibidas as nossas view.
 
