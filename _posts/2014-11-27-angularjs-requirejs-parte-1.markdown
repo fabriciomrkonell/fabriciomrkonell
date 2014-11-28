@@ -56,4 +56,12 @@ Beleza, agora vamos ao próximo.
 
 Como estamos trabalhando com módulos separados, ou seja, controllers, diretivas e constants estão em módulos distintos, simplesmente estamos adicionando eles a nossa aplicação AngularJS.
 
+Show, agora vamos ver como que os módulos dos controllers, diretivas e constants são iniciados separadamente. Go Go Go.
+
+<script src="https://gist.github.com/realronchi/ea0f331c387dd8a761d6.js"></script>
+<script src="https://gist.github.com/realronchi/e9fc322a6ae1204810cf.js"></script>
+<script src="https://gist.github.com/realronchi/bcb85cab73ab29256f18.js"></script>
+
+Difícil? não né? Simples e fácil de entender.
+
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
