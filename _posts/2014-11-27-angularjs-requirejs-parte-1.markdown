@@ -36,7 +36,6 @@ Agora vamos executar novamente o processo de instalação de dependências. Lá 
 Bom, agora vamos adicionar o RequireJS na nossa aplicação. Adicione no arquivo <code>index.html</code>, que está na pasta raiz do projeto, antes do fechamento da tag <code>body</code> a seguinte linha.
 
 <script src="https://gist.github.com/realronchi/5e806ccb09322411838a.js"></script>
-
 Simples, essa é a nossa refência pro arquivo de configuração do RequireJS, que está logo aqui em baixo.
 
 <h3>Código, Código, Código...</h3>
@@ -45,7 +44,6 @@ Ok, agora vamos colocar a mão na massa.
 Primeiro vamos criar o arquivo de configuração do RequireJS, que foi citado anteriormente. Lá vai:
 
 <script src="https://gist.github.com/realronchi/81f4fcfc6ec093656f38.js"></script>
-
 Sem mistério, na primeira parte apenas referênciamos nossas libs, e suas dependências. 
 
 Na segunda parte, dizemos quais arquivos vamos utilizar na aplicação, como: controllers, diretivas e constants. Na sua função de callback, configuramos as rotas que vão ser utilizadas pelo AngularJS(nota-se que já dizemos pro qual a view e qual controller que será utilizado em cada rota). Após isso, iniciamos manualmente o AngularJS na aplicação através da função <code>domReady</code>, que é um plugin do RequireJS que avisa quando o DOM está pronto.
@@ -53,7 +51,6 @@ Na segunda parte, dizemos quais arquivos vamos utilizar na aplicação, como: co
 Beleza, agora vamos ao próximo.
 
 <script src="https://gist.github.com/realronchi/120faa4c2cead7da1e89.js"></script>
-
 Como estamos trabalhando com módulos separados, ou seja, controllers, diretivas e constants estão em módulos distintos, simplesmente estamos adicionando eles a nossa aplicação AngularJS.
 
 Show, agora vamos ver como que os módulos dos controllers, diretivas e constants são iniciados separadamente. Go Go Go.
@@ -61,7 +58,6 @@ Show, agora vamos ver como que os módulos dos controllers, diretivas e constant
 <script src="https://gist.github.com/realronchi/ea0f331c387dd8a761d6.js"></script>
 <script src="https://gist.github.com/realronchi/e9fc322a6ae1204810cf.js"></script>
 <script src="https://gist.github.com/realronchi/bcb85cab73ab29256f18.js"></script>
-
 Difícil? não né? Simples e fácil de entender.
 
 Bom, agora que já temos na aplicação o AngularJS iniciado, as configurações do RequireJS prontas e os módulos do AngularJS adicionados, vamos adicionar os nossos controllers, diretivas e constants.
@@ -72,11 +68,14 @@ Começamos criando uma constants chamada <code>title</code>, que nada mais é do
 Feito isso, vamos a nossa diretiva.
 
 <script src="https://gist.github.com/realronchi/1b0f5f08ab3b53544370.js"></script>
-Bom, primeiro: diretivas é uma forma de abstrair o código, e nela vamos manipular o DOM da nossa aplicação. Segundo: Criei uma diretiva chamada <code>myFocus</code>, que vai ser usada para dar <code>focus</code> ao nosso elemento.
+Bom, primeiro: diretivas é uma forma de abstrair o código, e nela vamos manipular o DOM da nossa aplicação. Segundo: Criei uma diretiva chamada <code>myFocus</code>, que vai ser usada para dar <code>focus</code> ao nosso elemento. Há vá? #zuera.
 
 Show, como dito anteriormente no arquivo <code>main.js</code>, temos três rotas na aplicação, são elas: <code> /, /hello e /discussion</code>. Cada rota tem seu controller e sua view. Vamos ver primeiro os controllers: 
 
+<script src="https://gist.github.com/realronchi/fd40b283bebcac77114e.js"></script>
+<script src="https://gist.github.com/realronchi/bc2a6d95bf173ebda744.js"></script>
+<script src="https://gist.github.com/realronchi/c5aa7ceaf44db5f0f7b0.js"></script>
 
-
+Tranquilo, temos nossos três controllers. No primeiro, <code>HomeCtrl</code>, olha o que está ali nas dependências. MAGIC! A constant <code>title</title> que foi criada anteriormente, show ein! Nota-se que nos três controllers injetamos a dependência do <code>$scope</code>. Como diria o Faustão, "Essa fera aí meu!" vai nos ajudar a manipular a nossa página html.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
