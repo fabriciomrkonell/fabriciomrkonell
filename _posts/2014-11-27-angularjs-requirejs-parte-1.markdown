@@ -96,4 +96,10 @@ Bom, em comparação com o <code>index.html</code> que já tinha no nosso projet
 MAS PERAE! Isso não é mesma coisa que interpolação? 
 Resposta: Não! Através do <code>ng-model</code> podemos alterar os valores das variáveis(<code>$scope</code>) do controller. MAGIC 3x. Olhe logo em baixo, agora sim, temos em forma de interpolação, a mesma váriavel(<code>$scope</code>), <code>{ {name} }</code>. Agora digite algo no <code>input</code> para ver o que acontece: Feittoooo! Ele, AngularJS, faz a sincronização automática do model com o controller. +1 pro AngularJS. Isso se chama Data Binding.
 
-Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
+E por fim temos a diretiva <code>ng-view</code>. Nela que vai ser exibidas as nossas view.
+
+ACABOU! É TETRA! É TETRA! #zuera;
+
+Agora você já tem a aplicação pronta, é só rodar ela. Espero que tenham gostado e aprendido.
+
+Dúvidas, sugestões, críticas... são sempre bem vindas! Se tiver uma delas, da um berro aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
