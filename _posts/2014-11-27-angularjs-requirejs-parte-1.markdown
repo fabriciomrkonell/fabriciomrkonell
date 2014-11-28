@@ -50,4 +50,10 @@ Sem mistério, na primeira parte apenas referênciamos nossas libs, e suas depen
 
 Na segunda parte, dizemos quais arquivos vamos utilizar na aplicação, como: controllers, diretivas e constants. Na sua função de callback, configuramos as rotas que vão ser utilizadas pelo AngularJS(nota-se que já dizemos pro qual a view e qual controller que será utilizado em cada rota). Após isso, iniciamos manualmente o AngularJS na aplicação através da função <code>domReady</code>, que é um plugin do RequireJS que avisa quando o DOM está pronto.
 
+Beleza, agora vamos ao próximo.
+
+<script src="https://gist.github.com/realronchi/120faa4c2cead7da1e89.js"></script>
+
+Como estamos trabalhando com módulos separados, ou seja, controllers, services e constants estão em módulos distintos, simplesmente estamos adicionando eles a nossa aplicação AngularJS.
+
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
