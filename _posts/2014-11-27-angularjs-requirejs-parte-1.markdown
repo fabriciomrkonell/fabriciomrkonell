@@ -76,6 +76,6 @@ Show, como dito anteriormente no arquivo <code>main.js</code>, temos três rotas
 <script src="https://gist.github.com/realronchi/bc2a6d95bf173ebda744.js"></script>
 <script src="https://gist.github.com/realronchi/c5aa7ceaf44db5f0f7b0.js"></script>
 
-Tranquilo, temos nossos três controllers. No primeiro, <code>HomeCtrl</code>, olha o que está ali nas dependências. MAGIC! A constant <code>title</title> que foi criada anteriormente, show ein! Nota-se que nos três controllers injetamos a dependência do <code>$scope</code>. Como diria o Faustão, "Essa fera aí meu!" vai nos ajudar a manipular a nossa página html.
+Tranquilo! Temos nossos três controllers. No primeiro, <code>HomeCtrl</code>, olha o que está ali nas dependências. MAGIC! A constant <code>title</code> que foi criada anteriormente, show ein! Nota-se que nos três controllers injetamos a dependência do <code>$scope</code>. Como diria o Faustão, "Essa fera aí meu!" vai nos ajudar a manipular a nossa página html.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
