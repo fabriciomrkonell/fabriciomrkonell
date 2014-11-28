@@ -28,7 +28,7 @@ Show. Agora edite seu arquivo <code>bower.json</code>, que está na pasta raiz d
 
 <script src="https://gist.github.com/realronchi/c24af15fbbe62707fb17.js"></script>
 
-Feito isso, vamos executar novamente o processo de instalação de dependências. Lá vai:
+Agora vamos executar novamente o processo de instalação de dependências. Lá vai:
 
 <script src="https://gist.github.com/realronchi/6224308801da075e8b04.js"></script>
 
@@ -46,8 +46,8 @@ Primeiro vamos criar o arquivo de configuração do RequireJS, que foi citado an
 
 <script src="https://gist.github.com/realronchi/81f4fcfc6ec093656f38.js"></script>
 
-Sem mistério, na primeira parte da configuração, apenas referênciamos nossas libs, e suas dependências. 
+Sem mistério, na primeira parte apenas referênciamos nossas libs, e suas dependências. 
 
-Na segunda parte, configuramos quais arquivos vamos utilizar na aplicação como: controllers, diretivas e constants. Na sua função de callback, configuramos as rotas que vão ser utilizadas pelo AngularJS(nota-se que já dizemos pro qual a página e qual controller que será utilizado em cada rota). Após isso iniciamos o AngularJS na aplicação, através da função <code>domReady</code>, que é um plugin do RequireJS, que avisa quando o DOM está pronto.
+Na segunda parte, dizemos quais arquivos vamos utilizar na aplicação, como: controllers, diretivas e constants. Na sua função de callback, configuramos as rotas que vão ser utilizadas pelo AngularJS(nota-se que já dizemos pro qual a view e qual controller que será utilizado em cada rota). Após isso, iniciamos manualmente o AngularJS na aplicação através da função <code>domReady</code>, que é um plugin do RequireJS que avisa quando o DOM está pronto.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
