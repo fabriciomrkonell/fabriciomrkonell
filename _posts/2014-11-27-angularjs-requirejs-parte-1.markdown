@@ -64,4 +64,19 @@ Show, agora vamos ver como que os módulos dos controllers, diretivas e constant
 
 Difícil? não né? Simples e fácil de entender.
 
+Bom, agora que já temos na aplicação o AngularJS iniciado, as configurações do RequireJS prontas e os módulos do AngularJS adicionados, vamos adicionar os nossos controllers, diretivas e constants.
+
+<script src="https://gist.github.com/realronchi/f52498d270d66c5145bc.js"></script>
+Começamos criando uma constants chamada <code>title</code>, que nada mais é do que um objeto que não pode ser alterado, e que vai ser adicionado ao nosso controller <code>HomeController</code>, que vai ser explicado logo mais, através de injeção de dependência. Nesse caso atribui dois valores, que vão representar o título da aplicação.
+
+Feito isso, vamos a nossa diretiva.
+
+<script src="https://gist.github.com/realronchi/1b0f5f08ab3b53544370.js"></script>
+Bom, primeiro: diretivas é uma forma de abstrair o código, e nela vamos manipular o DOM da nossa aplicação. Segundo: Criei uma diretiva chamada <code>myFocus</code>, que vai ser usada para dar <code>focus</code> ao nosso elemento.
+
+Show, como dito anteriormente no arquivo <code>main.js</code>, temos três rotas na aplicação, são elas: <code> /, /hello e /discussion</code>. Cada rota tem seu controller e sua view. Vamos ver primeiro os controllers: 
+
+
+
+
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
