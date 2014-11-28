@@ -84,7 +84,7 @@ E falando em html, vamos as nossas views:
 <script src="https://gist.github.com/realronchi/90fb1905914e61706be2.js"></script>
 <script src="https://gist.github.com/realronchi/1796cf0a617537aa29ab.js"></script>
 
-Beleza, temos nossas views. Agora analisando elas, observamos que temos algo parecido com isso nas view <code>{ { ... } } </code>. Isso se chama interpolação, que é a forma de monstrar no nosso DOM, as váriáveis que foram declaradas nos controllers. Por exemplo, olha o controller <code>HelloCtrl</code>, temos uma váriavel chamada <code>text</code>, que recebe um texto Lorem Ipsum, e agora olha a view desse controller, <code>hello.html</code>, temos nela definido <code>{{text}}</code>. Show!
+Beleza, temos nossas views. Agora analisando elas, observamos que temos algo parecido com isso nas view <code>{ { ... } } </code>. Isso se chama interpolação, que é a forma de monstrar no nosso DOM, as váriáveis que foram declaradas nos controllers. Por exemplo, olha o controller <code>HelloCtrl</code>, temos uma váriavel chamada <code>text</code>, que recebe um texto Lorem Ipsum, e agora olha a view desse controller, <code>hello.html</code>, temos nela definido <code>{ {text} }</code>. Show!
 
 Mas o que é mais legal, e não mencionei ainda, é o <code>ng-repeat</code>, que está na view <code>discussion.html</code>, esse cara é fantástico! No controller dele, <code>DiscussionCtrl</code>, definimos uma array de strings, chamada <code>discussion</code>. Se observarmos temos <code>ng-repeat="word in discussion"</code>, ou seja, pra cada string da array, ele vai criar o elemento no DOM, nesse caso uma <code>li</code>. MAGIC 2x!
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
