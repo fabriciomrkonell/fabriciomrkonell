@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "AngularJS: Constant"
+date:   2014-11-27 21:00:00
+categories: Blog
+---
+
+<h3>Constant</h3>
+Constant é um serviço do AngularJS usado em configurações padrões da aplicação. Uma constant pode ser um valor primitivo ou um objeto, e <b>não pode ser alterado</b>.
+
+<h3>Exemplo</h3>
+<script src="https://gist.github.com/realronchi/3e5d63d88c6caa5257a7.js"></script>
+
+Dúvidas, sugestões, críticas... são sempre bem vindas! Se tiver uma delas, da um chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
