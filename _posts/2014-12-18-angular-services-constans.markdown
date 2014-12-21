@@ -11,4 +11,4 @@ categories: Blog
 <h3>Exemplo</h3>
 <script src="https://gist.github.com/realronchi/3e5d63d88c6caa5257a7.js"></script>
 
-Dúvidas, sugestões, críticas... são sempre bem vindas! Se tiver uma delas, da um chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
+Dúvidas, sugestões, críticas... são sempre bem vindas! Se tiver uma delas, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
