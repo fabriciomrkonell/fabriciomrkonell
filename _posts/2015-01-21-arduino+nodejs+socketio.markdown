@@ -6,12 +6,13 @@ categories: Blog
 ---
 
 <h3>Arduino</h3>
-Depois de alguns testes, testes, e mais testes com o Arduino, finalmente consegui fazer a comunicação  entre <a href="http://nodejs.org/" target="blank">NodeJS</a> + Socket.IO com o Arduino. Sim, via TCP/IP.
+Depois de alguns testes, testes, e mais testes com o Arduino, finalmente consegui fazer a comunicação  entre <a href="http://nodejs.org/" target="blank">NodeJS</a> + <a href="http://socket.io/" target="blank">Socket.IO</a> com o Arduino. Sim, via TCP/IP.
 
 <h3>Projeto</h3>
 Lá vai.
 
 Primeira 'coisa' a fazer é clonar o projeto que está no meu <a href="https://github.com/realronchi/arduino-nodejs-socketio" target="blank">Github</a>. Feito isso, rode <code>npm install</code>para instalar todas as dependências.
+
 
 Ok, agora vamos iniciar o servidor NodeJS com <code>node server.js</code>. Pronto o servidor está no ar.
 
