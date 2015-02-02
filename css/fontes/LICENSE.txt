@@ -1,12 +1,12 @@
 Font license info
 
 
-## MFG Labs
+## Zocial
 
-   Copyright (C) 2012 by Daniel Bruce
+   Copyright (C) 2012 by Sam Collins
 
-   Author:    MFG Labs
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.mfglabs.com/
+   Author:    Sam Collins
+   License:   MIT (http://opensource.org/licenses/mit-license.php)
+   Homepage:  http://zocial.smcllns.com/
 
 
