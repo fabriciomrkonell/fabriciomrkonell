@@ -1,21 +1,13 @@
 ---
 layout: post
-title:  "Finalmente, o Primeiro Post!"
+title:  "Gerência de projetos!"
 date:   2015-04-06 21:00:00
 categories: Blog
 ---
 
-Hai,
+Segue alguns conceitos, perguntas, respostas e definições sobre gerência de projetos:
 
-Bom, esse é o primeiro post, não tenho muito o que falar por enquanto.
-
-A princípio é um post de teste, pois preciso implementar novas funções ao Blog.
-
-<h3>Código</h3>
-
-
-{% highlight ruby %}
-	var funcoes = { "Loading" , "Contato" , "Index" }
-{% endhighlight %}
+<h3>O que é um requisito?</h3>
+Requisito é uma característica ou função que o sistema deve prover pra sanar a necessidade do cliente.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
