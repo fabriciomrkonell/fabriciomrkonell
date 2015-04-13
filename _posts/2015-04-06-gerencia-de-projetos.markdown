@@ -20,4 +20,7 @@ Requisito é uma característica ou função que o sistema deve prover pra sanar
 * Monitoramento e controle
 * Encerramento
 
+<h3>Ciclos</h3>
+A conclusão de um ciclo é geralmente marcada pela revisão das principais características do projeto. O objetivo é determinar se o projeto deve continuar pro seu próximo ciclo.
+
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
