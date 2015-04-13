@@ -24,6 +24,6 @@ Requisito é uma característica ou função que o sistema deve prover pra sanar
 A conclusão de um ciclo é geralmente marcada pela revisão das principais características do projeto. O objetivo é determinar se o projeto deve continuar pro seu próximo ciclo.
 
 <h3>Stakeholders ou partes interessadas</h3>
-São pessoas, ou organizações que estão diretamente ou indiretamente envolvidos/afetados durante os processos dos  ciclos ou após a conclusão de do projeto.
+São pessoas, ou organizações que estão diretamente ou indiretamente envolvidos ou afetados no decorrer do projeto ou após sua conclusão.
 
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
