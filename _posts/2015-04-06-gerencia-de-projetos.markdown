@@ -13,4 +13,11 @@ Requisito é uma característica ou função que o sistema deve prover pra sanar
 <h3>O que é um ativos de processos?</h3>
 É utilizado como entrada para a criação dos documentos da WBS(gerência de escopo). Ativos de processos nada mais é que a própria cultura da empresa, ou seja, são todos os processos, políticas e burocracias que podem impactar no sucesso do projeto, por exemplo: "Política para adquirir um novo computador".
 
+<h3>Ciclo de vida de um projeto</h3>
+* Inicialização
+* Planejamento
+* Execução
+* Monitoramento e controle
+* Encerramento
+
 Qualquer dúvida, chama aí no <a href="https://twitter.com/realronchi" target="blank">Twitter</a>!
