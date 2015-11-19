@@ -14,15 +14,13 @@ Herbie é um robô seguidor de linha, desenvolvido pelo <a href="http://www.cato
 Ele foi impresso em uma impressora 3D, e utiliza os seguintes componentes: Arduino Nano, Ponte H e sensor de Refletância Analógico.
 
 <h3>Lógica</h3>
-Primeiramente ele faz a leitura dos 8 sensores analógicos, após ponderamos essas leituras, ou seja, as leituras das extremidades do sensor de Refletância Analógico, tem mais "peso" (importância), do que as leituras centrais.
+Primeiramente ele faz a leitura dos 8 sensores analógicos. Após ponderamos essas leituras adicionando um valor maior para as leituras mais importantes, por exemplo, as leituras das extremidades do sensor de Refletância Analógico, tem mais "peso" (importância), do que as leituras centrais.
 
 A imagem abaixo simula as leituras.
 
 <img src="/img/posts/herbie3.png"/>
 
 Então é utilizada a técnica de PID (Proporcional, Integral e Derivada), que é uma técnica de controle que une as ações proporcional, integral e derivativa, fazendo assim com que erro seja minimizado pela ação proporcional, zerado pela ação integral e obtido com uma velocidade antecipativa pela ação derivativa (<a href="https://pt.wikipedia.org/wiki/Controlador_proporcional_integral_derivativo" target="blank">Wikipédia</a>).
-
-https://pt.wikipedia.org/wiki/Controlador_proporcional_integral_derivativo
 
 O resultado desse cálculo é utilizado para definir a direção (acelerar roda direita e para a roda esquerda, por exemplo) e velocidade em que o motor deve atuar.
 
