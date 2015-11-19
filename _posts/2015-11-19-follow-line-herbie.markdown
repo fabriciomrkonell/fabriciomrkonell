@@ -20,7 +20,9 @@ A imagem abaixo simula as leituras.
 
 <img src="/img/posts/herbie3.png"/>
 
-Então é utilizada a técnica de PID (Proporcional, Integral e Derivada), que é uma técnica de controle que une as ações proporcional, integral e derivativa, fazendo assim com que erro seja minimizado pela ação proporcional, zerado pela ação integral e obtido com uma velocidade antecipativa pela ação derivativa.
+Então é utilizada a técnica de PID (Proporcional, Integral e Derivada), que é uma técnica de controle que une as ações proporcional, integral e derivativa, fazendo assim com que erro seja minimizado pela ação proporcional, zerado pela ação integral e obtido com uma velocidade antecipativa pela ação derivativa (<a href="https://pt.wikipedia.org/wiki/Controlador_proporcional_integral_derivativo" target="blank">Wikipédia</a>).
+
+https://pt.wikipedia.org/wiki/Controlador_proporcional_integral_derivativo
 
 O resultado desse cálculo é utilizado para definir a direção (acelerar roda direita e para a roda esquerda, por exemplo) e velocidade em que o motor deve atuar.
 
