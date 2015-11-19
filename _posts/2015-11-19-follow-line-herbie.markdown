@@ -22,7 +22,7 @@ A imagem abaixo simula as leituras.
 
 Então é utilizada a técnica de PID (Proporcional, Integral e Derivada), que é uma técnica de controle que une as ações proporcional, integral e derivativa, fazendo assim com que erro seja minimizado pela ação proporcional, zerado pela ação integral e obtido com uma velocidade antecipativa pela ação derivativa (<a href="https://pt.wikipedia.org/wiki/Controlador_proporcional_integral_derivativo" target="blank">Wikipédia</a>).
 
-O resultado desse cálculo é utilizado para definir a direção (acelerar roda direita e para a roda esquerda, por exemplo) e velocidade em que o motor deve atuar.
+O resultado desse cálculo é utilizado para definir a direção (acelerar roda direita e parar a roda esquerda, por exemplo) e velocidade em que o motor deve atuar.
 
 <h3>Finalizando</h3>
 Como sou defensor do "Open Source", disponibilizei a lógica do Herbie usada em competições: está disponível no meu <a href="https://github.com/ronchifabricio/wickedbotz/tree/master/code" target="blank">Github</a>.
