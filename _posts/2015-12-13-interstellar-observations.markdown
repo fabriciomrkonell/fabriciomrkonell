@@ -8,6 +8,8 @@ categories: Blog
 <h3>Film</h3>
 Intertellar is a science fiction film, realesed in 2014. Directed by Christopher Nolan, Interstellar won the Oscar for best visual effects. Follows some notes I made on the film.
 
+<img src="/img/posts/interstellar.jpg"/>
+
 <h3>General Relativity</h3>
 General relativity is a theory published by Albert Einstein in 1915. Through it, one can say that gravity is a curvature in space due to the presence of masses.
 
