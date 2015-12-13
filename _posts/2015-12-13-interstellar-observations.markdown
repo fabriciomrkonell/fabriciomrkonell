@@ -27,7 +27,7 @@ Used to understand the "things" large and small. Calm the turbulences in the ran
 
 <h3>Informations</h3>
 * 1 light-year: 9.000.000.000.000 Km
-* Light velocity: 300.000 Km/s
+* Speed of light: 300.000 Km/s
 * Estations GPS (Global System Position): Calculation for correction of 38 milliseconds, because the distance of the earth.
 
 Watch the movie, is fantastic.
