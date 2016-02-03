@@ -1,5 +1,6 @@
 name: Fabrício Ronchi - Blog
 pygments: true
+markdown: redcarpet
 name: Fabrício Ronchi
 url: http://fabricioronchi.com
 domain: fabricioronchi.com
