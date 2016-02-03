@@ -3,6 +3,7 @@ layout: post
 title:  "String: Null ou Empty"
 date:   2016-02-03 00:00:00
 categories: Blog
+imagem: /img/fundoBlog.jpg
 ---
 
 <h3>Utilização</h3>
