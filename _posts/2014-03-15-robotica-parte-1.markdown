@@ -20,7 +20,7 @@ que é nosso orientador, e alguns alunos de outras turmas.
 <h3>Informações</h3>
 Todos os robôs estão sendo desenvolvidos em cima do <a href="http://www.arduino.cc/" target="blank">Arduino</a>.
 
-Confira a geleria de Imagens e Vídeos <a href="http://fabricioronchi.com/galeria/galeria-robotica.html" target="blank">aqui</a>.
+Confira a geleria de Imagens e Vídeos <a href="http://blog.fabricioronchi.com/galeria/galeria-robotica.html" target="blank">aqui</a>.
 
 Sempre que tiver novidades, irei postar aqui no blog.
 
