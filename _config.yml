@@ -4,6 +4,10 @@ name: Fabrício Ronchi
 url: http://blog.fabricioronchi.com
 domain: blog.fabricioronchi.com
 dir: /Blog
+path: /Blog
+page:
+  dir: /Blog
+  path: /Blog
 author :
   name : Fabrício Ronchi
   email : me@fabricioronchi.com
