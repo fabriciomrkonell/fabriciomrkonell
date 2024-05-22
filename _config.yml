@@ -3,6 +3,7 @@ pygments: true
 name: Fabrício Ronchi
 url: http://blog.fabricioronchi.com
 domain: blog.fabricioronchi.com
+dir: /Blog
 author :
   name : Fabrício Ronchi
   email : me@fabricioronchi.com
